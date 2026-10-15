@@ -1,0 +1,49 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"f2549aa7-08ff-447d-a0d5-7714ea9a01f0\" name=\"更改\" comment=\"Initial commit\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\",\r\n    \"assignee\": \"kevin2217796446\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/kevin2217796446/Anshi_code.git\",\r\n    \"accountId\": \"20a9887b-67ed-483e-81eb-597fd4e3ded0\"\r\n  }\r\n}]]></component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 0,\r\n  \"fromUser\": false\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"3Kj219iZueSin4sRFgCPkzs66ZI\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252\": \"true\",\r\n    \"RunOnceActivity.typescript.service.memoryLimit.init\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"codeWithMe.voiceChat.enabledByDefault\": \"false\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"last_opened_file_path\": \"C:/Users/haoran.huang/PycharmProjects/Anshi_code/许可证兼容性判定/兼容性判定结果\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\haoran.huang\\PycharmProjects\\Anshi_code\\许可证兼容性判定\\兼容性判定结果\" />\r\n      <recent name=\"C:\\Users\\haoran.huang\\PycharmProjects\\Anshi_code\\许可证兼容性判定\" />\r\n      <recent name=\"C:\\Users\\haoran.huang\\PycharmProjects\\Anshi_code\" />\r\n      <recent name=\"C:\\Users\\haoran.huang\\PycharmProjects\\Anshi_code\\爬虫脚本\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-50341a9f1f9c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.26222.68\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"默认任务\">\r\n      <changelist id=\"f2549aa7-08ff-447d-a0d5-7714ea9a01f0\" name=\"更改\" comment=\"\" />\r\n      <created>1792056439130</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1792056439130</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Initial commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1792058485852</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1792058485852</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Initial commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1792058688467</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1792058688467</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Initial commit\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Initial commit\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 4345873128dc5c3c099d0b12f31bf0b7d250e36b)
++++ b/.idea/workspace.xml	(date 1792059325324)
+@@ -1,13 +1,20 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="f2549aa7-08ff-447d-a0d5-7714ea9a01f0" name="更改" comment="Initial commit" />
++    <list default="true" id="f2549aa7-08ff-447d-a0d5-7714ea9a01f0" name="更改" comment="Initial commit">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="master" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+@@ -84,7 +91,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1792058688467</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="Initial commit">
++      <option name="closed" value="true" />
++      <created>1792058749302</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1792058749302</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
