@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met",
+    "解释": "许可证明确允许将代码及其衍生品用于商业目的，未设置任何禁止商业使用的条款。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met",
+    "解释": "许可证允许个人或组织在内部使用和修改源代码；内部使用不构成再分发，因此不触发再分发条件。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met",
+    "解释": "许可证允许将源代码和二进制形式分发给第三方，但须满足保留版权声明、免责声明、致谢及不使用Apache名称等条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met",
+    "解释": "许可证明确允许修改和合并代码并再分发，未要求整个衍生作品以相同许可证发布，因此无代码级强传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接或导入等链接机制，亦未规定自有代码因链接而需开源。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未包含专利授权条款或专利反诉终止机制。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "模糊",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met",
+    "解释": "许可证允许再分发，但未明确授予以不同于原始许可证的其他许可证进行再分发/再许可的权利，亦未明确禁止；因此是否允许变更许可证存在多种解读。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS或通过网络与用户交互是否触发源代码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "The end-user documentation included with the redistribution, if any, must include the following acknowledgment: \"This product includes software developed by the Apache Software Foundation (http://www.apache.org/).\" Alternately, this acknowledgment may appear in the software itself, if and wherever such third-party acknowledgments normally appear.",
+    "解释": "许可证要求除保留版权声明外，还须在最终用户文档或软件中保留对Apache软件基金会的致谢，构成额外归属义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.",
+    "解释": "许可证允许以二进制形式分发，仅要求在随附文档或材料中保留声明，不要求提供源代码；因此不触发源代码公开义务。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "The name \"Apache\" and \"Apache Software Foundation\" must not be used to endorse or promote products derived from this software without prior written permission. Products derived from this software may not be called \"Apache\" nor may \"Apache\" appear in their name, without prior written permission of the Apache Software Foundation.",
+    "解释": "许可证明确不授予商标权，禁止未经书面许可使用Apache名称背书、推广或命名衍生产品。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.",
+    "解释": "分发源代码和二进制形式时，必须保留版权声明、条件列表和免责声明；二进制分发需在文档或随附材料中复制这些声明。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE APACHE SOFTWARE FOUNDATION OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES",
+    "解释": "许可证明确否认所有明示或默示担保，并排除损害赔偿责任，被授权者无权因软件损失向所有者或贡献者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未规定被授权人是否可以对软件施加超出原许可条款的额外限制。"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "this license is intended to facilitate the commercial use of the Program",
+    "解释": "EPL-1.0明确允许将程序用于商业目的，但商业分发者需按照第4节对其他贡献者承担一定的赔偿义务。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, distribute and sublicense the Contribution of such Contributor, if any, and such derivative works, in source code and object code form.",
+    "解释": "许可证授予复制、修改和制作衍生作品的权利，内部修改和使用不触发分发相关义务，因此允许在个人或组织内部修改后使用。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "A Contributor may choose to distribute the Program in object code form under its own license agreement, provided that: a) it complies with the terms and conditions of this Agreement; and b) its license agreement: ...",
+    "解释": "允许以源码或目标码形式分发程序，但必须遵守第3条规定的免责声明、责任排除、源码获取方式等条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "When the Program is made available in source code form: a) it must be made available under this Agreement; and b) a copy of this Agreement must be included with each copy of the Program.",
+    "解释": "允许修改和合并代码，但修改后的源码形式必须继续以EPL发布并附带许可证副本；同时独立且非衍生模块可按其自身许可发布，属于文件级弱传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "模糊",
+    "原文": "Contributions do not include additions to the Program which: (i) are separate modules of software distributed in conjunction with the Program under their own license agreement, and (ii) are not derivative works of the Program.",
+    "解释": "EPL排除了独立且非衍生模块的传染性，但未明确说明静态链接、动态链接或导入是否构成衍生作品，链接级传染性存在多种解读。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free patent license under Licensed Patents to make, use, sell, offer to sell, import and otherwise transfer the Contribution of such Contributor, if any, in source code and object code form.",
+    "解释": "明确授予与贡献相关的必要专利许可；同时第7条规定，如果被授权人提起针对程序的专利诉讼，其第2(b)条项下的专利许可将自动终止。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "A Contributor may choose to distribute the Program in object code form under its own license agreement, provided that: ... states that any provisions which differ from this Agreement are offered by that Contributor alone and not by any other party; ... When the Program is made available in source code form: a) it must be made available under this Agreement.",
+    "解释": "允许再许可，但源码分发必须保持EPL；目标码分发允许使用自有许可并附加不同条款，但必须满足EPL的免责声明、责任排除和源码可得性等要求。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "EPL-1.0未提及网络服务、SaaS或通过网络与用户交互是否触发源代码公开义务，其义务主要基于传统的分发行为。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未要求保留或传递NOTICE文件，仅要求保留版权声明并标识贡献者身份，未引入典型的NOTICE文件归属机制。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "states that source code for the Program is available from such Contributor, and informs licensees how to obtain it in a reasonable manner on or through a medium customarily used for software exchange.",
+    "解释": "以目标码形式分发时，必须声明源码可获得并告知合理获取方式；以源码形式分发时必须附上本许可证副本。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "Except as expressly stated in Sections 2(a) and 2(b) above, Recipient receives no rights or licenses to the intellectual property of any Contributor under this Agreement, whether expressly, by implication, estoppel or otherwise.",
+    "解释": "许可证仅明确授予版权和专利许可，未授予商标权或其他知识产权权利，因此不能使用原作者的商标推广衍生作品。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "Contributors may not remove or alter any copyright notices contained within the Program.",
+    "解释": "分发时必须保留原程序中的版权声明，不得删除或修改；同时源码分发需附带许可证副本，目标码分发需包含免责声明和源码获取信息。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THE PROGRAM IS PROVIDED ON AN 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.",
+    "解释": "许可证明确排除任何明示或默示保证，被授权者不能就软件质量或造成的损失向贡献者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确允许",
+    "原文": "any provisions which differ from this Agreement are offered by that Contributor alone and not by any other party",
+    "解释": "允许在目标码分发时加入不同于EPL的条款，但必须满足EPL第3条的要求，并明确不同条款仅由该贡献者提供，不由其他贡献者负责。"
+  }
+]

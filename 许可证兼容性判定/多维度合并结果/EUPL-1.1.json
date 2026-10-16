@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "use the Work in any circumstance and for all usage",
+    "解释": "许可证明确授权在任意环境和所有用途中使用作品，包括商业用途，没有排除商业使用。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "use the Work in any circumstance and for all usage",
+    "解释": "许可证允许个人或组织在内部使用代码，也允许修改源代码。内部使用本身不触发第5条针对分发和传播的义务，因此不会引发源代码公开义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "distribute the Work or copies thereof",
+    "解释": "许可证允许将作品或其复制品分发给第三方，但分发和传播须遵守第5条义务，如保留声明、按EUPL或兼容许可证发布、提供源代码。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "Copyleft clause: If the Licensee distributes and/or communicates copies of the Original Works or Derivative Works based upon the Original Work, this Distribution and/or Communication will be done under the terms of this Licence or of a later version of this Licence unless the Original Work is expressly distributed only under this version of the Licence. The Licensee (becoming Licensor) cannot offer or impose any additional terms or conditions on the Work or Derivative Work that alter or restrict the terms of the Licence.",
+    "解释": "允许修改和制作衍生作品，但分发衍生作品时必须按EUPL或其后续版本发布，除非原作品明确只按本版本发布；该条款体现强传染性。衍生作品的具体范围由适用版权法确定。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "模糊",
+    "原文": "This Licence does not define the extent of modification or dependence on the Original Work required in order to classify a work as a Derivative Work; this extent is determined by copyright law applicable in the country mentioned in Article 15.",
+    "解释": "许可证未明确规范静态链接、动态链接或库的使用是否触发传染性，而是将何种依赖或修改构成衍生作品交由适用版权法认定，因此链接级传染性存在不确定性。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "The Licensor grants to the Licensee royalty-free, non exclusive usage rights to any patents held by the Licensor, to the extent necessary to make use of the rights granted on the Work under this Licence.",
+    "解释": "许可证明确授予被许可方为行使许可证权利所必需的专利使用权，但未包含专利反诉终止机制。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "sublicensable licence; The Licensee (becoming Licensor) cannot offer or impose any additional terms or conditions on the Work or Derivative Work that alter or restrict the terms of the Licence.",
+    "解释": "许可证允许再许可，但再分发必须在EUPL或兼容许可证条款下进行，不能任意更换许可证，也不得附加改变或限制原许可条款的条件。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "明确允许",
+    "原文": "Distribution and/or Communication: any act of selling, giving, lending, renting, distributing, communicating, transmitting, or otherwise making available, on-line or off-line, copies of the Work or providing access to its essential functionalities at the disposal of any other natural or legal person.",
+    "解释": "许可证将向他人提供访问软件核心功能的行为纳入分发和传播定义，因此以网络服务形式提供软件访问会触发源代码公开和copyleft义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "Attribution right: the Licensee shall keep intact all copyright, patent or trademarks notices and all notices that refer to the Licence and to the disclaimer of warranties. The Licensee must include a copy of such notices and a copy of the Licence with every copy of the Work he/she distributes and/or communicates. The Licensee must cause any Derivative Work to carry prominent notices stating that the Work has been modified and the date of modification.",
+    "解释": "除版权声明外，还要求保留专利、商标及许可证、免责声明等通知，并要求衍生作品添加显著的修改声明和修改日期；许可证未单独使用NOTICE文件术语，但通知义务覆盖类似归属内容。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "Provision of Source Code: When distributing and/or communicating copies of the Work, the Licensee will provide a machine-readable copy of the Source Code or indicate a repository where this Source will be easily and freely available for as long as the Licensee continues to distribute and/or communicate the Work.",
+    "解释": "分发或传播作品时，被许可方必须提供机器可读的源代码副本，或指明一个可在分发期间自由访问的源码仓库。触发条件是分发和/或传播作品。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "Legal Protection: This Licence does not grant permission to use the trade names, trademarks, service marks, or names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the copyright notice.",
+    "解释": "许可证不授予使用许可方商号、商标、服务标记或许可方名称的权利，仅在合理且惯常地说明作品来源和复制版权声明内容时允许使用。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "Attribution right: the Licensee shall keep intact all copyright, patent or trademarks notices and all notices that refer to the Licence and to the disclaimer of warranties. The Licensee must include a copy of such notices and a copy of the Licence with every copy of the Work he/she distributes and/or communicates. The Licensee must cause any Derivative Work to carry prominent notices stating that the Work has been modified and the date of modification.",
+    "解释": "分发作品时必须保留完整的版权、专利、商标以及许可证和免责声明通知，并随每一份副本附上这些通知和许可证文本；衍生作品还需显著声明修改及修改日期。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "The Work is provided under the Licence on an \"as is\" basis and without warranties of any kind concerning the Work, including without limitation merchantability, fitness for a particular purpose, absence of defects or errors, accuracy, non-infringement of intellectual property rights other than copyright as stated in Article 6 of this Licence. Except in the cases of wilful misconduct or damages directly caused to natural persons, the Licensor will in no event be liable for any direct or indirect, material or moral, damages of any kind, arising out of the Licence or of the use of the Work, including without limitation, damages for loss of goodwill, work stoppage, computer failure or malfunction, loss of data or any commercial damage, even if the Licensor has been advised of the possibility of such damage.",
+    "解释": "许可证按现状提供作品，不附带任何保证；除故意不当行为、直接造成自然人损害以及法定产品责任外，许可方不承担因使用作品产生的损害赔偿责任，因此被授权方一般无权追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "The Licensee (becoming Licensor) cannot offer or impose any additional terms or conditions on the Work or Derivative Work that alter or restrict the terms of the Licence.",
+    "解释": "禁止被许可人在分发作品或衍生作品时施加任何改变或限制原许可证条款的额外条件；第9条允许另行签订支持、保修等服务协议，但不能改变许可证本身的权利义务。"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+    "解释": "许可证明确允许将代码及其修改版以源代码或二进制形式进行再分发和使用，其中包含商业用途，未设置禁止商业使用的条款。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+    "解释": "内部使用属于许可的“use”范围；许可证仅在再分发时附加条件，不要求内部修改和自用触发源码公开。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+    "解释": "许可证明确允许向第三方分发源代码和二进制形式，但须满足后续条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "Modifications are encouraged but must be packaged separately as patches to official Zope releases. Distributions that do not clearly separate the patches from the original work must be clearly labeled as unofficial distributions. Modifications which do not carry the name Zope may be packaged in any form, as long as they conform to all of the clauses above.",
+    "解释": "许可证允许修改和合并后分发，但未要求衍生作品必须采用ZPL或相同许可证发布，因此不存在代码级强传染性；修改分发须符合补丁/标签及致谢要求。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅规范源代码/二进制形式的分发与使用，未提及静态链接、动态链接或导入等链接机制是否触发开源义务。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未包含专利授权或专利反诉终止条款。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确授予或禁止以其他许可证对代码进行再许可或变更许可证，只规定了再分发时必须保留版权声明、条件列表和免责声明。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未将网络服务（SaaS）或网络交互视为分发，也未规定相应源码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "All advertising materials and documentation mentioning features derived from or use of this software must display the following acknowledgement: \"This product includes software developed by Zope Corporation for use in the Z Object Publishing Environment (http://www.zope.com/).\" Modified redistributions of any form whatsoever must retain the following acknowledgment: \"This product includes software developed by Zope Corporation for use in the Z Object Publishing Environment (http://www.zope.com/).\"",
+    "解释": "除版权声明外，许可证要求广告材料和修改后的再分发必须显示或保留指定致谢语，但完整官方Zope分发可豁免外部致谢。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证没有规定必须向接收者提供源代码；二进制分发只需在随附文档或材料中复制版权声明、条件列表和免责声明即可。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "Names associated with Zope or Zope Corporation must not be used to endorse or promote products derived from this software without prior written permission from Zope Corporation.",
+    "解释": "许可证明确禁止未经事先书面许可使用Zope或Zope Corporation相关名称来推广衍生品，不授予商标使用权。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "Redistributions in source code must retain the above copyright notice, this list of conditions, and the following disclaimer. Redistributions in binary form must reproduce the above copyright notice, this list of conditions, and the following disclaimer in the documentation and/or other materials provided with the distribution.",
+    "解释": "分发源代码或二进制形式时，必须保留并重现版权声明、条件列表和免责声明；二进制分发可通过随附文档或材料呈现。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THIS SOFTWARE IS PROVIDED BY ZOPE CORPORATION ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL ZOPE CORPORATION OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES",
+    "解释": "许可证明确按“AS IS”提供，不提供任何明示或默示担保，并排除Zope Corporation及其贡献者对直接、间接或后果性损害的责任。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未授权或禁止用户对软件施加额外限制，因而该维度不适用。"
+  }
+]

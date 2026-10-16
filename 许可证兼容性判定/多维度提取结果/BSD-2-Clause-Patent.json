@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met",
+    "解释": "许可证明确允许以源代码和二进制形式使用和再分发，未限制商业用途，因此商业使用是允许的。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted",
+    "解释": "许可证明确允许使用和修改源代码、二进制形式；在内部使用且不进行再分发时，不会触发再分发条件下的义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.",
+    "解释": "许可证明确允许将源代码和二进制形式分发给第三方，但再分发必须保留版权声明、条件列表和免责声明；二进制分发需在文档或随附材料中复制这些内容。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met",
+    "解释": "许可证明确允许修改代码并分发修改后的版本，且未要求衍生作品以相同许可证发布，因此不具有代码级强传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接、导入或库使用，也未规定链接是否触发开源义务，因此该维度不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "Subject to the terms and conditions of this license, each copyright holder and contributor hereby grants to those receiving rights under this license a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except for failure to satisfy the conditions of this license) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer this software, where such license applies only to those patent claims, already acquired or hereafter acquired, licensable by such copyright holder or contributor that are necessarily infringed by: (a) their Contribution(s) (the licensed copyrights of copyright holders and non-copyrightable additions of contributors, in source or binary form) alone; or (b) combination of their Contribution(s) with the work of authorship to which such Contribution(s) was added by such copyright holder or contributor, if, at the time the Contribution is added, such addition causes such combination to be necessarily infringed. The patent license shall not apply to any other combinations which include the Contribution.",
+    "解释": "明确授予专利许可，但限制为贡献本身或与所添加作品组合必然侵权的权利要求，不包括其他组合；未包含专利反诉终止机制。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "模糊",
+    "原文": "Except as expressly stated above, no rights or licenses from any copyright holder or contributor is granted under this license, whether expressly, by implication, estoppel or otherwise.",
+    "解释": "许可证仅明确授予再分发和使用等权利，未明确允许以不同许可证再分发或再许可，也未明确禁止；是否可变更许可证存在解释空间，因此状态为模糊。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务（SaaS）或通过网络交互是否触发源码公开义务，因此不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求保留版权声明、条件列表和免责声明，未提及任何独立的NOTICE文件或额外归属义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未规定任何条件下必须提供源代码；二进制分发也仅要求复制版权声明、条件列表和免责声明，无源码公开义务。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及商标、项目名称或Logo的使用授权，因此不授予商标权。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.",
+    "解释": "分发源代码必须保留版权声明、条件列表和免责声明；分发二进制形式必须在文档或随附材料中复制上述内容。这些是再分发的必备条件。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "解释": "软件按“原样”提供，不提供任何明示或默示担保，版权方和贡献者对任何损害均不承担责任，用户无权就损失追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确允许或禁止被授权者在使用或分发时附加额外限制，因此该维度不适用。"
+  }
+]

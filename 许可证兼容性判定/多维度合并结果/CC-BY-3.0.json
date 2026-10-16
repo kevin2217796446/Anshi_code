@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Subject to the terms and conditions of this License, Licensor hereby grants You a worldwide, royalty-free, non-exclusive, perpetual (for the duration of the applicable copyright) license to exercise the rights in the Work as stated below: ... to Distribute and Publicly Perform the Work including as incorporated in Collections; and, to Distribute and Publicly Perform Adaptations.",
+    "解释": "许可证授予全球、免版税、非排他性的复制、分发和公开表演权利，未设置非商业限制，因此可用于商业目的。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "to Reproduce the Work, to incorporate the Work into one or more Collections, and to Reproduce the Work as incorporated in the Collections; ... to create and Reproduce Adaptations provided that any such Adaptation, including any translation in any medium, takes reasonable steps to clearly label, demarcate or otherwise identify that changes were made to the original Work.",
+    "解释": "许可证明确授予复制和创作改编作品的权利，内部使用属于复制和修改范畴，且未施加公开或分发义务，因此允许内部使用。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "to Distribute and Publicly Perform the Work including as incorporated in Collections; and, to Distribute and Publicly Perform Adaptations.",
+    "解释": "许可证明确授予分发作品和改编作品的权利，但分发须遵守第4条的限制，包括保留许可声明和归属信息等。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "This Section 4(a) applies to the Work as incorporated in a Collection, but this does not require the Collection apart from the Work itself to be made subject to the terms of this License.",
+    "解释": "许可证允许创作并分发改编作品，但未要求整个衍生作品以本许可证发布；仅原作品本身须按本许可条款分发，因此不具有强传染性，衍生作品可另行选择许可证，但不得限制原作品权利。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "本许可证适用于文学、艺术和科学作品，不涉及软件库、静态链接或动态链接等机制，因此链接级传染性不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证全文未提及专利授权、专利反诉或专利终止机制，因此专利相关条款不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "You may not sublicense the Work. ... This License may not be modified without the mutual written agreement of the Licensor and You.",
+    "解释": "许可证明确禁止对作品进行再许可，且未经双方书面同意不得修改许可证，因此不得以其他许可证再分发。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "本许可证没有规定网络服务或SaaS模式下的源代码公开义务，也未将网络交互定义为分发行为，因此该维度不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "If You Distribute, or Publicly Perform the Work or any Adaptations or Collections, You must, unless a request has been made pursuant to Section 4(a), keep intact all copyright notices for the Work and provide, reasonable to the medium or means You are utilizing: (i) the name of the Original Author ...; (ii) the title of the Work if supplied; (iii) to the extent reasonably practicable, the URI, if any, that Licensor specifies to be associated with the Work ...; and (iv), consistent with Section 3(b), in the case of an Adaptation, a credit identifying the use of the Work in the Adaptation ...",
+    "解释": "许可证明确要求保留版权声明并提供作者、标题、URI及改编标识等归属信息；该义务与软件类NOTICE文件类似，但本许可证未使用NOTICE文件术语。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求分发时附上许可文本或URI，未规定提供源代码、源码包或书面承诺等义务，因此源代码公开维度不适用。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "You may not implicitly or explicitly assert or imply any connection with, sponsorship or endorsement by the Original Author, Licensor and/or Attribution Parties, as appropriate, of You or Your use of the Work, without the separate, express prior written permission of the Original Author, Licensor and/or Attribution Parties.",
+    "解释": "许可证不授予使用原作者或许可人商标、名称进行推广的权利，并明确禁止未经书面许可暗示背书或许可关系。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "You must keep intact all notices that refer to this License and to the disclaimer of warranties with every copy of the Work You Distribute or Publicly Perform. ... If You Distribute, or Publicly Perform the Work or any Adaptations or Collections, You must ... keep intact all copyright notices for the Work and provide ... (i) the name of the Original Author ...",
+    "解释": "分发或公开表演作品时必须保留许可声明、免责声明、版权声明及作者归属信息，并以合理方式呈现。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "UNLESS OTHERWISE MUTUALLY AGREED TO BY THE PARTIES IN WRITING, LICENSOR OFFERS THE WORK AS-IS AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE WORK ... IN NO EVENT WILL LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES ARISING OUT OF THIS LICENSE OR THE USE OF THE WORK, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+    "解释": "许可证明确以按现状提供作品，不提供任何保证，并排除许可人的损害赔偿责任，被授权者无权就损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "You may not offer or impose any terms on the Work that restrict the terms of this License or the ability of the recipient of the Work to exercise the rights granted to that recipient under the terms of the License. ... You may not impose any effective technological measures on the Work that restrict the ability of a recipient of the Work from You to exercise the rights granted to that recipient under the terms of the License.",
+    "解释": "许可证明确禁止对作品施加任何限制本许可条款或接收者权利的条件，也禁止施加限制权利的有效技术措施，因此不得添加额外约束。"
+  }
+]

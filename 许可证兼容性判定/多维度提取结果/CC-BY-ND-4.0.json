@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Subject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to: A. reproduce and Share the Licensed Material, in whole or in part; and B. produce and reproduce, but not Share, Adapted Material.",
+    "解释": "许可证授予全球范围内复制和分享授权材料的权利，未限制商业用途，因此允许商业使用。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "produce and reproduce, but not Share, Adapted Material.",
+    "解释": "许可证允许制作和复制改编作品，只要不对外分享，因此内部使用修改后的作品是允许的，不会触发开源义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "reproduce and Share the Licensed Material, in whole or in part; and B. produce and reproduce, but not Share, Adapted Material.",
+    "解释": "许可证允许分享未修改的授权材料，但禁止分享改编材料；分享时需遵守归属条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确禁止",
+    "原文": "For the avoidance of doubt, You do not have permission under this Public License to Share Adapted Material.",
+    "解释": "许可证明确禁止分享改编作品，因此修改后的代码不能对外发布，衍生作品不存在许可证选择问题。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "该许可证是适用于内容作品的通用许可证，未提及软件链接、静态/动态链接或组合机制，因此链接级传染性不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确禁止",
+    "原文": "Patent and trademark rights are not licensed under this Public License.",
+    "解释": "许可证明确不授予专利和商标权利，用户不能基于此许可证获得任何专利授权。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "non-sublicensable ... You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.",
+    "解释": "许可证不可再许可，且禁止添加额外或不同条款，因此不能以其他许可证再分发。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证不涉及源代码公开义务；虽然 Share 定义包括通过网络提供作品，但该许可证不要求公开源代码，仅可能触发归属声明。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "If You Share the Licensed Material, You must: A. retain the following if it is supplied by the Licensor with the Licensed Material: i. identification of the creator(s) ... ii. a copyright notice; iii. a notice that refers to this Public License; iv. a notice that refers to the disclaimer of warranties; v. a URI or hyperlink to the Licensed Material ...",
+    "解释": "许可证要求保留版权声明、许可证通知和免责声明等归属信息，但未明确要求单独的NOTICE文件。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证不包含任何源代码公开的要求，因为它是面向内容作品的许可证。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "Patent and trademark rights are not licensed under this Public License.",
+    "解释": "许可证明确不授予商标权，用户不得使用原作者的商标推广衍生作品。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "If You Share the Licensed Material, You must: A. retain the following if it is supplied by the Licensor with the Licensed Material: i. identification of the creator(s) ... ii. a copyright notice; iii. a notice that refers to this Public License; iv. a notice that refers to the disclaimer of warranties; v. a URI or hyperlink to the Licensed Material ...",
+    "解释": "分发时必须保留版权声明、许可证文本和免责声明，并以合理方式呈现。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "Unless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind ... To the extent possible, in no event will the Licensor be liable to You on any legal theory ... for any ... damages arising out of this Public License or use of the Licensed Material ...",
+    "解释": "许可证排除所有保证并在法律允许范围内排除所有责任，因此被授权者无法就损失向许可人追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "No downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.",
+    "解释": "许可证禁止用户施加超出原有许可条款的额外约束或技术措施限制下游行使权利。"
+  }
+]

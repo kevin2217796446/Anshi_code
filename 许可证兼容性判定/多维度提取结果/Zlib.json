@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:",
+    "解释": "许可证明确授权任何人为任何目的使用该软件，包括商业应用，因此允许商业使用。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:",
+    "解释": "该授权涵盖任何目的的使用和修改，未对内部使用设置额外条件，内部使用不触发源代码公开义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions: 1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. 2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software. 3. This notice may not be removed or altered from any source distribution.",
+    "解释": "许可证允许自由再分发，但需遵守三项限制：不得虚假声明原作者、修改版本须明确标记、保留许可证通知。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions: Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.",
+    "解释": "许可证允许修改和再分发，未要求衍生作品必须采用相同许可证发布，仅要求修改版标记来源，因此无代码级传染性，衍生作品可自由选择许可证。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接或导入机制，也没有规定链接场景下的传染性义务，因此该维度不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及专利授权或专利反诉终止条款，因此该维度不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "模糊",
+    "原文": "Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions: This notice may not be removed or altered from any source distribution.",
+    "解释": "许可证允许自由再分发，但强制要求保留通知，未明确说明是否允许以不同许可证再分发修改版，因此再许可或变更许可证存在多种解读。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS或通过网络交互是否构成分发，未设定相应开源义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求保留自身的许可证通知，未提及NOTICE文件或其他额外归属义务，因此该维度不适用。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证允许再分发源码，但未规定在对象代码分发等情况下必须提供源代码的义务，因此该维度不适用。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未授予商标权，也未提及项目名称、Logo等标识的使用，因此该维度不适用。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "This notice may not be removed or altered from any source distribution.",
+    "解释": "许可证明确要求分发时保留包含版权声明和免责声明的通知，修改版也必须标记，因此版权声明保留义务清晰。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.",
+    "解释": "许可证明确排除任何明示或默示担保，作者不对使用造成的损失承担责任，因此被授权者无权向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未规定是否允许用户施加超出原有许可条款的额外约束，因此该维度不适用。"
+  }
+]

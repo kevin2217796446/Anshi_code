@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software",
+    "解释": "许可证明确授予不受限制地处置软件的权利，包括出售副本，因此允许商业使用。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software",
+    "解释": "许可证明确授予使用、复制和修改软件的权利，允许内部修改后使用；没有条款要求内部使用公开源代码。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software ... subject to the following conditions: 1. Redistributions of source code must retain ... 2. Redistributions in binary form must reproduce ...",
+    "解释": "许可证明确允许向第三方分发代码，但须遵守保留版权声明、条件列表和免责声明等条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute",
+    "解释": "许可证允许修改和合并代码，未要求衍生作品以相同许可证发布，无代码级传染性，衍生作品可自由选择许可证，但需保留原版权声明等条件。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态或动态链接、导入或库使用是否会触发开源义务；作为宽松许可证，未规定链接级传染。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证文本未明确提及专利授权、专利许可或专利反诉终止机制，因此该维度不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software",
+    "解释": "许可证明确授予 sublicense 权利，允许再许可或以其他方式再分发，但须遵守许可证中的保留声明等条件。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS或通过网络与用户交互是否构成分发或触发源代码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "The end-user documentation included with the redistribution, if any, must include the following acknowledgment: \"This product includes software developed by The XFree86 Project, Inc (http://www.xfree86.org/) and its contributors\", in the same place and form as other third-party acknowledgments. Alternately, this acknowledgment may appear in the software itself, in the same form and location as other such third-party acknowledgments.",
+    "解释": "许可证明确要求在再分发时于最终用户文档或软件中包含指定的致谢声明，但不强制要求传递独立的NOTICE文件。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未强制要求分发时提供源代码；仅对源代码和二进制再分发施加版权声明和免责声明保留义务，未设定源代码公开触发条件。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "Except as contained in this notice, the name of The XFree86 Project, Inc shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from The XFree86 Project, Inc.",
+    "解释": "未经事先书面授权，不得将 XFree86 Project, Inc 名称用于广告或其他推广活动，明确不授予商标使用权。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "1. Redistributions of source code must retain the above copyright notice, this list of conditions, and the following disclaimer. 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution, and in the same place and form as other copyright, license and disclaimer information.",
+    "解释": "分发源代码或二进制形式时，必须保留版权声明、条件列表和免责声明；二进制分发还应在文档或其他附带材料中以相同位置和形式呈现这些信息。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE XFREE86 PROJECT, INC OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES...",
+    "解释": "许可证明确排除任何明示或默示担保，并免除项目及贡献者的损害赔偿责任，因此被授权者无权就软件损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "模糊",
+    "原文": "including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software",
+    "解释": "许可证授予 sublicense 权利，可能暗示再分发时有权设置子许可条款，但未明确允许或禁止附加超出原许可的额外限制，存在多种解读。"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "You may charge a fee for the physical act of transferring a copy, and you may at your option offer warranty protection in exchange for a fee.",
+    "解释": "许可证明确允许对分发副本收取费用，并可在收费基础上提供担保，因此允许商业使用。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "模糊",
+    "原文": "Activities other than copying, distribution and modification are not covered by this License; they are outside its scope. The act of running the Program is not restricted, and the output from the Program is covered only if its contents constitute a work based on the Program (independent of having been made by running the Program). must offer an equivalent opportunity for all users interacting with your Program through a computer network to request immediate transmission by HTTP of the complete source code of your modified version or other derivative work.",
+    "解释": "许可证明确允许运行程序，且未将内部使用本身列为受限制活动；但第2(d)条要求通过网络与用户交互时提供源代码获取机会，因此内部使用若涉及网络交互可能触发源码公开义务，存在模糊。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may copy and distribute verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this License and to the absence of any warranty; and give any other recipients of the Program a copy of this License along with the Program.",
+    "解释": "许可证明确允许向第三方分发源代码副本，但须保留版权声明、无担保声明、许可证通知并提供许可证文本。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "You must cause any work that you distribute or publish, that in whole or in part contains or is derived from the Program or any part thereof, to be licensed as a whole at no charge to all third parties under the terms of this License.",
+    "解释": "许可证允许修改和合并代码，但要求分发或发布的衍生作品整体必须按本许可证免费许可，属于强代码级传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "模糊",
+    "原文": "a work containing the Program or a portion of it, either verbatim or with modifications and/or translated into another language. In addition, mere aggregation of another work not based on the Program with the Program (or with a work based on the Program) on a volume of a storage or distribution medium does not bring the other work under the scope of this License.",
+    "解释": "许可证以版权法上的衍生作品定义传染范围，但未明确提及静态链接、动态链接或导入等机制是否构成衍生作品；仅排除单纯聚合，链接是否传染需根据版权法判断，存在模糊。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "模糊",
+    "原文": "If you cannot distribute so as to satisfy simultaneously your obligations under this License and any other pertinent obligations, then as a consequence you may not distribute the Program at all. For example, if a patent license would not permit royalty-free redistribution of the Program by all those who receive copies directly or indirectly through you, then the only way you could satisfy both it and this License would be to refrain entirely from distribution of the Program.",
+    "解释": "许可证涉及专利相关限制，要求专利不得阻碍免费再分发，但未明确授予用户专利许可，也未规定专利反诉终止机制，因此专利授权条款不明确。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "You may not copy, modify, sublicense, or distribute the Program except as expressly provided under this License. Any attempt otherwise to copy, modify, sublicense or distribute the Program is void, and will automatically terminate your rights under this License.",
+    "解释": "许可证明确禁止以本许可证规定之外的方式复制、修改、再许可或分发程序，因此不能单方面更改许可证或再许可。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "明确允许",
+    "原文": "If the Program as you received it is intended to interact with users through a computer network and if, in the version you received, any user interacting with the Program was given the opportunity to request transmission to that user of the Program's complete source code, you must not remove that facility from your modified version of the Program or work based on the Program, and must offer an equivalent opportunity for all users interacting with your Program through a computer network to request immediate transmission by HTTP of the complete source code of your modified version or other derivative work.",
+    "解释": "许可证明确将网络交互场景纳入义务范围：如果原始程序提供网络获取源码的机会，修改版也必须为网络用户提供同等的源码请求机会，因此SaaS形式会触发源代码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求保留版权声明、许可证通知和无担保声明，未提到NOTICE文件的额外归属或传递义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "You may copy and distribute the Program (or a work based on it, under Section 2) in object code or executable form under the terms of Sections 1 and 2 above provided that you also do one of the following: a) Accompany it with the complete corresponding machine-readable source code, which must be distributed under the terms of Sections 1 and 2 above on a medium customarily used for software interchange; or, b) Accompany it with a written offer, valid for at least three years, to give any third party, for a charge no more than your cost of physically performing source distribution, a complete machine-readable copy of the corresponding source code, to be distributed under the terms of Sections 1 and 2 above on a medium customarily used for software interchange; or, c) Accompany it with the information you received as to the offer to distribute corresponding source code.",
+    "解释": "分发目标码或可执行形式时，必须满足三种源码提供方式之一：随附源码、提供至少三年的书面源码获取要约，或非商业分发时传递上游要约信息。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及商标授权或限制，因此不授予使用原作者商标、项目名称或Logo的权利。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "You may copy and distribute verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this License and to the absence of any warranty; and give any other recipients of the Program a copy of this License along with the Program.",
+    "解释": "分发时必须显著保留适当的版权声明、无担保声明、所有引用本许可证的通知，并向接收者提供许可证文本。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES.",
+    "解释": "许可证明确排除任何明示或默示担保，并排除版权持有人或再分发者的损害赔偿责任，因此被授权者一般无权就软件缺陷或损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "You may not impose any further restrictions on the recipients' exercise of the rights granted herein.",
+    "解释": "许可证明确禁止对接收者行使本许可证授予的权利施加额外限制。"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software, subject to the following conditions: 1) Neither the Font Software nor any of its individual components, in Original or Modified Versions, may be sold by itself.",
+    "解释": "许可证允许将字体软件用于商业目的，包括销售修改和未修改副本，但字体软件本身不能单独销售，只能与软件捆绑或作为软件的一部分销售。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software",
+    "解释": "许可证明确授权使用、研究和修改字体软件，因此允许个人或组织内部使用和修改。内部使用不涉及分发，不会触发保留版权声明或公开源代码等义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software, subject to the following conditions: 2) Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software, provided that each copy contains the above copyright notice and this license.",
+    "解释": "允许向第三方分发字体软件，但分发时须满足条件：每个副本必须包含版权声明和许可证文本，修改版本不得使用保留名称，且必须完全按本许可证分发。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software; 5) The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be distributed under any other license. The requirement for fonts to remain under this license does not apply to any document created using the Font Software.",
+    "解释": "允许合并和修改字体软件，但衍生作品必须完全按本许可证分发，不得更换许可证，具有强传染性。不过，使用字体创建的文档不受该传染性约束，可以按其他许可发布。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "明确允许",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接或导入机制，也没有规定链接后自有代码是否需要开源。其传染性限于字体软件本身，不延伸到使用字体创建的文档，因此链接级传染性在此许可证中不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未包含专利授权条款或专利反诉终止机制，仅在免责声明中提及不保证不侵犯专利权，因此不授予用户任何专利权利。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "5) The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be distributed under any other license.",
+    "解释": "明确禁止将字体软件以任何其他许可证进行再分发，必须保持本许可证。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未涉及网络服务（SaaS）场景，其义务仅与分发有关，未将网络交互视为分发触发条件，因此不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证不要求保留或传递NOTICE文件，只要求保留版权声明和许可证文本，因此额外的NOTICE文件义务不适用。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确要求分发字体软件时必须提供源代码，也未规定源代码公开的形式或触发条件，因此该维度不适用。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "3) No Modified Version of the Font Software may use the Reserved Font Name(s) unless explicit written permission is granted by the corresponding Copyright Holder. 4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font Software shall not be used to promote, endorse or advertise any Modified Version, except to acknowledge the contribution(s) of the Copyright Holder(s) and the Author(s) or with their explicit written permission.",
+    "解释": "许可证不授予商标权，明确禁止修改版本使用保留字体名称，并禁止使用版权持有者或作者姓名推广、认可或宣传修改版本，除非获得书面许可或仅用于致谢。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "2) Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software, provided that each copy contains the above copyright notice and this license. These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.",
+    "解释": "分发字体软件时必须保留版权声明和许可证文本，可以以独立文本文件、人类可读头文件或机器可读元数据字段形式包含，只要便于用户查看。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THE FONT SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.",
+    "解释": "许可证明确不提供任何明示或暗示保证，并免除版权持有者对任何损害或索赔的责任，因此被授权者无权因质量问题向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "模糊",
+    "原文": "5) The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be distributed under any other license.",
+    "解释": "许可证要求字体软件必须完全按本许可证分发，不得使用其他许可证，因此用户无权对字体软件施加超出本许可证的额外限制。"
+  }
+]

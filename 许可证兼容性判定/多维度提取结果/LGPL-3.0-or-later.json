@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "You may charge any price or no price for each copy that you convey, and you may offer support or warranty protection for a fee.",
+    "解释": "许可证明确允许将代码用于商业目的，包括收取分发费用以及提供付费支持或担保服务。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "You may make, run and propagate covered works that you do not convey, without conditions so long as your license otherwise remains in force.",
+    "解释": "许可证明确允许在不对外分发的情况下制作、运行和传播作品，内部修改和使用不会触发源代码公开等许可义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may convey verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice...",
+    "解释": "许可证允许将代码分发给第三方，但分发时必须满足保留版权声明、附许可证文本和免责声明等条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "模糊",
+    "原文": "If you modify a copy of the Library... you may convey a copy of the modified version: a) under this License... b) under the GNU GPL... You may convey a Combined Work under terms of your choice...",
+    "解释": "许可证对不同类型的修改和组合设置了不同传染性：直接修改Library本身须继续以LGPL或GPL发布，而Combined Work整体可以自选条款。由于是否将Combined Work视为衍生作品存在不同理解，许可证的代码级传染性呈现分层且模糊的特点。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "明确允许",
+    "原文": "Use a suitable shared library mechanism for linking with the Library. A suitable mechanism is one that (a) uses at run time a copy of the Library already present on the user's computer system, and (b) will operate properly with a modified version of the Library that is interface-compatible with the Linked Version.",
+    "解释": "许可证明确允许通过共享库动态链接等方式使用库，且不要求使用该库的自有代码以LGPL或GPL发布，只要满足允许用户重新链接修改版库等条件。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contents of its contributor version.",
+    "解释": "许可证明确授予非独占、全球范围、免版税的专利许可；但GPL/LGPL没有类似Apache许可证的专利反诉自动终止机制。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "模糊",
+    "原文": "Sublicensing is not allowed; section 10 makes it unnecessary. ... under the GNU GPL, with none of the additional permissions of this License applicable to that copy. ... You may convey a Combined Work under terms of your choice...",
+    "解释": "许可证一方面明确禁止再许可，另一方面又允许将修改后的Library以GPL发布，并允许Combined Work以自选条款分发。这种不同适用范围导致许可证变更条款存在多种解读。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "明确允许",
+    "原文": "Mere interaction with a user through a computer network, with no transfer of a copy, is not conveying.",
+    "解释": "许可证明确将网络交互排除在conveying之外，因此以网络服务形式提供软件不触发源代码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "LGPL/GPL没有像Apache许可证那样要求保留和传递专门NOTICE文件的内容，因此该维度不适用。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "You may convey a covered work in object code form under the terms of sections 4 and 5, provided that you also convey the machine-readable Corresponding Source under the terms of this License, in one of these ways: a) Convey the object code in, or embodied in, a physical product... accompanied by the Corresponding Source fixed on a durable physical medium...",
+    "解释": "许可证允许以目标代码形式分发，但必须以规定方式提供机器可读的对应源代码，包括随产品提供源码、书面承诺或网络服务器访问等方式。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "LGPL/GPL没有明确授予用户使用原作者商标的权利，也没有明确禁止使用项目名称或Logo；仅在第7(e)条允许添加拒绝授予商标权的额外条款，因此该维度不直接适用。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "keep intact all notices stating that this License and any non-permissive terms added in accord with section 7 apply to the code; keep intact all notices of the absence of any warranty; and give all recipients a copy of this License along with the Program.",
+    "解释": "许可证要求在分发时保留所有版权声明、许可声明和无担保声明，并向接收者提供许可证副本。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM 'AS IS' WITHOUT WARRANTY OF ANY KIND... THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.",
+    "解释": "许可证明确排除任何担保，并声明全部风险由使用者承担，因此被授权者无权就软件造成的损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "You may not impose any further restrictions on the exercise of the rights granted or affirmed under this License.",
+    "解释": "许可证明确禁止被授权者在行使许可证授予的权利时施加超出原有条款的额外限制，但第7条列出的有限附加条款除外。"
+  }
+]

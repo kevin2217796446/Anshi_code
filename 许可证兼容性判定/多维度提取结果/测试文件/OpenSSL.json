@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: ... This library is free for commercial and non-commercial use as long as the following conditions are aheared to.",
+    "解释": "许可证明确允许将代码及其衍生品用于商业和非商业目的，只要满足保留版权声明、条件清单和免责声明等条件。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+    "解释": "许可证允许在个人或组织内部修改源代码后使用，且内部使用本身不触发再分发时的义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+    "解释": "许可证明确允许以源码或二进制形式向第三方分发代码，但必须遵守保留版权声明、条件清单、免责声明以及广告致谢等条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted ... The licence and distribution terms for any publically available version or derivative of this code cannot be changed. i.e. this code cannot simply be copied and put under another distribution licence [including the GNU Public Licence.]",
+    "解释": "许可证允许修改和合并代码，不要求整个衍生作品必须采用相同许可证发布，因此属于宽松传染性；但原始代码部分的许可和分发条款不得被更改或替换。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接或导入机制是否导致自有代码必须开源，因此该维度不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未包含任何专利授权条款，也未涉及专利反诉终止机制。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "The licence and distribution terms for any publically available version or derivative of this code cannot be changed. i.e. this code cannot simply be copied and put under another distribution licence [including the GNU Public Licence.]",
+    "解释": "许可证明确禁止更改原始许可证和分发条款，禁止将代码简单复制后置于另一个分发许可证下再分发。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未涉及以网络服务或SaaS形式提供软件时是否触发源代码公开义务，也未将网络交互视为分发行为。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "All advertising materials mentioning features or use of this software must display the following acknowledgment: \"This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit. (http://www.openssl.org/)\" ... Redistributions of any form whatsoever must retain the following acknowledgment: \"This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/)\"",
+    "解释": "许可证明确要求额外的归属致谢义务，即在广告材料和任何形式的再分发中保留特定致谢声明；但未要求保留或传递单独的NOTICE文件。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证允许以二进制形式分发，但没有规定必须提供源代码或以何种形式提供源代码，因此源代码公开义务未被涉及。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "The names \"OpenSSL Toolkit\" and \"OpenSSL Project\" must not be used to endorse or promote products derived from this software without prior written permission. ... Products derived from this software may not be called \"OpenSSL\" nor may \"OpenSSL\" appear in their names without prior written permission of the OpenSSL Project.",
+    "解释": "许可证明确不授予商标权，未经事先书面许可，不得使用“OpenSSL Toolkit”和“OpenSSL Project”名称背书或推广衍生产品，也不得在衍生产品名称中使用“OpenSSL”。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.",
+    "解释": "许可证明确要求分发时必须保留版权声明、条件清单和免责声明。源码分发须在源码中保留，二进制分发须在随附文档或材料中复制这些声明。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE OpenSSL PROJECT OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES...",
+    "解释": "许可证明确排除所有明示或默示保证，并且作者或贡献者对任何直接、间接、偶然、特殊或后果性损害不承担责任，因此被授权者无权就软件造成的损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "The licence and distribution terms for any publically available version or derivative of this code cannot be changed. i.e. this code cannot simply be copied and put under another distribution licence [including the GNU Public Licence.]",
+    "解释": "许可证禁止用户对公开可用版本或衍生产品的许可和分发条款进行更改，也禁止将代码置于其他分发许可证下，因此用户无权施加超出原有许可条款的额外限制。"
+  }
+]

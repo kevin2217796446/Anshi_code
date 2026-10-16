@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "including without limitation the rights to use, copy, merge, publish, distribute, and/or sell copies of the Font Software; The Font Software may be sold as part of a larger software package but no copy of one or more of the Font Software typefaces may be sold by itself.",
+    "解释": "许可证明确允许将字体软件用于商业目的，包括销售副本，但销售受到限制：只能作为更大软件包的一部分销售，不能单独出售单个字体副本。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "including without limitation the rights to use, copy, merge... The Font Software may be modified, altered, or added to...",
+    "解释": "许可证授予使用、复制和修改的权利，因此个人或组织内部使用和修改是被允许的；内部使用不触发源码公开义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted... to reproduce and distribute the Font Software... and to permit persons to whom the Font Software is furnished to do so, subject to the following conditions:",
+    "解释": "许可证明确允许向第三方分发字体软件，并允许接收者继续使用和分发，但需遵守保留通知、修改重命名以及不得单独销售字体等条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "The Font Software may be modified, altered, or added to... only if the fonts are renamed to names not containing either the words \"Bitstream\" or the word \"Vera\".",
+    "解释": "许可证明确允许修改和合并字体软件；没有要求衍生作品以相同许可证发布，不构成强传染性，但修改后分发必须重命名以避免使用原商标名称。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "该许可证适用于字体软件而非代码库，未提及静态链接、动态链接或导入机制，因此不涉及链接级传染性问题。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确授予专利权利，仅在免责声明中提及不对专利侵权作担保，不构成专利授权或专利反诉终止机制。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "模糊",
+    "原文": "Permission is hereby granted... to reproduce and distribute the Font Software... and to permit persons to whom the Font Software is furnished to do so, subject to the following conditions: This License becomes null and void to the extent applicable to Fonts or Font Software that has been modified and is distributed under the \"Bitstream Vera\" names.",
+    "解释": "许可证授予分发并允许下游继续使用，但未明确是否允许以不同许可证再分发，也没有明确禁止更改许可证；修改后使用原名称会使许可无效，但能否以其他条款再许可仍存在模糊。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及通过网络提供服务或SaaS场景，也未将网络交互视为分发行为，因此不涉及此义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证要求保留版权、商标和许可通知，但没有要求保留或传递单独的NOTICE文件，因此不产生额外的NOTICE文件归属义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未规定分发时必须提供源代码或公开源代码的义务；字体软件本身就是被分发的对象，没有额外的源码公开触发条件。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "Bitstream Vera is a trademark of Bitstream, Inc. The Font Software may be modified... only if the fonts are renamed to names not containing either the words \"Bitstream\" or the word \"Vera\". Except as contained in this notice, the names of Gnome, the Gnome Foundation, and Bitstream Inc., shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Font Software without prior written authorization...",
+    "解释": "许可证不授予商标权，并明确限制商标使用：修改后的字体必须重命名，不得包含Bitstream或Vera；未经书面授权不得使用Gnome、Gnome Foundation或Bitstream Inc.的名称进行推广。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "The above copyright and trademark notices and this permission notice shall be included in all copies of one or more of the Font Software typefaces.",
+    "解释": "分发字体软件时必须保留原版权声明、商标声明和本许可通知，这是分发的前提条件。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THE FONT SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND... IN NO EVENT SHALL BITSTREAM OR THE GNOME FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY...",
+    "解释": "许可证明确按“现状”提供软件，不提供任何明示或默示担保，权利人对任何索赔或损害不承担责任，用户无权就此追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未涉及被授权人是否可以对其分发或使用施加超出原许可条款的额外约束，因而该维度不适用。"
+  }
+]

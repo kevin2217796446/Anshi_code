@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+    "解释": "许可证允许再分发和使用软件，没有对商业用途设置禁止或限制，因此可以商业使用，但须遵守保留声明等条件。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+    "解释": "许可证允许使用和修改软件；内部使用不涉及再分发，不会触发许可证中关于保留版权声明和免责声明的条件，因此明确允许内部使用。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+    "解释": "许可证明确允许以源代码或二进制形式分发软件，无论是否修改，前提是满足后续的声明保留条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+    "解释": "许可证允许修改、合并代码，并且没有要求衍生作品以相同许可证发布，仅要求保留原版权声明、条件列表和免责声明，因此不具强传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证只规定源代码和二进制形式的再分发条件，没有提及静态链接、动态链接、导入等机制，也没有规定链接后自有代码是否必须开源，因此该维度不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及任何专利授权、专利权利或专利反诉终止机制，因此该维度不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "模糊",
+    "原文": "Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.",
+    "解释": "许可证允许再分发，但要求保留原版权声明、条件列表和免责声明；未明确允许或禁止将代码以其他许可证再分发，因此存在多种解读。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未将网络服务、SaaS或网络交互视为分发行为，也没有规定通过网络提供服务必须公开源代码，因此该维度不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求保留源码中的版权声明、条件列表和免责声明，没有要求额外保留或传递NOTICE文件内容，因此该维度不适用。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证没有规定必须提供源代码或以特定形式提供源代码，二进制分发也不要求公开源码，只要求在文档或材料中重现声明，因此该维度不适用。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.",
+    "解释": "许可证未授予商标权，并明确禁止未经事先书面许可使用版权持有人或贡献者的名称来背书或推广衍生产品。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.",
+    "解释": "许可证明确要求：源代码再分发必须保留版权声明、条件列表和免责声明；二进制再分发必须在随附文档或材料中重现这些声明。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES... EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "解释": "许可证明确排除任何明示或默示保证，并排除版权持有人和贡献者的损害赔偿责任，因此被授权者无权就软件造成的损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证没有明确允许或禁止用户对软件施加超出原许可条款的额外限制，仅要求保留原声明，因此该维度不适用。"
+  }
+]

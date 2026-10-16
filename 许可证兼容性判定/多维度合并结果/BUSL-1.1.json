@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "模糊",
+    "原文": "The Licensor hereby grants you the right to copy, modify, create derivative works, redistribute, and make non-production use of the Licensed Work. If your use of the Licensed Work does not comply with the requirements currently in effect as described in this License, you must purchase a commercial license from the Licensor, its affiliated entities, or authorized resellers, or you must refrain from using the Licensed Work.",
+    "解释": "许可证仅明确授予非生产使用权利，生产使用需额外购买商业许可；但未直接使用“商业使用”一词，商业使用与生产使用的范围不完全重合，存在解读空间，因此状态为模糊。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "模糊",
+    "原文": "The Licensor hereby grants you the right to copy, modify, create derivative works, redistribute, and make non-production use of the Licensed Work.",
+    "解释": "许可证允许复制、修改和非生产使用，内部使用若为非生产目的则被允许；但生产性内部使用可能违反条款，许可证未对内部使用单独定义，因此存在模糊性。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "The Licensor hereby grants you the right to copy, modify, create derivative works, redistribute, and make non-production use of the Licensed Work. You must conspicuously display this License on each original or modified copy of the Licensed Work.",
+    "解释": "许可证明确授予再分发的权利，但分发时必须显著展示本许可证。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "All copies of the original and modified Licensed Work, and derivative works of the Licensed Work, are subject to this License.",
+    "解释": "许可证允许合并和修改，但明确规定所有修改和衍生作品都必须遵守本许可证，具有强传染性，衍生作品不能自由选择其他许可证。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接、导入等机制，也未明确链接产生的作品是否构成衍生作品，因此链接级传染性在此许可证中未涉及。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证全文未提及专利授权或专利反诉终止机制，因此专利相关条款在此许可证中不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "All copies of the original and modified Licensed Work, and derivative works of the Licensed Work, are subject to this License. You must conspicuously display this License on each original or modified copy of the Licensed Work.",
+    "解释": "许可证要求所有副本和衍生作品均受本许可证约束，并显著展示本许可证，因此禁止以其他许可证再分发或更改许可证。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS或通过网络与用户交互的情形，也未将网络交互视为分发行为或触发源代码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求显著展示本许可证，未提及保留或传递原项目中的NOTICE文件内容，因此额外的归属声明义务不适用。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未规定分发时必须提供源代码或以任何形式公开源码，仅要求展示许可证，因此源代码公开义务在此许可证中未涉及。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "This License does not grant you any right in any trademark or logo of Licensor or its affiliates (provided that you may use a trademark or logo of Licensor as expressly required by this License).",
+    "解释": "许可证明确不授予任何商标或标识使用权，除非本许可证明确要求使用。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "You must conspicuously display this License on each original or modified copy of the Licensed Work.",
+    "解释": "许可证要求在分发时显著展示本许可证文本，其中包含版权声明和免责声明，因此分发必须保留这些声明。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSED WORK IS PROVIDED ON AN \"AS IS\" BASIS. LICENSOR HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS, EXPRESS OR IMPLIED, INCLUDING (WITHOUT LIMITATION) WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, AND TITLE.",
+    "解释": "许可证按“原样”提供软件，并明确排除所有明示或暗示的保证，因此被授权者无权就质量问题向许可方追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及用户是否有权对软件施加超出原许可条款的额外约束，因此该维度在此许可证中不适用。"
+  }
+]

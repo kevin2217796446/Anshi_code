@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "You may charge a reasonable copying fee for any distribution of this Package. You may charge any fee you choose for support of this Package. You may not charge a fee for this Package itself. However, you may distribute this Package in aggregate with other (possibly commercial) programs as part of a larger (possibly commercial) software distribution provided that you do not advertise this Package as a product of your own.",
+    "解释": "许可证允许商业使用和商业分发，包括收取合理的复制费和支持费，并允许将本包与其他商业软件聚合分发，但不得直接对本包本身收费，也不得将本包宣传为自己的产品。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "use the modified Package only within your corporation or organization.",
+    "解释": "许可证明确允许在组织内部使用修改后的包，只要不对外分发，即可不触发公开修改的义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may make and give away verbatim copies of the source form of the Standard Version of this Package without restriction, provided that you duplicate all of the original copyright notices and associated disclaimers. You may distribute the programs of this Package in object code or executable form, provided that you do at least ONE of the following:",
+    "解释": "许可证允许将源代码和可执行形式分发给第三方，但须保留版权声明和免责声明，并满足相应的分发条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "You may otherwise modify your copy of this Package in any way, provided that you insert a prominent notice in each changed file stating how and when you changed that file, and provided that you do at least ONE of the following: a) place your modifications in the Public Domain or otherwise make them Freely Available, such as by posting said modifications to Usenet or an equivalent medium, or placing the modifications on a major archive site such as uunet.uu.net, or by allowing the Copyright Holder to include your modifications in the Standard Version of the Package. b) use the modified Package only within your corporation or organization. c) rename any non-standard executables so the names do not conflict with standard executables, which must also be provided, and provide a separate manual page for each non-standard executable that clearly documents how it differs from the Standard Version. d) make other distribution arrangements with the Copyright Holder.",
+    "解释": "许可证允许修改和合并代码，但修改后分发须满足若干条件之一，包括将修改公开、仅内部使用、重命名非标准可执行文件并提供标准版，或与版权持有人另行安排。该许可证不要求整个衍生作品以 Artistic License 发布，传染性较弱。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "明确允许",
+    "原文": "You may embed this Package's interpreter within an executable of yours (by linking); this shall be construed as a mere form of aggregation, provided that the complete Standard Version of the interpreter is so embedded.",
+    "解释": "许可证明确允许通过链接将本包的解释器嵌入自有可执行文件，并视其为单纯聚合，因此不要求自有代码开源，不产生链接级传染。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证全文未提及专利授权、专利许可或专利反诉终止机制，因此该维度不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "模糊",
+    "原文": "Freely Available means that no fee is charged for the item itself, though there may be fees involved in handling the item. It also means that recipients of the item may redistribute it under the same conditions they received it.",
+    "解释": "许可证虽然在 Freely Available 的定义中要求接收者以相同条件再分发，但未明确允许或禁止以其他许可证进行再许可，因此再许可范围存在模糊之处。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及通过网络提供服务（SaaS）或与用户交互是否构成分发，也未规定网络服务会触发源代码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求保留原始版权声明和免责声明，未要求保留或传递 NOTICE 文件或额外的归属声明。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "You may distribute the programs of this Package in object code or executable form, provided that you do at least ONE of the following: a) distribute a Standard Version of the executables and library files, together with instructions (in the manual page or equivalent) on where to get the Standard Version. b) accompany the distribution with the machine-readable source of the Package with your modifications. c) give non-standard executables non-standard names, and clearly document the differences in manual pages (or equivalent), together with instructions on where to get the Standard Version. d) make other distribution arrangements with the Copyright Holder.",
+    "解释": "许可证明确规定了分发可执行文件时提供源代码或获取源码途径的义务：分发者须至少满足 a 至 d 条件之一，其中 b 要求随附机器可读源码，a 和 c 要求提供获取标准版的说明。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "The name of the Copyright Holder may not be used to endorse or promote products derived from this software without specific prior written permission.",
+    "解释": "许可证明确禁止未经事先书面许可使用版权持有人的名称来背书或推广衍生产品，不授予商标使用权利。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "You may make and give away verbatim copies of the source form of the Standard Version of this Package without restriction, provided that you duplicate all of the original copyright notices and associated disclaimers. You may otherwise modify your copy of this Package in any way, provided that you insert a prominent notice in each changed file stating how and when you changed that file, and provided that you do at least ONE of the following:",
+    "解释": "许可证要求分发时保留所有原始版权声明和免责声明，并在修改过的文件中插入显眼的变更通知，明确规定了版权声明的保留方式。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THIS PACKAGE IS PROVIDED \"AS IS\" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.",
+    "解释": "许可证明确按“原样”提供软件，排除所有明示和默示保证，因此被授权者无权就软件质量或损失向版权持有人追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未规定用户是否有权对软件施加超出原有许可条款的额外限制，因此该维度不适用。"
+  }
+]

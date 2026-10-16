@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Redistribution and use of this software in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+    "解释": "许可证明确允许以源码或二进制形式使用和再分发，包括修改，未排除商业用途，因此商业使用被允许。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "use of this software in source and binary forms, with or without modification, are permitted",
+    "解释": "许可证明确允许个人或组织内部修改后使用；仅源码再分发时需保留声明，内部使用不触发源码公开义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Redistribution and use of this software in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+    "解释": "明确允许向第三方分发源码和二进制形式；前置条件包括源码再分发保留版权声明、条件列表和免责声明，并不得使用作者名义背书。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "with or without modification, are permitted provided that the following conditions are met:",
+    "解释": "明确允许修改和合并代码。许可证未要求衍生作品以相同许可证发布，仅需保留原声明，因此无代码级传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接或导入等机制，也未规定链接后自有代码是否必须开源，因此不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及专利授权或专利反诉终止机制，因此不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确允许或禁止以其他许可证再分发代码；仅要求源码再分发时保留原声明，因此不适用。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS 形式或网络交互是否触发源代码公开义务，因此不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求保留版权声明、条件列表和免责声明，未提及额外的 NOTICE 文件义务，因此不适用。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证允许二进制再分发，但未规定分发二进制时必须提供源代码或公开源代码的义务，因此不适用。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "Neither the name of Deusty nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission of Deusty, LLC.",
+    "解释": "明确禁止未经事先书面许可使用作者或贡献者名称对衍生作品进行背书或推广，未授予商标使用权。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确禁止",
+    "原文": "Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.",
+    "解释": "源码再分发中禁止不保留版权声明、条件列表和免责声明；必须完整保留上述声明。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES",
+    "解释": "许可证明确免责，不提供任何明示或暗示担保，并排除版权持有人或贡献者的损害赔偿责任，被授权者无权追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未规定用户是否可以施加超出原条款的额外限制，因此不适用。"
+  }
+]

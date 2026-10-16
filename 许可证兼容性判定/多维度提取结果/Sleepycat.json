@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+    "解释": "许可证明确允许以源码和二进制形式进行再分发和使用，包括用于商业目的，未设置禁止商业使用的条款。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+    "解释": "许可证允许使用和修改源代码，未将内部使用与源码公开义务绑定；公开义务仅在再分发时触发，因此内部修改使用不会触发源码公开。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+    "解释": "允许将代码以源码或二进制形式分发给第三方，但必须满足保留版权声明、条件、免责声明以及提供源码等前置条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "模糊",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: Redistributions in any form must be accompanied by information on how to obtain complete source code for the DB software and any accompanying software that uses the DB software.",
+    "解释": "许可证明确允许修改和合并代码，但未要求衍生作品必须以相同许可证发布；同时要求分发时提供DB软件及伴随软件的完整源代码。由于对衍生作品许可证选择没有明确规定，代码级传染性存在模糊之处。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "模糊",
+    "原文": "Redistributions in any form must be accompanied by information on how to obtain complete source code for the DB software and any accompanying software that uses the DB software. The source code must either be included in the distribution or be available for no more than the cost of distribution plus a nominal fee, and must be freely redistributable under reasonable conditions.",
+    "解释": "许可证未区分静态链接和动态链接，任何使用DB软件的伴随软件都可能被要求提供源代码，但“accompanying software that uses the DB software”范围不够清晰，链接、导入等机制是否全部触发存在多种解读。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证原文未提及任何专利授权、专利承诺或专利反诉终止机制，因此该维度不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及是否允许以其他许可证再分发或再许可，也未明确禁止更改许可证，因此该维度在原文中没有直接规定。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及SaaS、网络服务或通过网络交互是否构成分发，也没有设置网络服务场景下的源码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求保留版权声明、条件列表和免责声明，未要求保留或传递单独的NOTICE文件。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "Redistributions in any form must be accompanied by information on how to obtain complete source code for the DB software and any accompanying software that uses the DB software. The source code must either be included in the distribution or be available for no more than the cost of distribution plus a nominal fee, and must be freely redistributable under reasonable conditions. For an executable file, complete source code means the source code for all modules it contains. It does not include source code for modules or files that typically accompany the major components of the operating system on which the executable file runs.",
+    "解释": "任何形式的再分发都必须附带获取完整源码的信息；源码须随分发提供，或仅收取分发成本加名义费用提供，并且可自由再分发。对可执行文件定义了完整源码范围，不包括操作系统常见组件。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "Neither the name of the University nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.",
+    "解释": "许可证未授予商标权；未经事先书面许可，不得使用University或Harvard及其贡献者的名称来背书或推广衍生作品。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.",
+    "解释": "再分发源码时必须保留版权声明、条件列表和免责声明；再分发二进制形式时必须在随附文档或材料中重现这些内容。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THIS SOFTWARE IS PROVIDED BY SLEEPYCAT SOFTWARE ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT, ARE DISCLAIMED. IN NO EVENT SHALL SLEEPYCAT SOFTWARE BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES",
+    "解释": "软件按“原样”提供，不提供任何明示或默示担保，并排除直接、间接、偶然、特殊、惩罚性或后果性损害赔偿，被授权者无权因质量或损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "模糊",
+    "原文": "The source code must either be included in the distribution or be available for no more than the cost of distribution plus a nominal fee, and must be freely redistributable under reasonable conditions.",
+    "解释": "许可证要求源码必须可自由再分发，这限制了用户对源码再分发施加额外限制的可能性，但原文未明文禁止所有类型的附加限制，因此是否存在更广泛的附加限制空间存在模糊之处。"
+  }
+]

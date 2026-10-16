@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确禁止",
+    "原文": "You may not exercise any of the rights granted to You in Section 3 above in any manner that is primarily intended for or directed toward commercial advantage or private monetary compensation.",
+    "解释": "许可证第4(b)条明确禁止将作品用于以商业利益或私人金钱报酬为主要目的的行为，因此商业使用被明确禁止；但某些非商业的数字化文件共享交换不在禁止之列。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确禁止",
+    "原文": "but otherwise you have no rights to make Adaptations.",
+    "解释": "许可证第3条仅授予复制、并入汇编、分发和公开表演的权利，但明确不授予制作改编作品的权利；在个人或组织内部修改源代码后使用属于制作改编，超出了许可证授权范围。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "to Distribute and Publicly Perform the Work including as incorporated in Collections.",
+    "解释": "许可证第3(b)条明确授予分发作品的权利，但该分发须遵守第4条限制，包括仅可按本许可证条款分发、保留声明、不得用于商业目的等，因此允许非商业条件下的分发。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确禁止",
+    "原文": "The above rights include the right to make such modifications as are technically necessary to exercise the rights in other media and formats, but otherwise you have no rights to make Adaptations.",
+    "解释": "许可证仅允许为在其他媒介或格式中行使权利而进行的必要技术性修改，除此之外明确不授予制作改编作品的权利；因此直接复制、修改或合并代码形成衍生作品被明确禁止。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "该许可证适用于文学、艺术及科学领域作品的版权许可，不涉及软件库的静态链接、动态链接或导入机制，因此链接级传染性规则在本许可证中未涉及。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "CC BY-NC-ND 3.0 是版权许可，全文未提及专利授权、专利许可或专利反诉终止机制，因此专利授权条款在该许可证中未涉及。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "You may not sublicense the Work.",
+    "解释": "第4(a)条明确禁止对作品进行再许可，并要求作品仅可按本许可证条款分发或公开表演，因此不能以其他许可证进行再分发。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "该许可证虽然对Publicly Perform进行了定义并包括向公众提供访问，但未将网络服务或SaaS场景下的网络交互视为触发源代码公开的情形，也没有规定任何源代码公开义务，因此该维度未涉及。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "You must, unless a request has been made pursuant to Section 4(a), keep intact all copyright notices for the Work and provide, reasonable to the medium or means You are utilizing: (i) the name of the Original Author... (ii) the title of the Work if supplied; (iii) to the extent reasonably practicable, the URI, if any, that Licensor specifies to be associated with the Work.",
+    "解释": "许可证第4(c)条明确要求在分发或公开表演作品时保留版权声明并提供作者姓名、作品标题及指定URI等额外归属信息，因此存在明确的额外归属义务；但该许可证没有使用NOTICE文件概念。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "该许可证适用于版权作品而非软件源代码分发，分发条件仅限于保留许可证文本、版权声明和署名信息，未规定必须提供源代码或以任何形式公开源代码，因此该维度未涉及。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "You may not implicitly or explicitly assert or imply any connection with, sponsorship or endorsement by the Original Author, Licensor and/or Attribution Parties, as appropriate, of You or Your use of the Work, without the separate, express prior written permission of the Original Author, Licensor and/or Attribution Parties.",
+    "解释": "许可证不授予商标权，并明确禁止在使用作品时暗示与原作者、许可方或署名方存在关联、赞助或认可关系；未经单独书面许可，不得使用相关名称或商标推广作品。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "You must keep intact all notices that refer to this License and to the disclaimer of warranties with every copy of the Work You Distribute or Publicly Perform. If You Distribute, or Publicly Perform the Work or Collections, You must, unless a request has been made pursuant to Section 4(a), keep intact all copyright notices for the Work.",
+    "解释": "许可证明确要求在分发或公开表演作品时保留所有提及本许可证和免责声明的通知，并保留作品中的版权声明；这些声明应随每份副本传递。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "LICENSOR OFFERS THE WORK AS-IS AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE WORK... IN NO EVENT WILL LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES ARISING OUT OF THIS LICENSE OR THE USE OF THE WORK...",
+    "解释": "许可证第5条和第6条明确按原样提供作品，不提供任何明示、默示或法定担保，并排除许可方就使用作品所产生的损害承担责任，因此被授权人无权就质量问题或损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "You may not offer or impose any terms on the Work that restrict the terms of this License or the ability of the recipient of the Work to exercise the rights granted to that recipient under the terms of the License. You may not impose any effective technological measures on the Work that restrict the ability of a recipient of the Work from You to exercise the rights granted to that recipient under the terms of the License.",
+    "解释": "第4(a)条明确禁止被授权人在分发或公开表演时对作品施加限制原许可条款的额外条件，也禁止施加限制接收者行使权利的技术措施，因此无权附加超出原许可的额外约束。"
+  }
+]

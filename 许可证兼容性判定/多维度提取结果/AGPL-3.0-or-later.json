@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "You may charge any price or no price for each copy that you convey, and you may offer support or warranty protection for a fee.",
+    "解释": "许可证明确允许为分发副本收费，也可以提供付费支持或担保，因此商业使用是被允许的。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "You may make, run and propagate covered works that you do not convey, without conditions so long as your license otherwise remains in force.",
+    "解释": "许可证明确允许在不对外分发（convey）的情况下制作、运行和传播作品，因此内部修改和使用不触发源码公开义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may convey verbatim copies of the Program's source code as you receive it, in any medium",
+    "解释": "许可证允许以任何媒介分发源代码的逐字副本，但分发时必须满足相应条件，例如保留版权声明、提供许可证副本等。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "You must license the entire work, as a whole, under this License to anyone who comes into possession of a copy. This License will therefore apply, along with any applicable section 7 additional terms, to the whole of the work, and all its parts, regardless of how they are packaged.",
+    "解释": "允许修改和合并代码，但衍生作品作为整体必须以 AGPLv3 许可发布，具有强传染性；独立聚合（aggregate）不受传染。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "模糊",
+    "原文": "Corresponding Source includes interface definition files associated with source files for the work, and the source code for shared libraries and dynamically linked subprograms that the work is specifically designed to require, such as by intimate data communication or control flow between those subprograms and other parts of the work.",
+    "解释": "许可证要求对应源码包含与作品紧密集成的共享库和动态链接子程序源码，但未明确区分静态链接与动态链接的传染边界，因此链接场景下的传染范围存在模糊。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contents of its contributor version.",
+    "解释": "许可证明确授予用户非独占、全球、免版税的专利许可，覆盖贡献者的必要专利权利要求；同时第 8 条在许可终止时也终止专利许可。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "Sublicensing is not allowed; section 10 makes it unnecessary.",
+    "解释": "许可证明确禁止再许可，即不能以其他许可证再分发代码；下游接收者会自动从原始许可人处获得本许可证项下的授权。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "明确允许",
+    "原文": "Notwithstanding any other provision of this License, if you modify the Program, your modified version must prominently offer all users interacting with it remotely through a computer network (if your version supports such interaction) an opportunity to receive the Corresponding Source of your version by providing access to the Corresponding Source from a network server at no charge, through some standard or customary means of facilitating copying of software.",
+    "解释": "AGPLv3 明确要求：如果修改版支持远程网络交互，则必须向所有远程交互用户无偿提供对应源码。这使网络服务场景触发源代码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "AGPLv3 没有要求单独保留或传递 NOTICE 文件；版权声明、许可证文本和免责声明的保留义务由第 4、5、12 等维度覆盖。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "You may convey a covered work in object code form under the terms of sections 4 and 5, provided that you also convey the machine-readable Corresponding Source under the terms of this License, in one of these ways:",
+    "解释": "分发目标代码时，必须同时按第 6 条规定的方式提供机器可读的对应源码，例如随附物理介质、提供至少三年有效的书面承诺或网络下载等。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未授予任何商标、商号或服务标记的使用权，也未明确禁止商标使用；商标问题不在此许可证条款范围内。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "conspicuously and appropriately publish on each copy an appropriate copyright notice; keep intact all notices stating that this License and any non-permissive terms added in accord with section 7 apply to the code; keep intact all notices of the absence of any warranty; and give all recipients a copy of this License along with the Program.",
+    "解释": "分发时必须显著保留版权声明、本许可证及第 7 条附加条款相关通知、无担保声明，并向每个接收者提供许可证副本。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.",
+    "解释": "许可证明确排除任何明示或默示担保，程序按现状提供，用户自行承担质量和性能风险，不能向版权方追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "You may not impose any further restrictions on the exercise of the rights granted or affirmed under this License.",
+    "解释": "许可证明确禁止对本许可证授予的权利施加额外限制，例如收取权利行使费、提起专利侵权诉讼等。"
+  }
+]

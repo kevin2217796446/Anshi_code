@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "You may charge a reasonable copying fee for any distribution of this Package. You may charge any fee you choose for support of this Package. You may not charge a fee for this Package itself. However, you may distribute this Package in aggregate with other (possibly commercial) programs as part of a larger (possibly commercial) software distribution provided that you do not advertise this Package as a product of your own.",
+    "解释": "许可证允许将本包用于商业目的，包括收取合理的复制费、支持费以及在更大的商业软件发行版中随其他程序聚合分发；但不得对本包本身收费，也不得将其宣传为自己的产品。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "You may otherwise modify your copy of this Package in any way, provided that you insert a prominent notice in each changed file stating how and when you changed that file, and provided that you do at least ONE of the following: ... b) use the modified Package only within your corporation or organization.",
+    "解释": "许可证明确允许在组织内部使用修改后的版本，只需满足修改提示义务并选择仅内部使用这一选项，不会触发源代码公开义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may make and give away verbatim copies of the source form of the Standard Version of this Package without restriction, provided that you duplicate all of the original copyright notices and associated disclaimers. You may distribute the programs of this Package in object code or executable form, provided that you do at least ONE of the following: ...",
+    "解释": "允许向第三方分发源代码、目标码或可执行形式；源码分发需保留版权声明和免责声明，目标码或可执行文件分发需满足第4条中至少一项条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "You may otherwise modify your copy of this Package in any way, provided that you insert a prominent notice in each changed file stating how and when you changed that file, and provided that you do at least ONE of the following: a) place your modifications in the Public Domain or otherwise make them Freely Available ... c) rename any non-standard executables ... d) make other distribution arrangements with the Copyright Holder.",
+    "解释": "许可证允许修改代码并按指定条件分发，没有要求整个衍生作品必须以相同许可证发布，因此不具强传染性；但修改后的分发仍须遵守第3条和第4条的条件。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "明确允许",
+    "原文": "You may embed this Package's interpreter within an executable of yours (by linking); this shall be construed as a mere form of aggregation, provided that the complete Standard Version of the interpreter is so embedded. C subroutines ... supplied by you and linked into this Package ... shall not be considered part of this Package, but are the equivalent of input as in Paragraph 6 ...",
+    "解释": "许可证明确将链接、嵌入和聚合视为非衍生方式，不要求自有代码因链接而开源，因此链接级不传染。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证完全未提及专利授权、专利许可或专利反诉终止机制，因此该维度不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "模糊",
+    "原文": "\"Freely Available\" means that no fee is charged for the item itself, though there may be fees involved in handling the item. It also means that recipients of the item may redistribute it under the same conditions they received it.",
+    "解释": "许可证未明确允许或禁止以其他许可证再分发整个包；但“Freely Available”要求接收者按相同条件再分发，而第3条(a)又允许将修改置于公共领域，因此是否能变更许可证存在多种解读。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS 或通过网络与用户交互是否构成分发或触发源码公开义务，因此该维度不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求保留原始版权声明和免责声明，没有提及 NOTICE 文件或任何额外归属声明义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "You may distribute the programs of this Package in object code or executable form, provided that you do at least ONE of the following: a) distribute a Standard Version of the executables and library files, together with instructions ... on where to get the Standard Version. b) accompany the distribution with the machine-readable source of the Package with your modifications. c) give non-standard executables non-standard names, and clearly document the differences ... together with instructions on where to get the Standard Version. d) make other distribution arrangements with the Copyright Holder.",
+    "解释": "在分发目标码或可执行文件时，必须通过随附源码、提供标准版本获取指引或与版权持有人达成其他安排等方式公开或提供源代码。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "The name of the Copyright Holder may not be used to endorse or promote products derived from this software without specific prior written permission.",
+    "解释": "未经版权持有人事先书面许可，不得使用其名称背书或推广衍生作品，许可证不授予商标权。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "You may make and give away verbatim copies of the source form of the Standard Version of this Package without restriction, provided that you duplicate all of the original copyright notices and associated disclaimers.",
+    "解释": "分发时必须复制所有原始版权声明和关联免责声明，这是分发许可的条件；未保留声明则不符合原样分发的要求。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THIS PACKAGE IS PROVIDED \"AS IS\" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.",
+    "解释": "许可证明确按原样提供，排除一切明示或默示担保，被授权者无权就软件造成的损失向版权持有人追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证没有明确允许或禁止被授权者施加超出原始许可条款的额外限制，因此该维度不适用。"
+  }
+]

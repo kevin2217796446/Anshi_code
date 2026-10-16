@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "You may charge any price or no price for each copy that you convey, and you may offer support or warranty protection for a fee.",
+    "解释": "许可证明确允许对分发副本收费，可进行商业使用，无禁止商业使用的条款。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "You may make, run and propagate covered works that you do not convey, without conditions so long as your license otherwise remains in force.",
+    "解释": "许可证明确允许在不对外传播的情况下制作、运行和传播受保护作品，内部修改使用不触发开源公开义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may convey verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice; keep intact all notices stating that this License and any non-permissive terms added in accord with section 7 apply to the code; keep intact all notices of the absence of any warranty; and give all recipients a copy of this License along with the Program.",
+    "解释": "允许将源码逐字副本分发至第三方，但需在每个副本上显著发布版权声明、保留许可证与无保证声明，并向接收者提供许可证副本。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "If you modify a copy of the Library, and, in your modifications, a facility refers to a function or data to be supplied by an Application that uses the facility (other than as an argument passed when the facility is invoked), then you may convey a copy of the modified version: a) under this License, provided that you make a good faith effort to ensure that, in the event an Application does not supply the function or data, the facility still operates, and performs whatever part of its purpose remains meaningful, or b) under the GNU GPL, with none of the additional permissions of this License applicable to that copy.",
+    "解释": "修改库本身后的分发只能在本许可证或GPL下进行，不得以其他专有许可证发布修改版；但LGPL对库与应用结合形成Combined Work的条款在链接级传染性中处理。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "明确允许",
+    "原文": "You may convey a Combined Work under terms of your choice that, taken together, effectively do not restrict modification of the portions of the Library contained in the Combined Work and reverse engineering for debugging such modifications, if you also do each of the following:",
+    "解释": "允许将应用与库链接或合并后的Combined Work以自选条款分发，不要求应用本身开源，但必须满足不限制库修改、反向工程及提供再链接条件等。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contents of its contributor version.",
+    "解释": "许可证明确授予用户非独占、全球、免版税的专利许可；同时第10条禁止因专利侵权提起诉讼，违反将依第8条终止包括专利授权在内的权利。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "Sublicensing is not allowed; section 10 makes it unnecessary.",
+    "解释": "禁止对受保护作品进行再许可或改以其他许可证重新分发；LGPL仅允许Combined Work整体按自选条款分发，不改变库本身的许可。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "明确允许",
+    "原文": "Mere interaction with a user through a computer network, with no transfer of a copy, is not conveying.",
+    "解释": "许可证明确网络交互在无副本转移时不构成conveying，因此单纯以SaaS形式提供通常不触发源码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证没有要求保留或传递NOTICE文件，相关归属义务仅限于保留版权声明、许可证文本和必要法律通知。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "You may convey a covered work in object code form under the terms of sections 4 and 5, provided that you also convey the machine-readable Corresponding Source under the terms of this License, in one of these ways:",
+    "解释": "以目标代码形式分发时必须按第6节规定的方式提供机器可读的Corresponding Source，包括物理介质、书面要约或网络访问等。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "模糊",
+    "原文": "Declining to grant rights under trademark law for use of some trade names, trademarks, or service marks; or",
+    "解释": "许可证未直接授予商标使用权，但第7条允许版权所有者附加条款拒绝授予商品名称、商标或服务标志的权利；是否默认禁止使用不够清晰。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "You may convey verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice; keep intact all notices stating that this License and any non-permissive terms added in accord with section 7 apply to the code; keep intact all notices of the absence of any warranty; and give all recipients a copy of this License along with the Program.",
+    "解释": "分发时必须显眼发布版权声明，保留许可证及无保证声明，并将许可证副本一并提供给接收者；修改版本还需声明修改。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES",
+    "解释": "许可证在适用法律允许范围内明确排除担保，版权持有人对损害不承担责任，用户无权就质量问题向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "You may not impose any further restrictions on the exercise of the rights granted or affirmed under this License.",
+    "解释": "除第7条列明的特定附加条款外，禁止对下游施加超出本许可证的额外限制或费用。"
+  }
+]

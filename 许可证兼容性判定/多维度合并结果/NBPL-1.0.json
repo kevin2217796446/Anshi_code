@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "You may charge a reasonable copying fee for any distribution of this Package. You may charge any fee you choose for support of this Package. You may not charge a fee for this Package itself. However, you may distribute this Package in aggregate with other (possibly commercial) programs as part of a larger (possibly commercial) software distribution provided that you do not advertise this Package as a product of your own.",
+    "解释": "许可证允许通过复制收费、支持收费，并允许将本包与其他可能商业化的软件一起聚合分发，但不允许对本包本身收费或将其宣称为自有产品。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "b) use the modified Package only within your corporation or organization.",
+    "解释": "许可证明确允许将修改版仅限公司或组织内部使用，该选择不会触发源码公开义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may make and give away verbatim copies of the source form of the Standard Version of this Package without restriction, provided that you duplicate all of the original copyright notices and associated disclaimers.",
+    "解释": "许可证允许不受限制地分发标准版源代码副本，但必须保留原始版权声明和相关免责声明；目标码或可执行形式的分发在第4条另有条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "模糊",
+    "原文": "You may otherwise modify your copy of this Package in any way, provided that you insert a prominent notice in each changed file stating how and when you changed that file, and provided that you do at least ONE of the following: a) place your modifications in the Public Domain or otherwise make them Freely Available ... b) use the modified Package only within your corporation or organization. c) rename any non-standard executables so the names do not conflict with standard executables, which must also be provided, and provide a separate manual page for each non-standard executable that clearly documents how it differs from the Standard Version. d) make other distribution arrangements with the Copyright Holder.",
+    "解释": "许可证允许修改，但为修改后的分发设定了多个可选条件，并未明确要求衍生作品必须按同一许可证发布，也未明确允许衍生作品自由选择许可证，因此传染性不够清晰。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "明确允许",
+    "原文": "C subroutines supplied by you and linked into this Package in order to emulate subroutines and variables of the language defined by this Package shall not be considered part of this Package, but are the equivalent of input as in Paragraph 6, provided these subroutines do not change the language in any way that would cause it to fail the regression tests for the language.",
+    "解释": "许可证明确表示，为模拟本包所定义语言而链接的C子程序在满足不改变语言、不导致回归测试失败的条件下，不被视为本包的一部分，不产生传染性。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及专利授权、专利许可或专利反诉终止机制，因此该维度不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确授予以不同许可证再分发代码的权利，也未明确禁止更改许可证，因此该维度不适用。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS或通过网络交互是否触发源码公开义务，未将网络交互视为分发行为。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求复制原始版权声明和免责声明，未提及NOTICE文件或额外的归属声明传递义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "You may distribute the programs of this Package in object code or executable form, provided that you do at least ONE of the following: a) distribute a Standard Version of the executables and library files, together with instructions (in the manual page or equivalent) on where to get the Standard Version. b) accompany the distribution with the machine-readable source of the Package with your modifications. c) accompany any non-standard executables with their corresponding Standard Version executables, giving the non-standard executables non-standard names, and clearly documenting the differences in manual pages (or equivalent), together with instructions on where to get the Standard Version. d) make other distribution arrangements with the Copyright Holder.",
+    "解释": "以目标码或可执行形式分发时，必须至少满足一种源码提供或标准版获取安排：随附机器可读源码、提供标准版及获取说明、或与版权持有人另有安排。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "The name of the Copyright Holder may not be used to endorse or promote products derived from this software without specific prior written permission.",
+    "解释": "许可证不授予商标或名称使用权；未经事先书面许可，不得使用版权持有人名称背书或推广衍生产品。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "You may make and give away verbatim copies of the source form of the Standard Version of this Package without restriction, provided that you duplicate all of the original copyright notices and associated disclaimers.",
+    "解释": "分发标准版源码副本时，必须复制并保留所有原始版权声明和相关免责声明。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THIS PACKAGE IS PROVIDED \"AS IS\" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.",
+    "解释": "许可证明确排除所有明示或默示担保，版权持有人不承担质量保证责任，被授权者无权就软件造成的损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及被许可方是否有权对软件施加超出原有许可条款的额外约束，因此该维度不适用。"
+  }
+]

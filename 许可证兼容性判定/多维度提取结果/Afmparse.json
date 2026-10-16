@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "This file may be freely copied and redistributed as long as:",
+    "解释": "许可证明确允许自由复制和再分发，不禁止商业目的使用，因此商业使用被允许。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅涉及文件的复制和再分发，未提及内部使用，内部使用不属于分发行为，因此不适用。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "This file may be freely copied and redistributed as long as: 1) This entire notice continues to be included in the file, 2) If the file has been modified in any way, a notice of such modification is conspicuously indicated.",
+    "解释": "许可证允许将代码分发给第三方，但需满足两个条件：保留完整通知和显著标示修改。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "If the file has been modified in any way, a notice of such modification is conspicuously indicated.",
+    "解释": "许可证允许修改文件，但仅要求显著标示修改，不要求衍生作品以相同许可证发布，无强传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接或导入机制，因此不涉及链接级传染性。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及任何专利授权或专利反诉终止机制，因此不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "模糊",
+    "原文": "This entire notice continues to be included in the file",
+    "解释": "许可证要求保留完整原始通知，但未明确是否允许以其他许可证再分发，也未明确禁止变更许可证，存在多种解读。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务或SaaS形式，也未将网络交互视为分发行为。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求保留文件内的完整通知，未提及额外的NOTICE文件义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未规定分发时必须提供源代码或公开源码，仅要求保留通知和标示修改。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "模糊",
+    "原文": "PostScript, Display PostScript, and Adobe are registered trademarks of Adobe Systems Incorporated.",
+    "解释": "许可证仅声明商标归属，未明确是否授予商标使用权，也未明确禁止使用，因此存在模糊性。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "This entire notice continues to be included in the file, THE INFORMATION BELOW IS FURNISHED AS IS... EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES OF MERCHANTABILITY, FITNESS FOR PARTICULAR PURPOSES AND NONINFRINGEMENT OF THIRD PARTY RIGHTS.",
+    "解释": "分发时必须完整保留版权声明、许可证文本和免责声明，且位于文件中，以履行该义务。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "ADOBE SYSTEMS INCORPORATED ASSUMES NO RESPONSIBILITY OR LIABILITY FOR ANY ERRORS OR INACCURACIES, MAKES NO WARRANTY OF ANY KIND... EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES",
+    "解释": "许可证明确排除所有明示、暗示或法定的担保，所有者不承担任何责任，因此被授权者无权就损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及用户是否有权施加超出原有许可条款的额外约束，因此不适用。"
+  }
+]

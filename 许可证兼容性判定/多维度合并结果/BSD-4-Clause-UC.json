@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+    "解释": "许可证明确允许将软件及其修改版本用于商业目的，未设置禁止商业使用的限制，仅需满足后续列出的条件。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+    "解释": "许可证明确允许在个人或组织内部修改并使用源代码，内部使用不会触发源代码公开义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+    "解释": "许可证明确允许将源代码和二进制形式分发给第三方，前提是满足后续关于版权声明、免责声明、广告致谢和名称使用的条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+    "解释": "许可证允许修改源代码并与自有代码合并后分发；未要求衍生作品以相同许可证发布，因此不具有代码级强传染性，可在满足保留声明等条件的情况下选择其他许可证。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接或库的使用，也未规定链接代码的开源义务，因此该维度不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未包含任何专利授权、专利不侵权声明或专利反诉终止条款。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "模糊",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.",
+    "解释": "许可证允许再分发并要求保留原许可声明，但未明确授予将代码以其他许可证再许可的权利，也未明确禁止；派生作品是否可更换许可证存在解读空间。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS模式或交互式网络使用，也未将网络交互视为分发或触发源代码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "All advertising materials mentioning features or use of this software must display the following acknowledgement: This product includes software developed by the University of California, Berkeley and its contributors.",
+    "解释": "许可证包含额外的归属义务：所有提及本软件特性或使用的广告材料必须显示指定致谢声明。该条款并非典型的NOTICE文件要求，但构成额外归属义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未要求分发时提供源代码，也未规定提供源代码的形式或触发条件；仅要求按条件保留版权和免责声明。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "Neither the name of the University nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.",
+    "解释": "未经事先书面许可，不得使用加利福尼亚大学或其贡献者的名称来认可或推广衍生产品，许可证不授予商标或名称使用权。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.",
+    "解释": "分发源代码时必须保留版权声明、条件列表和免责声明；分发二进制形式时必须在随附文档或材料中复制上述内容。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ''AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES...",
+    "解释": "软件按“原样”提供，不提供任何明示或默示担保，贡献者不对任何损害承担责任，被授权者无权就软件损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确允许或禁止用户对软件施加超出原有许可条款的额外限制，仅列出必须满足的条件。"
+  }
+]

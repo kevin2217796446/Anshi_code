@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "\"Freely Available\" means that you have the freedom to copy or modify the Font as well as redistribute copies of the Font under the same conditions you received, not price. If you wish, you can charge for this service.",
+    "解释": "许可证允许商业使用和收费服务，未禁止将字体或其衍生品用于商业目的。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "You may otherwise modify your copy of this Font in any way, including modifying glyph, reordering glyph, converting format, changing font name, or adding/deleting some characters in/from glyph table",
+    "解释": "允许个人或组织在内部修改自有副本并使用；公开义务仅在复制或分发修改作品时触发。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may copy and distribute verbatim copies of this Font in any medium, without restriction, provided that you retain this license file (ARPHICPL.TXT) unaltered in all copies.",
+    "解释": "允许在任何媒介中分发字体的原样副本，前提是保留许可证文件不变。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "You must make such modifications Freely Available as a whole to all third parties under the terms of this License, such as by offering access to copy the modifications from a designated place, or distributing the modifications on a medium customarily used for software interchange. These requirements apply to the modified work as a whole.",
+    "解释": "允许修改、合并并分发修改作品，但修改作品整体必须以本许可证条款向第三方提供；独立且非衍生的部分在单独分发时不受本许可证约束，体现出对修改作品整体有传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证针对字体而非软件库，未使用或定义静态链接、动态链接、导入等机制，因此链接级传染性问题不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证中提及专利冲突可能阻止分发，但未明确授予专利权利，也未设定专利反诉终止机制。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "You may not copy, modify, sublicense, or distribute the Font except as expressly provided under this License.",
+    "解释": "只能在许可证明确允许的范围内复制、修改、再许可或分发字体，不能以其他许可证再许可或变更许可证条款。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS或通过网络与用户交互是否触发源代码公开义务，该维度在此许可证中不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "provided that you retain this license file (ARPHICPL.TXT) unaltered in all copies. You must insert a prominent notice in each modified file stating how and when you changed that file.",
+    "解释": "除版权声明外，还有额外归属义务：必须保留 ARPHICPL.TXT 许可证文件，并在每个修改文件中加入显著的修改说明。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "You must make such modifications Freely Available as a whole to all third parties under the terms of this License, such as by offering access to copy the modifications from a designated place, or distributing the modifications on a medium customarily used for software interchange.",
+    "解释": "当分发修改作品时，必须使修改内容以本许可证条款向第三方公开，可通过指定地点提供访问或用通常软件交换媒介分发。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及商标权、项目名称、Logo或相关标识的授权，因此商标使用维度不适用。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "You must cause it, when started running for such interactive use in the most ordinary way, to print or display an announcement including an appropriate copyright notice and a notice that there is no warranty (or else, saying that you provide a warranty) and that users may redistribute the Font under these conditions, and telling the user how to view a copy of this License.",
+    "解释": "分发时须保留许可证文本；对交互式运行的修改字体，还须显示版权声明、无保证声明以及查看许可证的方式。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "BECAUSE THE FONT IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE FONT, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS OR OTHER PARTIES PROVIDE THE FONT \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT WILL ANY COPYRIGHTT HOLDERS, OR OTHER PARTIES WHO MAY COPY, MODIFY OR REDISTRIBUTE THE FONT AS PERMITTED ABOVE, BE LIABLE TO YOU FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL, INCIDENTAL, SPECIAL OR EXEMPLARY DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE FONT (INCLUDING BUT NOT LIMITED TO PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA OR PROFITS; OR BUSINESS INTERRUPTION), EVEN IF SUCH HOLDERS OR OTHER PARTIES HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+    "解释": "字体按现状提供且无质量保证，版权持有人及其他分发者对使用或无法使用字体造成的直接、间接等损失不承担责任，除非适用法律或书面约定另有要求。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "You may not impose any further restrictions on the recipients' exercise of the rights granted herein.",
+    "解释": "用户不得对下游接收者行使本许可证授予的权利施加超出许可证条款的额外限制。"
+  }
+]

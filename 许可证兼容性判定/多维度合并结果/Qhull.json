@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "It may be freely copied, modified, and redistributed under the following conditions:",
+    "解释": "许可证明确允许将代码用于任何目的，包括商业用途，未设置禁止商业使用的条款。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "It may be freely copied, modified, and redistributed under the following conditions:",
+    "解释": "许可证允许在组织内部复制和修改代码；内部使用不触发源代码公开义务，但修改Qhull时需按第3条在文件中加入修改者姓名、日期和原因的通知。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "It may be freely copied, modified, and redistributed under the following conditions:",
+    "解释": "许可证明确允许再分发代码，但需满足保留版权声明、随分发附上本许可文本、修改时加入修改通知以及提供原始源码获取通知等条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "A copy of this text file must be distributed along with any copies of Qhull that you redistribute; this includes copies that you have modified, or copies of programs or other software products that include Qhull.",
+    "解释": "许可证允许修改Qhull并将其合并到其他程序中分发，不要求整个衍生作品以相同许可证发布；仅要求随分发附上本许可文本并保留相关通知，因此无强传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "明确允许",
+    "原文": "When distributing modified versions of Qhull, or other software products that include Qhull, you must provide notice that the original source code may be obtained as noted above.",
+    "解释": "许可证允许将Qhull作为库纳入其他软件产品（包括链接场景）并分发，不要求自有代码开源，只需提供原始源码获取通知。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证文本未提及专利授权、专利反诉或专利终止机制，因此该维度不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "模糊",
+    "原文": "A copy of this text file must be distributed along with any copies of Qhull that you redistribute; this includes copies that you have modified, or copies of programs or other software products that include Qhull.",
+    "解释": "许可证要求所有再分发必须附上本许可文本，但未明确是否允许以其他许可证再分发代码，也未明确禁止更改许可条款，因此再许可权限存在模糊。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及SaaS、网络服务或网络交互是否构成分发，也未规定相关源代码公开义务，因此该维度不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "All copyright notices must remain intact in all files. A copy of this text file must be distributed along with any copies of Qhull that you redistribute; this includes copies that you have modified, or copies of programs or other software products that include Qhull. If you modify Qhull, you must include a notice giving the name of the person performing the modification, the date of modification, and the reason for such modification.",
+    "解释": "除保留版权声明外，许可证还要求随分发附上本许可文本，并对修改行为要求加入修改者姓名、日期和原因的通知，构成额外的归属义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "When distributing modified versions of Qhull, or other software products that include Qhull, you must provide notice that the original source code may be obtained as noted above.",
+    "解释": "分发修改版或包含Qhull的软件产品时，必须提供原始源码获取方式的通知；许可证不强制随分发附上源码，但允许以通知方式满足公开义务。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未授予任何商标权，也未提及项目名称、Logo等商标的使用限制或授权。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "All copyright notices must remain intact in all files. A copy of this text file must be distributed along with any copies of Qhull that you redistribute; this includes copies that you have modified, or copies of programs or other software products that include Qhull.",
+    "解释": "分发时必须保留所有文件中的版权声明，并随分发附上本许可文本，确保版权和许可证信息一并传递。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "There is no warranty or other guarantee of fitness for Qhull, it is provided solely \"as is\".",
+    "解释": "许可证明确不提供任何质量保证或适用性担保，软件按“现状”提供，用户无权因质量问题向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及用户是否有权施加额外约束，未对超出许可证条款的限制作出规定，因此该维度不适用。"
+  }
+]

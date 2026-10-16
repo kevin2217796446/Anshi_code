@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "You may charge a fee for the physical act of transferring a copy, and you may at your option offer warranty protection in exchange for a fee.",
+    "解释": "许可证明确允许对分发副本收取费用，也允许提供付费保修服务，因此商业使用被允许。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Activities other than copying, distribution and modification are not covered by this License; they are outside its scope. The act of running a program using the Library is not restricted, and output from such a program is covered only if its contents constitute a work based on the Library...",
+    "解释": "运行使用库的程序不受许可证限制；在内部修改副本本身也被允许，只有分发修改作品时才需满足第2条等义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may copy and distribute verbatim copies of the Library's complete source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this License and to the absence of any warranty; and distribute a copy of this License along with the Library.",
+    "解释": "允许以源码或目标码形式向第三方分发，但须附带版权声明、免责声明和许可证副本，并满足后续源码公开等条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "You may modify your copy or copies of the Library or any portion of it, thus forming a work based on the Library, and copy and distribute such modifications or work under the terms of Section 1 above, provided that you also meet all of these conditions: ... c) You must cause the whole of the work to be licensed at no charge to all third parties under the terms of this License.",
+    "解释": "允许修改和合并，但修改后的作品必须作为软件库并按本许可证无偿许可；整体属于基于库的衍生作品时需以LGPL发布，独立可分离部分可不受本许可约束。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "明确允许",
+    "原文": "As an exception to the Sections above, you may also combine or link a \"work that uses the Library\" with the Library to produce a work containing portions of the Library, and distribute that work under terms of your choice, provided that the terms permit modification of the work for the customer's own use and reverse engineering for debugging such modifications.",
+    "解释": "允许将“使用库的作品”与库链接，并以自选条款分发整体作品，而不要求自有代码以LGPL发布，但必须满足允许用户修改和反向工程调试等条件。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证没有明确授予使用相关专利的权利，也没有专利反诉终止机制；第11条仅在专利许可条件与许可证冲突时限制分发，并非专利授权条款。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "You may opt to apply the terms of the ordinary GNU General Public License instead of this License to a given copy of the Library. ... You may not copy, modify, sublicense, link with, or distribute the Library except as expressly provided under this License.",
+    "解释": "仅允许在明确规定的第3条下将许可变更为GPL；其他情况下不得再许可或更改许可证条件。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证没有将通过网络提供软件服务视为分发，也没有针对SaaS场景的源代码公开义务；网络交互条款不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及NOTICE文件或额外的归属文件义务；仅要求保留版权声明、变更声明和许可证文本。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "You may copy and distribute the Library (or a portion or derivative of it, under Section 2) in object code or executable form under the terms of Sections 1 and 2 above provided that you accompany it with the complete corresponding machine-readable source code, which must be distributed under the terms of Sections 1 and 2 above on a medium customarily used for software interchange.",
+    "解释": "以目标码或可执行形式分发时，必须伴随完整的机器可读源代码，或以等效访问方式提供源代码；这是分发的触发条件。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证没有授予使用作者商标、项目名称或Logo的权利，也没有提及商标条款。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this License and to the absence of any warranty; and distribute a copy of this License along with the Library.",
+    "解释": "分发时必须显著保留版权声明、免责声明和所有提及本许可证的声明，并随库分发许可证副本。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE LIBRARY AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES...",
+    "解释": "许可证明确排除质量保证和责任承担，软件按“原样”提供，用户不能就损失向版权人或分发者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "You may not impose any further restrictions on the recipients' exercise of the rights granted herein.",
+    "解释": "禁止被许可人对下游接收者施加超出本许可证条款的额外限制。"
+  }
+]

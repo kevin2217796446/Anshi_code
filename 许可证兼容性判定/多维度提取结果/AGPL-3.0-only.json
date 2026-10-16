@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "You may charge any price or no price for each copy that you convey, and you may offer support or warranty protection for a fee.",
+    "解释": "许可证明确允许以任何价格或免费分发副本，并可为副本提供付费支持或担保，因此商业使用被明确允许。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "You may make, run and propagate covered works that you do not convey, without conditions so long as your license otherwise remains in force.",
+    "解释": "许可证明确允许在组织内部制作、运行和传播未向第三方传送的涵盖作品，且不附加条件；但若提供远程网络交互，则需遵守第13条源码提供义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may convey verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice; keep intact all notices stating that this License and any non-permissive terms added in accord with section 7 apply to the code; keep intact all notices of the absence of any warranty; and give all recipients a copy of this License along with the Program.",
+    "解释": "允许将源代码按原样分发给第三方，但须保留版权声明、许可证通知、无担保声明并向接收者提供许可证副本；修改版和目标代码的分发也有对应条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确禁止",
+    "原文": "You must license the entire work, as a whole, under this License to anyone who comes into possession of a copy. This License will therefore apply, along with any applicable section 7 additional terms, to the whole of the work, and all its parts, regardless of how they are packaged. This License gives no permission to license the work in any other way, but it does not invalidate such permission if you have separately received it.",
+    "解释": "AGPL允许修改和合并，但明确要求整个衍生作品整体按本许可证许可，不允许以其他许可证许可整个作品，因此具有强代码级传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "模糊",
+    "原文": "Corresponding Source includes interface definition files associated with source files for the work, and the source code for shared libraries and dynamically linked subprograms that the work is specifically designed to require, such as by intimate data communication or control flow between those subprograms and other parts of the work.",
+    "解释": "许可证将动态链接子程序的源码纳入Corresponding Source，但未明确静态链接或动态链接是否使自有代码整体受AGPL传染；因此链接级传染性存在多种解读。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contents of its contributor version.",
+    "解释": "许可证明确授予非排他、全球、免版税的专利许可。第8条终止条款涵盖专利许可，第10条禁止就程序提起专利侵权诉讼，但未设置典型的对贡献者发起专利诉讼即自动终止专利授权的专门反诉终止机制。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "Sublicensing is not allowed; section 10 makes it unnecessary. This License gives no permission to license the work in any other way, but it does not invalidate such permission if you have separately received it.",
+    "解释": "许可证明确禁止分许可；除已另行获得的许可外，不允许以其他许可证许可整个作品，因此不能变更许可证进行再许可。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "明确禁止",
+    "原文": "Notwithstanding any other provision of this License, if you modify the Program, your modified version must prominently offer all users interacting with it remotely through a computer network ... an opportunity to receive the Corresponding Source of your version by providing access to the Corresponding Source from a network server at no charge, through some standard or customary means of facilitating copying of software.",
+    "解释": "AGPL明确要求：如果修改版支持远程网络交互，必须向所有远程交互用户免费提供Corresponding Source；提供网络服务而不提供源码是被禁止的。它未将网络交互视为分发，但单独设定了源码提供义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未要求保留或传递独立的NOTICE文件。其归属义务主要体现在保留版权声明、许可证文本和无担保声明，并未设置Apache风格NOTICE文件义务，因此此维度不适用。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确禁止",
+    "原文": "You may convey a covered work in object code form under the terms of sections 4 and 5, provided that you also convey the machine-readable Corresponding Source under the terms of this License, in one of these ways:",
+    "解释": "分发目标代码形式时，必须以第6条规定的方式之一提供机器可读的Corresponding Source（如随附源码、书面承诺至少三年有效、网络服务器访问等）。未提供源码而分发目标代码是被禁止的。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "模糊",
+    "原文": "Declining to grant rights under trademark law for use of some trade names, trademarks, or service marks;",
+    "解释": "AGPL未授予用户使用原作者商标、商标名称或服务标记的明确权利。第7条e允许版权所有者对特定材料附加拒绝授予商标权的条款，但并未明确全面禁止商标使用，因此状态模糊。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确禁止",
+    "原文": "You may convey verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice; keep intact all notices stating that this License and any non-permissive terms added in accord with section 7 apply to the code; keep intact all notices of the absence of any warranty; and give all recipients a copy of this License along with the Program.",
+    "解释": "分发时必须显著保留版权声明、保留本许可证及依据第7条添加的非许可性条款的通知、保留无担保声明，并向接收者提供许可证副本。不满足这些声明要求而分发是被禁止的。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. ... IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES...",
+    "解释": "许可证明确排除任何担保（在适用法律允许范围内），并限制版权所有者及修改/分发者的赔偿责任；被授权者承担质量风险，无权就软件缺陷或使用造成的损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "You may not impose any further restrictions on the exercise of the rights granted or affirmed under this License.",
+    "解释": "许可证明确禁止用户在行使本许可证授予的权利时施加任何进一步限制；仅第7条允许在自行添加的材料上附加特定条款，但不得超出许可证范围。"
+  }
+]

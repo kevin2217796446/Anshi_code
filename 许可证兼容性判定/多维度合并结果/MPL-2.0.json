@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "under intellectual property rights (other than patent or trademark) Licensable by such Contributor to use, reproduce, make available, modify, display, perform, distribute, and otherwise exploit its Contributions, either on an unmodified basis, with Modifications, or as part of a Larger Work",
+    "解释": "许可证授予广泛的知识产权许可，包括使用、复制、分发和以其他方式利用贡献，未禁止商业用途，因此可用于商业目的。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "under intellectual property rights (other than patent or trademark) Licensable by such Contributor to use, reproduce, make available, modify, display, perform, distribute, and otherwise exploit its Contributions",
+    "解释": "许可证明确授予使用和修改代码的权利，仅需在分发时满足第3条的条件；内部使用不涉及分发，不会触发源代码公开义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "All distribution of Covered Software in Source Code Form, including any Modifications that You create or to which You contribute, must be under the terms of this License. If You distribute Covered Software in Executable Form then such Covered Software must also be made available in Source Code Form",
+    "解释": "允许向第三方分发代码，但分发源码形式必须按本许可证进行；分发可执行形式则必须同时提供源码，并遵守第3条的相关条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "All distribution of Covered Software in Source Code Form, including any Modifications that You create or to which You contribute, must be under the terms of this License. You may create and distribute a Larger Work under terms of Your choice, provided that You also comply with the requirements of this License for the Covered Software.",
+    "解释": "MPL 2.0 为文件级 copyleft：修改 Covered Software 的源码文件必须以 MPL 发布；但合并为 Larger Work 时，独立文件可按自选许可发布。传染性不要求整个衍生作品采用 MPL。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "明确允许",
+    "原文": "Larger Work means a work that combines Covered Software with other material, in a separate file or files, that is not Covered Software. You may create and distribute a Larger Work under terms of Your choice, provided that You also comply with the requirements of this License for the Covered Software.",
+    "解释": "只要 Covered Software 与其他代码保持独立文件，组合或链接构成的 Larger Work 可按自选条款分发，不要求链接的自有代码开源。许可证未区分静态与动态链接，以文件是否为 Covered Software 为准。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "under Patent Claims of such Contributor to make, use, sell, offer for sale, have made, import, and otherwise transfer either its Contributions or its Contributor Version. If You initiate litigation against any entity by asserting a patent infringement claim ... alleging that a Contributor Version directly or indirectly infringes any patent, then the rights granted to You ... shall terminate.",
+    "解释": "许可证明确授予贡献者专利权利要求范围内的专利实施权；但若你对 Contributor Version 提起专利侵权诉讼，则依据第5.2条所有贡献者授予的专利许可自动终止。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "You may distribute such Executable Form under the terms of this License, or sublicense it under different terms, provided that the license for the Executable Form does not attempt to limit or alter the recipients' rights in the Source Code Form under this License. this License permits You to additionally distribute such Covered Software under the terms of such Secondary License(s)",
+    "解释": "允许在特定条件下再许可：可执行形式可按不同条款再许可，但不得限制或改变源码形式权利；Larger Work 可按自选许可；特定情况下还可按 Secondary License 分发。源码形式本身仍须按 MPL 分发。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "MPL 2.0 未将网络服务、SaaS 或网络交互视为分发，也未规定通过网络提供服务会触发源代码公开义务；只有实际分发才触发第3条的源码提供义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "You may not remove or alter the substance of any license notices (including copyright notices, patent notices, disclaimers of warranty, or limitations of liability) contained within the Source Code Form of the Covered Software...",
+    "解释": "许可证明确要求保留源码内已有的版权、专利、免责声明和限制责任通知，但未要求单独的NOTICE文件。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "such Covered Software must also be made available in Source Code Form, as described in Section 3.1, and You must inform recipients of the Executable Form how they can obtain a copy of such Source Code Form by reasonable means in a timely manner, at a charge no more than the cost of distribution to the recipient",
+    "解释": "分发可执行形式时，必须使 Covered Software 以源码形式可获取，并告知接收者获取方式；获取应合理及时，收费不得超过分发成本。这是分发可执行形式的强制条件。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "This License does not grant any rights in the trademarks, service marks, or logos of any Contributor (except as may be necessary to comply with the notice requirements in Section 3.4).",
+    "解释": "许可证明确不授予任何贡献者的商标、服务标志或标识权利，除为遵守第3.4条通知要求所必需外，因此不得使用相关商标推广衍生作品。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "You may not remove or alter the substance of any license notices (including copyright notices, patent notices, disclaimers of warranty, or limitations of liability) contained within the Source Code Form of the Covered Software, except that You may alter any license notices to the extent required to remedy known factual inaccuracies.",
+    "解释": "分发源码形式时必须保留其中的许可通知、版权声明、专利声明、免责声明和责任限制，不得移除或实质更改；仅可修正已知事实错误。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "Covered Software is provided under this License on an as is basis, without warranty of any kind, either expressed, implied, or statutory, including, without limitation, warranties that the Covered Software is free of defects, merchantable, fit for a particular purpose or non-infringing. Under no circumstances and under no legal theory, whether tort (including negligence), contract, or otherwise, shall any Contributor ... be liable to You for any direct, indirect, special, incidental, or consequential damages",
+    "解释": "软件按现状提供，无任何明示或默示担保；贡献者对直接、间接、特殊、附带或后果性损害不承担责任，除非适用法律另有强制性规定。被授权者无权就质量问题向贡献者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确允许",
+    "原文": "You may choose to offer, and to charge a fee for, warranty, support, indemnity or liability obligations to one or more recipients of Covered Software. You may include additional disclaimers of warranty and limitations of liability specific to any jurisdiction. You may not attempt to alter or restrict the recipients' rights in the Source Code Form.",
+    "解释": "允许在分发时提供额外保修、支持、赔偿等义务并收费，也可增加特定法域的额外免责声明；但不得改变或限制接收者对源码形式所享有的本许可证权利。"
+  }
+]

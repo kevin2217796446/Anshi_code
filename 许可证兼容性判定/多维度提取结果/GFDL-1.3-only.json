@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "You may copy and distribute the Document in any medium, either commercially or noncommercially, provided that this License, the copyright notices, and the license notice saying this License applies to the Document are reproduced in all copies",
+    "解释": "许可证明确允许将文档及其副本用于商业目的，没有禁止商业使用的条款。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Such a notice grants a world-wide, royalty-free license, unlimited in duration, to use that work under the conditions stated herein.",
+    "解释": "许可证授予使用文档的权利，内部修改和使用不涉及分发，因此不触发第4节关于修改版本分发的开源义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may copy and distribute the Document in any medium, either commercially or noncommercially, provided that this License, the copyright notices, and the license notice saying this License applies to the Document are reproduced in all copies, and that you add no other conditions whatsoever to those of this License.",
+    "解释": "允许复制和分发文档，前提是保留许可证、版权声明和许可证通知，并且不得附加其他条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "You may copy and distribute a Modified Version of the Document under the conditions of sections 2 and 3 above, provided that you release the Modified Version under precisely this License, with the Modified Version filling the role of the Document",
+    "解释": "允许合并和修改文档，但衍生作品必须按照本许可证发布，属于强传染性要求。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "该许可证适用于文档而非软件代码，不涉及静态链接、动态链接或导入机制，因此链接级传染性维度不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证全文未提及专利授权或专利反诉终止机制，因此该维度不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "You may not copy, modify, sublicense, or distribute the Document except as expressly provided under this License.",
+    "解释": "许可证要求修改版本必须按照本许可证发布，不允许以其他许可证再分发或再许可，明确禁止更改许可证。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证适用于文档，未将网络交互或SaaS形式视为分发，也未规定网络服务下的源代码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "List on the Title Page, as authors, one or more persons or entities responsible for authorship of the modifications in the Modified Version, together with at least five of the principal authors of the Document (all of its principal authors, if it has fewer than five), unless they release you from this requirement.",
+    "解释": "许可证要求保留作者署名并列出主要作者，存在额外归属义务，但不涉及NOTICE文件概念。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "If you publish or distribute Opaque copies of the Document numbering more than 100, you must either include a machine-readable Transparent copy along with each Opaque copy, or state in or with each Opaque copy a computer-network location from which the general network-using public has access to download using public-standard network protocols a complete Transparent copy of the Document, free of added material.",
+    "解释": "分发超过100份不透明副本时，必须提供透明副本或提供网络下载位置，类似源代码公开义务。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "The author(s) and publisher(s) of the Document do not by this License give permission to use their names for publicity for or to assert or imply endorsement of any Modified Version.",
+    "解释": "许可证明确不授予使用作者或出版者姓名进行宣传或暗示认可的权利，因此商标/姓名使用权未被授予。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "You may copy and distribute the Document in any medium, either commercially or noncommercially, provided that this License, the copyright notices, and the license notice saying this License applies to the Document are reproduced in all copies",
+    "解释": "分发时必须保留许可证文本、版权声明和许可证通知，修改版本还需添加新的版权声明和许可证通知。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "模糊",
+    "原文": "The Document may include Warranty Disclaimers next to the notice which states that this License applies to the Document. These Warranty Disclaimers are considered to be included by reference in this License, but only as regards disclaiming warranties: any other implication that these Warranty Disclaimers may have is void and has no effect on the meaning of this License.",
+    "解释": "许可证本身未明确质量保证或责任追责条款，但允许文档包含免责声明并将其纳入许可证；是否追责取决于文档中的免责声明，因此不够清晰。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "and that you add no other conditions whatsoever to those of this License.",
+    "解释": "许可证明确禁止添加任何超出本许可证的额外限制。"
+  }
+]

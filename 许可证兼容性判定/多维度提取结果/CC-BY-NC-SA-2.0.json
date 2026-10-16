@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确禁止",
+    "原文": "Section 4(c) \"You may not exercise any of the rights granted to You in Section 3 above in any manner that is primarily intended for or directed toward commercial advantage or private monetary compensation.\"",
+    "解释": "许可证明确禁止将作品用于主要意图为商业利益或私人金钱补偿的用途，因此商业使用不被允许。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未涉及内部使用的规定，因为其条款主要针对复制、分发、公开表演/展示等版权行为，未就个人或组织内部修改后使用是否触发义务作出规定。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Section 3(c) \"to distribute copies or phonorecords of... the Work including as incorporated in Collective Works\"; Section 4(a) \"You may distribute... the Work only under the terms of this License...\"",
+    "解释": "许可证明确授予分发作品的权利，但分发必须遵守相同许可证条款并附带许可证文本等条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "Section 3(b) \"to create and reproduce Derivative Works\"; Section 4(b) \"You may distribute... a Derivative Work only under the terms of this License, a later version of this License with the same License Elements as this License, or a Creative Commons iCommons license that contains the same License Elements as this License...\"",
+    "解释": "许可证允许创作衍生作品，但衍生作品分发时必须使用相同许可证或包含相同许可证要素的后续版本，构成强传染性，不允许自由选择其他许可证。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接或库的使用，因为该许可证针对一般作品而非软件链接机制。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅涉及版权及相关权利，未授予任何专利权利，也没有专利反诉终止机制。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "Section 4(a) \"You may not sublicense the Work.\" Section 4(b) \"You may not offer or impose any terms on the Derivative Works that alter or restrict the terms of this License...\"",
+    "解释": "许可证明确禁止对作品进行再许可，并要求衍生作品按相同许可证分发，不允许更改许可证条款。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务或SaaS场景是否触发额外义务，因此不涉及网络服务与交互义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "Section 4(a) \"You must keep intact all notices that refer to this License and to the disclaimer of warranties.\" Section 4(d) \"You must keep intact all copyright notices for the Work and give the Original Author credit reasonable to the medium or means You are utilizing...\"",
+    "解释": "许可证明确要求保留所有版权声明、许可证相关通知和免责声明，并给予原作者署名，构成归属义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证不涉及源代码公开义务，其分发条款仅要求附带许可证文本、版权声明和署名，不要求提供源代码。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "Except for the limited purpose of indicating to the public that the Work is licensed under the CCPL, neither party will use the trademark \"Creative Commons\" or any related trademark or logo of Creative Commons without the prior written consent of Creative Commons.",
+    "解释": "许可证明确禁止未经事先书面同意使用Creative Commons商标，且未授予原作者商标权，仅允许为表明作品按CCPL许可而使用该商标。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "Section 4(a) \"You must include a copy of, or the Uniform Resource Identifier for, this License with every copy or phonorecord of the Work You distribute...\" Section 4(d) \"You must keep intact all copyright notices for the Work and give the Original Author credit...\"",
+    "解释": "分发时必须保留所有版权声明、许可证文本和免责声明，并以合理方式给予作者署名，这是分发的前提义务。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "Section 5 \"LICENSOR OFFERS THE WORK AS-IS AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND...\" Section 6 \"IN NO EVENT WILL LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES...\"",
+    "解释": "许可方按原样提供作品，不提供任何明示或默示的保证，并在法律允许范围内排除损害赔偿责任，因此被授权者不能就损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "Section 4(a) \"You may not offer or impose any terms on the Work that alter or restrict the terms of this License or the recipients' exercise of the rights granted hereunder.\" Section 4(b) \"You may not offer or impose any terms on the Derivative Works that alter or restrict the terms of this License...\"",
+    "解释": "许可证明确禁止被许可人对作品或衍生作品施加任何改变或限制本许可证条款的额外条件。"
+  }
+]

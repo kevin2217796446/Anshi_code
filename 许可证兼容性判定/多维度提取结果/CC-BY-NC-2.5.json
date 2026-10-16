@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确禁止",
+    "原文": "You may not exercise any of the rights granted to You in Section 3 above in any manner that is primarily intended for or directed toward commercial advantage or private monetary compensation. The exchange of the Work for other copyrighted works by means of digital file-sharing or otherwise shall not be considered to be intended for or directed toward commercial advantage or private monetary compensation, provided there is no payment of any monetary compensation in connection with the exchange of copyrighted works.",
+    "解释": "许可证明确禁止将作品及其衍生作品用于主要旨在或直接面向商业利益或私人金钱补偿的行为；但通过数字文件共享等无金钱支付的作品交换不视为商业使用。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Subject to the terms and conditions of this License, Licensor hereby grants You a worldwide, royalty-free, non-exclusive, perpetual (for the duration of the applicable copyright) license to exercise the rights in the Work as stated below: a. to reproduce the Work, to incorporate the Work into one or more Collective Works, and to reproduce the Work as incorporated in the Collective Works; b. to create and reproduce Derivative Works;",
+    "解释": "许可证明确授予复制作品和创作衍生作品的权利，未对内部使用设置特殊限制；在符合非商业等限制的前提下，组织或个人内部修改并复制使用作品属于被允许的行为，且不触发源代码公开义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "c. to distribute copies or phonorecords of, display publicly, perform publicly, and perform publicly by means of a digital audio transmission the Work including as incorporated in Collective Works; d. to distribute copies or phonorecords of, display publicly, perform publicly, and perform publicly by means of a digital audio transmission Derivative Works;",
+    "解释": "许可证明确授予分发作品及其衍生作品的权利，但分发须遵守第4条限制，包括非商业使用、保持相同许可证、保留版权声明和归属信息等。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "b. to create and reproduce Derivative Works; a. You may distribute, publicly display, publicly perform, or publicly digitally perform the Work only under the terms of this License... The above applies to the Work as incorporated in a Collective Work, but this does not require the Collective Work apart from the Work itself to be made subject to the terms of this License.",
+    "解释": "许可证明确允许创作和复制衍生作品；但分发衍生作品时必须按本许可证条款进行，衍生作品整体须以相同许可证发布，具有强传染性。唯一例外是集体作品中除作品本身外的其他独立部分不必适用本许可证。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "该许可证适用于一般版权作品而非专门针对软件链接场景，未提及静态链接、动态链接、导入等机制，也未区分链接级传染性，因此此维度不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "本许可证仅处理版权及相关权利，未包含任何专利授权或专利反诉终止条款。专利权利仍受适用法律约束，本许可证不授予相关专利许可。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "You may not sublicense the Work.",
+    "解释": "许可证明确禁止被授权人对作品进行再许可，且要求分发时按本许可证条款进行，因此不得以其他许可证再分发或变更许可证。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "本许可证未将网络服务（SaaS）或网络交互视为分发，也未规定此类使用会触发源代码公开义务。其授予的公开表演和数字音频传输权利与网络服务交互义务无关。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "You must keep intact all copyright notices for the Work and provide, reasonable to the medium or means You are utilizing: (i) the name of Original Author (or pseudonym, if applicable) if supplied, and/or (ii) if the Original Author and/or Licensor designate another party or parties (e.g. a sponsor institute, publishing entity, journal) for attribution in Licensor's copyright notice, terms of service or by other reasonable means, the name of such party or parties; the title of the Work if supplied; to the extent reasonably practicable, the Uniform Resource Identifier, if any, that Licensor specifies to be associated with the Work... and in the case of a Derivative Work, a credit identifying the use of the Work in the Derivative Work.",
+    "解释": "许可证明确要求在保留版权声明外，还需提供原作者署名、作品标题、许可人指定的URI，并在衍生作品中说明原作品使用情况。这是额外的归属义务，但不要求保留单独的NOTICE文件。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "本许可证适用于版权作品而非软件源代码，不包含任何源代码公开义务。分发时仅要求附上许可证副本或URI并保留版权声明，不要求提供源码。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "Except for the limited purpose of indicating to the public that the Work is licensed under the CCPL, neither party will use the trademark \"Creative Commons\" or any related trademark or logo of Creative Commons without the prior written consent of Creative Commons.",
+    "解释": "许可证明确不授予使用 Creative Commons 商标或相关标识的权利，除仅用于向公众说明作品按 CCPL 授权外，须事先取得书面同意；原作者的商标也未单独授予，因此不能用于推广衍生作品。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "You may distribute, publicly display, publicly perform, or publicly digitally perform the Work only under the terms of this License, and You must include a copy of, or the Uniform Resource Identifier for, this License with every copy or phonorecord of the Work You distribute, publicly display, publicly perform, or publicly digitally perform. You must keep intact all copyright notices for the Work and provide... the name of Original Author...",
+    "解释": "分发作品时必须附上本许可证副本或URI，保留所有版权声明，并提供原作者署名和作品标题等归属信息。上述义务构成分发时必须满足的版权声明条件。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "UNLESS OTHERWISE MUTUALLY AGREED TO BY THE PARTIES IN WRITING, LICENSOR OFFERS THE WORK AS-IS AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE WORK, EXPRESS, IMPLIED, STATUTORY OR OTHERWISE, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTIBILITY, FITNESS FOR A PARTICULAR PURPOSE, NONINFRINGEMENT, OR THE ABSENCE OF LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OF ABSENCE OF ERRORS, WHETHER OR NOT DISCOVERABLE.",
+    "解释": "许可证明确按“现状”提供作品，不提供任何明示或默示担保，包括适销性、特定用途适用性、不侵权等质量保证，因此被授权者无权就质量缺陷或损失向许可方追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "You may not offer or impose any terms on the Work that alter or restrict the terms of this License or the recipients' exercise of the rights granted hereunder. You may not distribute, publicly display, publicly perform, or publicly digitally perform the Work with any technological measures that control access or use of the Work in a manner inconsistent with the terms of this License Agreement.",
+    "解释": "许可证明确禁止被授权人对作品施加改变或限制本许可证条款的额外条款，也禁止采用与本许可证不一致的技术措施限制他人行使权利，因此不得在分发时附加额外限制。"
+  }
+]

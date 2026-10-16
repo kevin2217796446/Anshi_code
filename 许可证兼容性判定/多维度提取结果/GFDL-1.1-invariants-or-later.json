@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "You may copy and distribute the Document in any medium, either commercially or noncommercially",
+    "解释": "许可证明确允许将文档及其副本用于商业或非商业目的，没有禁止商业使用的条款。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确提及仅在个人或组织内部修改后使用而不分发的情形，其条款主要约束复制、分发和修改后分发。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may copy and distribute the Document in any medium, either commercially or noncommercially",
+    "解释": "允许将原始文档分发给第三方，但须遵守保留许可证文本、版权声明、许可证声明以及不附加额外条件等要求。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "You may copy and distribute a Modified Version of the Document under the conditions of sections 2 and 3 above, provided that you release the Modified Version under precisely this License",
+    "解释": "允许修改和合并文档，但修改版必须以完全相同的 GFDL 许可证发布，属于强传染性；合并其他 GFDL 文档时还须保留所有 Invariant Sections。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "GFDL 是文档许可证，不涉及软件库的静态链接、动态链接或导入机制，因此没有链接级传染性规定。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未包含专利授权或专利反诉终止机制的相关条款。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "provided that you release the Modified Version under precisely this License",
+    "解释": "修改版必须以完全相同的许可证发布，不能以其他许可证再分发或再许可，因此明确禁止变更许可证。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及通过网络提供服务或与用户交互是否触发源代码公开义务，也未将网络交互视为分发行为。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "GFDL 没有 NOTICE 文件的概念；虽然要求保留 History、Acknowledgements、Invariant Sections 等信息，但未涉及 NOTICE 文件的保留和传递。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "If you publish or distribute Opaque copies of the Document numbering more than 100, you must either include a machine-readable Transparent copy along with each Opaque copy, or state in or with each Opaque copy a publicly-accessible computer-network location containing a complete Transparent copy of the Document",
+    "解释": "当分发超过 100 份 Opaque 副本时，必须同时提供机器可读的 Transparent 副本或在每个 Opaque 副本中说明可公开访问的完整 Transparent 副本的网络位置，类似于源代码公开义务。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "The author(s) and publisher(s) of the Document do not by this License give permission to use their names for publicity for or to assert or imply endorsement of any Modified Version.",
+    "解释": "许可证明确不授予使用作者或出版者姓名进行宣传或暗示认可修改版的权利，因此商标或姓名意义上的推广使用不被允许。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "provided that this License, the copyright notices, and the license notice saying this License applies to the Document are reproduced in all copies",
+    "解释": "分发副本时必须保留本许可证文本、版权声明和许可证适用声明；修改版还须保留所有原版权声明并包含完整的许可证副本。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "GFDL 1.1 文本中未包含明确的保证免责声明或质量保证条款，未涉及被授权者是否有权就损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "and that you add no other conditions whatsoever to those of this License",
+    "解释": "许可证明确禁止在分发副本或修改版时附加任何超出本许可证条款的额外条件。"
+  }
+]

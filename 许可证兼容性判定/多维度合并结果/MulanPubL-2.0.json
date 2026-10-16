@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Subject to the terms and conditions of this License, each Contributor hereby grants to you a perpetual, worldwide, royalty-free, non-exclusive, irrevocable copyright license to reproduce, use, modify, or Distribute its Contribution or Derivative Work, with modification or not.",
+    "解释": "许可证明确授予复制、使用、修改和分发的权利，且未对商业目的加以限制，因此商业使用是允许的。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "each Contributor hereby grants to you a perpetual, worldwide, royalty-free, non-exclusive, irrevocable copyright license to reproduce, use, modify, or Distribute its Contribution or Derivative Work, with modification or not.",
+    "解释": "使用和修改的权利被明确授予，内部使用不构成分发（Distribute定义仅包括向他人提供或在线服务），因此不会触发第4条的分发条件义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may Distribute the Contribution you received or your Derivative Work, whether in source or executable forms, provided that you meet the following conditions...",
+    "解释": "许可证允许分发代码，但必须满足保留通知、提供许可证副本、按条件提供源代码等前置条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "Derivative Work means works created based on Contribution, specifically including works formed by modifying, rewriting, translating, annotating, combining or linking to all or part of Contribution (including dynamic linking or static linking). ... If you Distribute your Derivative Work, you have to: (i) accompanying the Derivative work, provide recipients with Corresponding Source Code of your Derivative Work under this License...",
+    "解释": "合并、修改、链接等均允许，但由此形成的衍生作品在分发时必须提供其对应源代码，并按本许可证授权；说明衍生作品的源代码具有传染性，须以本许可证公开。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "明确允许",
+    "原文": "Derivative Work means works created based on Contribution, specifically including works formed by modifying, rewriting, translating, annotating, combining or linking to all or part of Contribution (including dynamic linking or static linking). Works which only communicate with Contribution through inter-process communication or system call, are independent works, rather than Derivative Work.",
+    "解释": "动态和静态链接均被明确视为产生衍生作品，因此自有代码通过链接与Contribution结合后，分发时须按第4条提供对应源代码。仅通过进程间通信或系统调用交互的作品不受传染。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "each Contributor hereby grants to you a perpetual, worldwide, royalty-free, non-exclusive, irrevocable (except for revocation under this Section) patent license to use, make, have made, sell, offer for sale, import or otherwise transfer its Contribution... If you or your Affiliates directly or indirectly institute patent litigation... then any patent license granted to you under this License for the Contribution shall terminate as of the date such litigation or activity is filed or taken.",
+    "解释": "授予专利许可，但若被许可方对贡献者提起专利诉讼，专利许可自动终止。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "模糊",
+    "原文": "If you Distribute the Contribution you received, you must provide copies of the Contribution’s source code under this License; ... If you Distribute your Derivative Work, you have to: (i) ... provide recipients with Corresponding Source Code of your Derivative Work under this License...",
+    "解释": "许可证要求原始代码和衍生作品源代码均按本许可证提供，未明确允许以其他许可证再分发；但第6条允许与AGPLv3组合时以AGPLv3许可组合作品，因而再许可/变更许可证的权限存在部分例外，整体表述不够绝对，存在模糊空间。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "明确允许",
+    "原文": "Distribute (or Distribution) means the act of making the Contribution or Derivative Work available to others through any medium, and using the Contribution or Derivative Work to provide online services to users, such as the act of providing online services through a cloud service platform built using Contributions or Derivative Works.",
+    "解释": "许可证明确将提供在线服务/SaaS视为分发行为，因此通过网络提供服务将触发第4条项下的源代码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "You must provide recipients with a copy of this License and retain copyright, trademark, patent and disclaimer statements in the Contribution",
+    "解释": "分发时要求保留版权、商标、专利及免责声明，但未额外要求单独的NOTICE文件；这些声明应随代码保留并传递给接收者。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "If you Distribute the Contribution you received, you must provide copies of the Contribution’s source code under this License; If you Distribute your Derivative Work, you have to: (i) ... provide recipients with Corresponding Source Code... or (ii) ... provide recipients with a written offer...",
+    "解释": "分发Contribution必须提供源代码；分发衍生作品必须提供对应源代码，方式可为下载链接（有效不少于三年）或书面承诺（获取不超过三个月），触发条件包括传统分发和在线服务提供。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "No trademark license is granted to use the trade names, trademarks, service marks, or product names of Contributor, except as required to fulfill notice requirements in Section 4.",
+    "解释": "除为满足第4条通知要求所必需外，不授予任何商标权，禁止使用贡献者的商号、商标、服务标志或产品名称。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "You must provide recipients with a copy of this License and retain copyright, trademark, patent and disclaimer statements in the Contribution",
+    "解释": "分发时必须提供许可证副本，并保留Contribution中的版权、商标、专利及免责声明，确保这些声明随代码传递。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "CONTRIBUTION ARE PROVIDED WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. IN NO EVENT SHALL ANY CONTRIBUTOR OR COPYRIGHT HOLDER BE LIABLE TO YOU FOR ANY DAMAGES...",
+    "解释": "许可证明确否认所有担保，并免除贡献者/版权人对任何损害的责任，因此被授权人无权就质量问题向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未涉及用户是否可以对代码施加超出原有许可条款的额外限制，因此无法从文本中判断该权限的有无。"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.",
+    "解释": "许可证授予永久、全球、免版税、不可撤销的版权许可，允许复制、制作衍生作品、公开展示、公开表演、转授权和分发，未禁止商业使用；第9条还允许在再分发时收取支持或担保费用。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.",
+    "解释": "许可证明确授予复制和制作衍生作品的权利，未将行为限定为公开场景，因此个人或组织内部修改及使用源代码属于许可范围；仅分发时须满足第4条条件，内部使用不触发开源义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:",
+    "解释": "许可证明确允许以任何媒介、无论是否修改、以源码或目标代码形式复制和分发作品或其衍生作品，但须满足第4条规定的条件，如提供许可证副本、保留声明、标记修改以及保留NOTICE文件内容。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.",
+    "解释": "Apache 2.0属于宽松许可证，不要求衍生作品以相同许可证发布。允许对自己的修改乃至整个衍生作品添加自己的版权声明和额外或不同的许可条款，但原始Work的使用、复制和分发仍须遵守Apache 2.0的条件，因此没有强代码级传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "明确允许",
+    "原文": "For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.",
+    "解释": "许可证明确将仅链接或绑定到作品接口且可分离的作品排除在衍生作品范围之外，因此静态链接、动态链接或导入通常不要求自有代码开源，无链接级传染性。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work... If You institute patent litigation against any entity... alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.",
+    "解释": "许可证明确授予与贡献相关的必要专利权利要求的使用权，包括制造、使用、销售、进口等；但包含专利反诉终止机制，即用户对作品或其中贡献提起专利侵权诉讼时，相关专利授权自动终止。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "sublicense, and distribute the Work and such Derivative Works in Source or Object form. You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.",
+    "解释": "许可证授予转授权和分发权，并允许对自己的修改或整个衍生作品附加额外或不同的许可条款；但原始Work的复制、使用和分发仍须遵守Apache 2.0条件，不能改变原始代码的许可条款。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "Apache 2.0仅对复制和分发行为设置条件，未将网络服务、SaaS或通过网络与用户交互视为分发，也未规定此类场景下的源代码公开义务，因此该维度不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确禁止",
+    "原文": "If the Work includes a 'NOTICE' text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places:",
+    "解释": "许可证明确要求分发衍生作品时，必须保留并传递原项目NOTICE文件中的归属声明，不得删除与衍生作品相关部分的声明；否则违反分发条件。因此禁止在分发时不保留NOTICE归属声明。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "Apache 2.0允许以源码或目标代码形式分发，没有规定分发目标代码时必须提供源代码，也没有强制源码公开义务；源代码公开不是本许可证的触发条件。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.",
+    "解释": "许可证不授予使用许可方商标、服务标志或产品名称的权利，仅允许为描述作品来源和复现NOTICE文件内容而进行合理惯常使用；超出该范围的商标使用被明确禁止。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确禁止",
+    "原文": "You must give any other recipients of the Work or Derivative Works a copy of this License; and You must cause any modified files to carry prominent notices stating that You changed the files; and You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works;",
+    "解释": "分发作品或衍生作品时，必须向接收者提供许可证副本，在修改过的文件中加显著变更声明，并在衍生作品的源码形式中保留所有版权、专利、商标和归属声明。删除或不保留这些声明属于违反许可条件，因此被明确禁止。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "Licensor provides the Work (and each Contributor provides its Contributions) on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE.",
+    "解释": "软件按原样提供，不提供任何明示或默示担保，包括所有权、不侵权、适销性和特定用途适用性；同时第8条限制贡献者的损害赔偿责任。用户无权因质量问题向许可方或贡献者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确允许",
+    "原文": "While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility... only if You agree to indemnify, defend, and hold each Contributor harmless...",
+    "解释": "许可证允许在再分发时提供并收费支持、担保、赔偿或其他责任义务，也允许对修改或衍生作品附加额外或不同许可条款；但不得代表其他贡献者承担责任，且原始Work仍须遵守Apache 2.0条件。"
+  }
+]

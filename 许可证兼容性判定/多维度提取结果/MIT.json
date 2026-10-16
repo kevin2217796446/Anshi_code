@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software ... to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software",
+    "解释": "许可证明确允许将软件用于商业目的，包括复制、修改、分发、再许可和销售副本。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software",
+    "解释": "许可证允许个人或组织内部使用和修改源代码，且未附加任何触发源码公开义务的条件。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice ... shall be included in all copies or substantial portions of the Software.",
+    "解释": "许可证允许向第三方分发代码，但分发时必须保留原始版权声明和许可声明。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense",
+    "解释": "许可证允许修改和合并代码，未要求衍生作品以 MIT 或其他特定许可证发布，因此不具强代码级传染性，衍生作品可自由选择许可证，但须保留原始声明。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "MIT 许可证未提及静态链接、动态链接或库导入场景，因此无法从原文判断链接级传染性。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证原文未包含专利授权条款，也未设置专利反诉终止机制。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "to deal in the Software without restriction, including without limitation the rights to ... sublicense ... copies of the Software",
+    "解释": "许可证明确授予再许可权，允许以其他许可证再分发，但仍须保留原始版权和许可声明。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务或 SaaS 形式的交互义务，未将网络交互视为分发行为。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求保留版权和许可声明，未要求额外的 NOTICE 文件归属义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "MIT 许可证未设定必须提供源代码的条件，分发行为不触发源码公开义务。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未授予任何商标权，未提及项目名称、Logo 等商标的使用。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "The above copyright notice and this permission notice (including the next paragraph) shall be included in all copies or substantial portions of the Software.",
+    "解释": "分发软件副本或实质性部分时，必须保留原版权声明、许可声明及免责声明，这是分发的强制性条件。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY",
+    "解释": "许可证明确不提供任何质量保证，并免除作者的损害赔偿责任，被授权者无权因软件质量问题向作者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确允许",
+    "原文": "to deal in the Software without restriction, including without limitation the rights to ... sublicense ... copies of the Software",
+    "解释": "许可证允许无限制地处理和再许可软件，因此用户可以在再分发时施加额外约束，但必须保留原始版权和许可声明。"
+  }
+]

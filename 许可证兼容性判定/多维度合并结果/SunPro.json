@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Permission to use, copy, modify, and distribute this software is freely granted, provided that this notice is preserved.",
+    "解释": "许可证允许自由使用、复制、修改和分发，未排除或限制商业目的的使用。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Permission to use, copy, modify, and distribute this software is freely granted, provided that this notice is preserved.",
+    "解释": "许可证允许在内部使用、复制和修改软件，且未设置因内部使用而触发源代码公开的义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Permission to use, copy, modify, and distribute this software is freely granted, provided that this notice is preserved.",
+    "解释": "许可证允许向第三方分发软件，前提条件是保留原通知。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "Permission to use, copy, modify, and distribute this software is freely granted, provided that this notice is preserved.",
+    "解释": "许可证允许修改并分发代码，仅要求保留通知，不要求衍生作品以相同许可证发布，无强传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "明确允许",
+    "原文": "Permission to use, copy, modify, and distribute this software is freely granted, provided that this notice is preserved.",
+    "解释": "许可证未对静态链接、动态链接或导入等机制设置自有代码开源义务，仅要求保留通知。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及专利授权、专利反诉或专利权利终止机制。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "模糊",
+    "原文": "Permission to use, copy, modify, and distribute this software is freely granted, provided that this notice is preserved.",
+    "解释": "许可证允许修改和分发且仅要求保留通知，未明确禁止以其他许可证再分发，但也未明确授予再许可或以不同许可证分发的权利，存在多种解读。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS或通过用户交互触发源代码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "provided that this notice is preserved.",
+    "解释": "许可证明确要求保留并传递原通知，但未提及单独的NOTICE文件或额外归属文件。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求分发时保留通知，未规定必须提供源代码或以何种形式提供源代码。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及商标权授予、商标使用限制或是否可使用原作者的商标。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "provided that this notice is preserved.",
+    "解释": "许可证明确要求分发时保留原版权声明和许可通知。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未包含质量保证、免责声明或责任限制条款。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求保留通知，未涉及用户是否可以施加超出原始许可条款的额外约束。"
+  }
+]

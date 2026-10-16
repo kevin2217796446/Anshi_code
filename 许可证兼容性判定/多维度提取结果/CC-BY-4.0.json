@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Section 2(a)(1) \"the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to: A. reproduce and Share the Licensed Material, in whole or in part; and B. produce, reproduce, and Share Adapted Material.\"",
+    "解释": "许可证授予复制、分享及制作改编作品的权利，未限制商业用途，因此允许商业使用。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Section 2(a)(1)(A)-(B) \"reproduce and Share the Licensed Material, in whole or in part; and produce, reproduce, and Share Adapted Material.\"",
+    "解释": "许可证明确授予复制和制作改编作品的权利，内部使用属于这些权利范围，且不影响第三方时无需履行分享条件。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Section 2(a)(1)(A) \"reproduce and Share the Licensed Material, in whole or in part\"; Section 3(a) \"If You Share the Licensed Material (including in modified form), You must: ...\"",
+    "解释": "许可证允许向第三方分发原始或改编材料，但须遵守第3条署名条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "Section 2(a)(1)(B) \"produce, reproduce, and Share Adapted Material\"; Section 3(a)(4) \"If You Share Adapted Material You produce, the Adapter's License You apply must not prevent recipients of the Adapted Material from complying with this Public License.\"",
+    "解释": "许可证允许制作和分发改编作品，不要求以相同许可证发布，但您选择的适配者许可证不得阻止接收者遵守本许可证的署名义务，因此属于宽松传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "本许可证为通用内容许可，未提及软件链接、静态或动态链接等机制，因此不涉及链接级传染性。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确禁止",
+    "原文": "Section 2(b)(2) \"Patent and trademark rights are not licensed under this Public License.\"",
+    "解释": "许可证明确不授予专利权利，也未包含专利反诉终止机制。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "模糊",
+    "原文": "Section 2(a)(1) \"non-sublicensable\"; Section 2(a)(5)(B) \"You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\"; Section 3(a)(4) \"If You Share Adapted Material You produce, the Adapter's License You apply must not prevent recipients of the Adapted Material from complying with this Public License.\"",
+    "解释": "许可证对原始材料不可再许可且禁止施加额外条款，但允许对改编作品采用自己的许可证（只要不阻止接收者遵守本许可证）。这种“原始不可变、改编可另选”的复合规则导致该维度存在多种解读，如改编作品能否整体以不同许可证再分发的问题不够清晰。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "明确允许",
+    "原文": "Section 1(i) \"Share means to provide material to the public by any means or process ... and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.\"; Section 3(a) \"If You Share the Licensed Material (including in modified form), You must: ...\"",
+    "解释": "许可证将网络提供（按需访问）纳入“Share”范围，因此将网络服务视为分发并触发署名条件，但不产生源代码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "Section 3(a)(1)(A) \"retain the following if it is supplied by the Licensor with the Licensed Material: i. identification of the creator(s) ... ii. a copyright notice; iii. a notice that refers to this Public License; iv. a notice that refers to the disclaimer of warranties; v. a URI or hyperlink to the Licensed Material...\"",
+    "解释": "除版权声明外，许可证还要求保留许可方提供的创作者标识、许可证通知、免责声明通知及链接等额外归属信息，但并未特别要求传递NOTICE文件。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证不涉及源代码公开义务，分享时仅要求署名，不要求提供源代码或对应源码包。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "Section 2(b)(2) \"Patent and trademark rights are not licensed under this Public License.\"",
+    "解释": "许可证明确不授予商标权，用户不得使用原作者商标进行推广或暗示认可。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "Section 3(a)(1)(A)(ii)-(iv) \"a copyright notice; a notice that refers to this Public License; a notice that refers to the disclaimer of warranties\"; Section 3(a)(1)(C) \"indicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.\"",
+    "解释": "分发时必须保留版权声明、许可证通知、免责声明，并说明材料在本许可证下许可，可以合理方式提供。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "Section 5(a) \"the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind...\"; Section 5(b) \"in no event will the Licensor be liable to You on any legal theory...\"",
+    "解释": "许可证明确按原样提供，不提供任何保证，并在法律允许范围内免除所有责任，因此被授权者无权就损失向许可方追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "Section 2(a)(5)(B) \"You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\"",
+    "解释": "用户不得对许可材料施加额外或不同条款，也不得使用技术措施限制接收者行使许可权利。"
+  }
+]

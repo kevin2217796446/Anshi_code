@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software",
+    "解释": "许可证明确授予不受限制地处理软件的权利，包括出售副本，因此允许将代码及其衍生品用于商业目的，没有禁止商业使用的条款。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "to deal in the Software without restriction, including without limitation the rights to use, copy, modify",
+    "解释": "许可证明确授予使用、复制、修改软件的权利，因此个人或组织可以在内部修改并使用软件；单纯的内部使用不触发源代码公开义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "distribute, sublicense, and/or sell copies of the Software",
+    "解释": "许可证明确允许将软件副本分发给第三方，分发时的前置条件是保留原始版权声明和许可声明。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "including without limitation the rights to use, copy, modify, merge, publish, distribute",
+    "解释": "许可证明确允许修改和合并软件，并未要求衍生作品以相同许可证发布，仅要求保留原始版权和许可声明，因此属于宽松许可证，不具备强传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接或导入机制下的传染性义务，因此自有代码与软件链接后是否受本许可证约束在本许可证中没有规定。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证原文未提及专利授权、专利反诉或相关终止机制，因此专利条款在本许可证中不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "sublicense",
+    "解释": "许可证明确授予再许可（sublicense）的权利，且未禁止以其他许可证再分发，只要求保留原始版权和许可声明。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS或用户与软件的交互是否构成分发，也未规定网络服务场景下的源代码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求保留版权声明和许可声明，未提及NOTICE文件或额外的归属义务，因此NOTICE文件相关要求不适用。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未规定分发时必须提供源代码或以何种形式提供源代码，也未将分发行为与源代码公开义务挂钩，仅要求保留版权和许可声明。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "Except as contained in this notice, the name of the X Consortium shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from the X Consortium. X Window System is a trademark of X Consortium, Inc.",
+    "解释": "许可证明确不授予商标权，未经事先书面授权，不得使用 X Consortium 名称或 X Window System 商标进行广告宣传或推广。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.",
+    "解释": "许可证明确要求在所有副本或实质性部分中包含原始版权声明和许可声明，但未指定在源码、文档或界面中的具体呈现方式。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+    "解释": "许可证明确按“原样”提供软件，不提供任何明示或默示的质量保证，并排除所有损害赔偿责任，因此被授权者无权就软件造成的损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "模糊",
+    "原文": "to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software",
+    "解释": "许可证授予“不受限制”地处理软件并再许可的权利，但未明确是否允许对下游接收者施加超出原许可条款的额外限制；可能被解读为允许附加限制，也可能因必须保留原声明而受到限制，存在歧义。"
+  }
+]

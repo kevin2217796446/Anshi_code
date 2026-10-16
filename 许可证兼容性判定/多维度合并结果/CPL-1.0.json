@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "While this license is intended to facilitate the commercial use of the Program, the Contributor who includes the Program in a commercial product offering should do so in a manner which does not create potential liability for other Contributors.",
+    "解释": "许可证明确表示旨在促进程序的商业使用，允许将程序纳入商业产品，但商业分发者需承担由此产生的赔偿等责任。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, distribute and sublicense the Contribution of such Contributor, if any, and such derivative works, in source code and object code form.",
+    "解释": "许可证授予复制和制作衍生作品的权利，涵盖在个人或组织内部修改和使用程序；分发行为才触发第3条项下的源代码公开等义务，单纯内部使用不触发这些义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "distribute and sublicense the Contribution of such Contributor, if any, and such derivative works, in source code and object code form.",
+    "解释": "许可证明确允许以源码和目标码形式向第三方分发贡献及其衍生作品，但须满足第3条规定的分发条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "When the Program is made available in source code form: a) it must be made available under this Agreement; and b) a copy of this Agreement must be included with each copy of the Program. Contributions do not include additions to the Program which: (i) are separate modules of software distributed in conjunction with the Program under their own license agreement, and (ii) are not derivative works of the Program.",
+    "解释": "许可证允许修改和合并代码，但对程序的修改和添加构成贡献，源码形式分发时必须按CPL提供；与程序一同分发的独立模块如非衍生作品，可在其自己的许可下分发，因此传染性限于衍生作品而非整个独立作品。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "模糊",
+    "原文": "Contributions do not include additions to the Program which: (i) are separate modules of software distributed in conjunction with the Program under their own license agreement, and (ii) are not derivative works of the Program.",
+    "解释": "许可证仅将独立且非衍生作品的模块排除在贡献之外，未明确静态链接、动态链接或导入是否构成衍生作品，因此链接场景下的传染性存在解释空间。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free patent license under Licensed Patents to make, use, sell, offer to sell, import and otherwise transfer the Contribution of such Contributor, if any, in source code and object code form. If Recipient institutes patent litigation against a Contributor with respect to a patent applicable to software (including a cross-claim or counterclaim in a lawsuit), then any patent licenses granted by that Contributor to such Recipient under this Agreement shall terminate as of the date such litigation is filed.",
+    "解释": "许可证明确授予贡献相关专利的全球、免版税、非独占专利许可，并设置专利反诉终止机制：若接收方对贡献者提起软件专利诉讼，相关专利许可自动终止。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, distribute and sublicense the Contribution of such Contributor, if any, and such derivative works, in source code and object code form. When the Program is made available in source code form: a) it must be made available under this Agreement; and b) a copy of this Agreement must be included with each copy of the Program.",
+    "解释": "许可证明确授予再许可权，但以源码形式分发时必须按本协议分发，不得变更为其他许可证；目标码形式则可在满足第3条条件的前提下按分发者自己的许可协议分发。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS或通过网络交互是否构成分发，因此未设定网络服务场景下的源代码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及NOTICE文件或额外的归属声明传递义务；除保留版权声明和标识贡献者外，未要求传递单独的原项目NOTICE文件。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "When the Program is made available in source code form: a) it must be made available under this Agreement; and b) a copy of this Agreement must be included with each copy of the Program. states that source code for the Program is available from such Contributor, and informs licensees how to obtain it in a reasonable manner on or through a medium customarily used for software exchange.",
+    "解释": "许可证明确规定了源代码公开义务：源码形式分发时必须附带CPL文本；目标码分发时许可协议必须说明源代码可从该分发者处合理获取。触发点是分发行为。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及商标权授权，也未允许使用贡献者或原作者的商标、项目名称或Logo；未明确授予的权利保留。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "Contributors may not remove or alter any copyright notices contained within the Program. a copy of this Agreement must be included with each copy of the Program.",
+    "解释": "许可证明确要求在分发时不得删除或更改程序中的版权声明，并且源码形式分发时必须随每个副本包含CPL文本。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. NEITHER RECIPIENT NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES",
+    "解释": "许可证明确否认任何明示或暗示的担保，并排除直接、间接、偶然、特殊及后果性损害赔偿等责任，接收方无权就软件质量或损失向贡献者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "模糊",
+    "原文": "states that any provisions which differ from this Agreement are offered by that Contributor alone and not by any other party. All rights in the Program not expressly granted under this Agreement are reserved.",
+    "解释": "许可证允许目标码分发许可包含与CPL不同的条款，但这些条款仅由该分发者单独提供；源码分发须按CPL进行。许可证未明确授权也未全面禁止对程序施加额外限制，因此是否存在附加限制空间存在模糊。"
+  }
+]

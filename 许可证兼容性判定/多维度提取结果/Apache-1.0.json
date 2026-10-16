@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+    "解释": "许可证明确允许以源代码和二进制形式使用和再分发，且未禁止商业用途，只要遵守后续条件即可。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+    "解释": "许可证允许在个人或组织内部使用和修改源代码；内部使用本身不触发再分发相关义务，前提条件仅约束再分发行为。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.",
+    "解释": "许可证明确允许将源代码和二进制形式分发给第三方，但必须保留版权声明、条件列表和免责声明，并在文档或材料中重现这些内容。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证允许修改和再分发，但未提及衍生作品必须以何种许可证发布，也没有要求整个衍生作品使用相同许可证的传染性条款，因此该维度未涉及。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接或导入等与自有代码结合时的传染性义务，因此该维度未涉及。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未包含专利授权条款，也未涉及专利反诉终止机制，因此该维度未涉及。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确规定是否允许以其他许可证再分发，也未禁止更改许可证；仅对再分发附加保留声明等条件，因此该维度未涉及。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务（SaaS）形式或通过网络与用户交互是否构成分发或触发源代码公开义务，因此该维度未涉及。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "3. All advertising materials mentioning features or use of this software must display the following acknowledgment: \"This product includes software developed by the Apache Group for use in the Apache HTTP server project (http://www.apache.org/).\" 6. Redistributions of any form whatsoever must retain the following acknowledgment: \"This product includes software developed by the Apache Group for use in the Apache HTTP server project (http://www.apache.org/).\"",
+    "解释": "许可证在版权声明之外附加了额外归属义务：广告材料和任何形式的再分发都必须保留指定确认声明。该义务不是通过 NOTICE 文件实现的，而是直接要求在相关材料中展示。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证允许源代码和二进制形式再分发，但未要求分发二进制时必须提供源代码，也未规定书面承诺等源代码公开义务，因此该维度未涉及。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "4. The name \"Apache Server\" and \"Apache Group\" must not be used to endorse or promote products derived from this software without prior written permission. 5. Products derived from this software may not be called \"Apache\" nor may \"Apache\" appear in their name, without prior written permission of the Apache Group.",
+    "解释": "许可证明确禁止未经事先书面许可使用“Apache Server”“Apache Group”名称进行背书或推广，也禁止衍生品名称中出现“Apache”，因此不授予商标使用权。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. 6. Redistributions of any form whatsoever must retain the following acknowledgment: \"This product includes software developed by the Apache Group for use in the Apache HTTP server project (http://www.apache.org/).\"",
+    "解释": "分发源代码和二进制形式时必须保留版权声明、条件列表和免责声明；二进制分发须在随附文档或材料中重现；任何形式的再分发还须保留指定确认声明。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THIS SOFTWARE IS PROVIDED BY THE APACHE GROUP ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE APACHE GROUP OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "解释": "许可证明确按“原样”提供软件，不提供任何明示或默示担保，并在任何情况下均不承担损害赔偿责任，因此被授权者无权就损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未授予被授权者施加额外限制的权利，也未明确禁止施加额外限制；其自身条款仅规定分发和使用的条件，因此该维度未涉及。"
+  }
+]

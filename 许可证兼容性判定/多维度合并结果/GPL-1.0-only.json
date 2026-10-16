@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "the General Public License is designed to make sure that you have the freedom to give away or sell copies of free software... You may charge a fee for the physical act of transferring a copy.",
+    "解释": "许可证明确允许商业使用，包括出售副本或对物理转移行为收费，未禁止商业目的。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "",
+    "解释": "GPLv1未单独规定内部使用，也未明确说明内部修改后使用是否触发开源义务；根据第2条修改权限存在，但公开义务仅在分发或发布时触发。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may copy and distribute verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this General Public License and to the absence of any warranty; and give any other recipients of the Program a copy of this General Public License along with the Program.",
+    "解释": "允许将程序源码或修改版分发给第三方，但须保留版权和免责声明，并随附许可证文本。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "cause the whole of any work that you distribute or publish, that in whole or in part contains the Program or any part thereof, either with or without modifications, to be licensed at no charge to all third parties under the terms of this General Public License",
+    "解释": "允许修改或组合程序中部分代码，但分发或发布的整体作品必须按GPLv1条款免费许可给所有第三方，具有强代码级传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "模糊",
+    "原文": "a work based on the Program means either the Program or any work containing the Program or a portion of it, either verbatim or with modifications",
+    "解释": "GPLv1对包含程序或其部分的定义可能涵盖通过静态/动态链接或库导入形成的作品，但未明确区别链接形式，因此链接级传染性边界存在多种解读。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "GPLv1未包含任何专利授权、专利许可或专利反诉终止条款。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "You may not copy, modify, sublicense, distribute or transfer the Program except as expressly provided under this General Public License. Any attempt otherwise to copy, modify, sublicense, distribute or transfer the Program is void, and will automatically terminate your rights to use the Program under this License.",
+    "解释": "除GPLv1明确授权的方式外，不得对程序进行再许可、分发或转让，因此不能以其他许可证再分发。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "GPLv1未提及网络服务或SaaS模式，也未将网络交互视为分发，因此不触发源码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "GPLv1未提及NOTICE文件或额外归属声明义务，仅要求保留版权声明和免责声明。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "You may copy and distribute the Program (or a portion or derivative of it, under Paragraph 2) in object code or executable form under the terms of Paragraphs 1 and 2 above provided that you also do one of the following: a) accompany it with the complete corresponding machine-readable source code, which must be distributed under the terms of Paragraphs 1 and 2 above; or, b) accompany it with a written offer, valid for at least three years, to give any third party free (except for a nominal charge for the cost of distribution) a complete machine-readable copy of the corresponding source code...; or, c) accompany it with the information you received as to where the corresponding source code may be obtained.",
+    "解释": "允许以目标码或可执行形式分发，但必须通过提供完整源码、三年书面要约或提供源码获取信息之一来履行源代码公开义务，其中第三种方式仅限非商业分发。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "GPLv1未授予商标权，也未限制或允许使用原作者商标，商标问题不适用。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this General Public License and to the absence of any warranty; and give any other recipients of the Program a copy of this General Public License along with the Program.",
+    "解释": "分发时必须显著保留版权声明和免责声明，保持GPL提及的通知完整，并向接收者提供GPL许可证副本。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE PROGRAM... THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER... BE LIABLE TO YOU FOR DAMAGES...",
+    "解释": "软件按原样提供，无任何明示或暗示担保，版权方不对使用造成的损失承担责任，因此被授权者无权向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "You may not impose any further restrictions on the recipients' exercise of the rights granted herein.",
+    "解释": "禁止对接收者行使GPLv1所授予权利施加任何额外限制。"
+  }
+]

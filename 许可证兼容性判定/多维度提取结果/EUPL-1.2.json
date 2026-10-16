@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "The Licensor hereby grants You a worldwide, royalty-free, non-exclusive, sublicensable licence to do the following, for the duration of copyright vested in the Original Work: — use the Work in any circumstance and for all usage, — reproduce the Work, — modify the Work, and make Derivative Works based upon the Work, — communicate to the public, including the right to make available or display the Work or copies thereof to the public and perform publicly, as the case may be, the Work, — distribute the Work or copies thereof, — lend and rent the Work or copies thereof, — sublicense rights in the Work or copies thereof.",
+    "解释": "许可证明确授予任何情形和所有用途的使用权，并可复制、修改、公开传播、分发、出租、再许可，因此商业使用被明确允许。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "use the Work in any circumstance and for all usage, — reproduce the Work, — modify the Work, and make Derivative Works based upon the Work",
+    "解释": "许可证允许在任何情形下使用、复制和修改作品，内部修改后使用不会触发第5条基于分发或传播的源码公开义务，除非将作品对外分发或传播。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "distribute the Work or copies thereof, — lend and rent the Work or copies thereof. If the Licensee distributes or communicates copies of the Original Works or Derivative Works, this Distribution or Communication will be done under the terms of this Licence or of a later version of this Licence unless the Original Work is expressly distributed only under this version of the Licence.",
+    "解释": "许可证明确允许向第三方分发、出租、出借等，但分发须遵守第5条的署名、copyleft及源码提供义务。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "If the Licensee distributes or communicates copies of the Original Works or Derivative Works, this Distribution or Communication will be done under the terms of this Licence or of a later version of this Licence unless the Original Work is expressly distributed only under this version of the Licence — for example by communicating 'EUPL v. 1.2 only'. The Licensee (becoming Licensor) cannot offer or impose any additional terms or conditions on the Work or Derivative Work that alter or restrict the terms of the Licence.",
+    "解释": "修改和制作衍生作品被明确允许，但一旦分发或传播衍生作品，必须以本许可证或其后续版本发布，除非原始作品声明仅限本版本；兼容许可证列表下的组合作品可依兼容许可证分发。这构成代码级强传染。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "模糊",
+    "原文": "This Licence does not define the extent of modification or dependence on the Original Work required in order to classify a work as a Derivative Work; this extent is determined by copyright law applicable in the country mentioned in Article 15.",
+    "解释": "许可证没有明确静态或动态链接是否构成衍生作品，而是将衍生作品的范围交由第15条所述国家的版权法确定，因此链接级传染性存在不确定性。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "The Licensor grants to the Licensee royalty-free, non-exclusive usage rights to any patents held by the Licensor, to the extent necessary to make use of the rights granted on the Work under this Licence.",
+    "解释": "许可证明确授予用户必要范围内的许可方专利权使用费免费、非独占的使用权；未发现专利反诉终止机制。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "sublicense rights in the Work or copies thereof. If the Licensee Distributes or Communicates Derivative Works or copies thereof based upon both the Work and another work licensed under a Compatible Licence, this Distribution or Communication can be done under the terms of this Compatible Licence. The Licensee (becoming Licensor) cannot offer or impose any additional terms or conditions on the Work or Derivative Work that alter or restrict the terms of the Licence.",
+    "解释": "许可证允许对作品或其副本进行再许可；衍生作品分发原则上须按EUPL或其后续版本，但若与附录所列兼容许可作品结合，可按兼容许可证分发。不允许施加改变或限制EUPL条款的额外条件。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "明确允许",
+    "原文": "'Distribution' or 'Communication': any act of selling, giving, lending, renting, distributing, communicating, transmitting, or otherwise making available, online or offline, copies of the Work or providing access to its essential functionalities at the disposal of any other natural or legal person. When distributing or communicating copies of the Work, the Licensee will provide a machine-readable copy of the Source Code or indicate a repository where this Source will be easily and freely available for as long as the Licensee continues to distribute or communicate the Work.",
+    "解释": "许可证将在线或离线提供作品副本或提供其核心功能访问均定义为分发/传播，因此以网络服务形式提供核心功能会触发第5条提供源码的义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "The Licensee shall keep intact all copyright, patent or trademarks notices and all notices that refer to the Licence and to the disclaimer of warranties. The Licensee must include a copy of such notices and a copy of the Licence with every copy of the Work he/she distributes or communicates. The Licensee must cause any Derivative Work to carry prominent notices stating that the Work has been modified and the date of modification.",
+    "解释": "除版权声明外，被许可人还须保留专利、商标、许可证和免责声明相关通知，并随分发/传播的每份副本附上通知和许可证副本；衍生作品还须显著声明修改及日期。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "When distributing or communicating copies of the Work, the Licensee will provide a machine-readable copy of the Source Code or indicate a repository where this Source will be easily and freely available for as long as the Licensee continues to distribute or communicate the Work.",
+    "解释": "分发或传播作品时，被许可人必须提供机器可读源代码，或指明一个在持续分发/传播期间易于自由获取的源码仓库。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "This Licence does not grant permission to use the trade names, trademarks, service marks, or names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the copyright notice.",
+    "解释": "许可证不授予使用许可方商号、商标、服务标记或名称的权利，仅允许在描述作品来源和复制版权声明内容所需的合理惯常范围内使用。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "The Licensee shall keep intact all copyright, patent or trademarks notices and all notices that refer to the Licence and to the disclaimer of warranties. The Licensee must include a copy of such notices and a copy of the Licence with every copy of the Work he/she distributes or communicates.",
+    "解释": "分发时必须保留所有版权、专利或商标声明以及提及许可证和免责声明的所有声明，并在每份副本中随附此类声明和许可证副本。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "the Work is provided under the Licence on an 'as is' basis and without warranties of any kind concerning the Work, including without limitation merchantability, fitness for a particular purpose, absence of defects or errors, accuracy, non-infringement of intellectual property rights other than copyright as stated in Article 6 of this Licence. Except in the cases of wilful misconduct or damages directly caused to natural persons, the Licensor will in no event be liable for any direct or indirect, material or moral, damages of any kind, arising out of the Licence or of the use of the Work, including without limitation, damages for loss of goodwill, work stoppage, computer failure or malfunction, loss of data or any commercial damage, even if the Licensor has been advised of the possibility of such damage.",
+    "解释": "作品按“原样”提供，不附带包括适销性、特定用途适用性在内的任何保证；除故意不当行为、对自然人直接造成损害及法定产品责任外，许可方不承担损害赔偿责任，因此被授权者通常无权向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "The Licensee (becoming Licensor) cannot offer or impose any additional terms or conditions on the Work or Derivative Work that alter or restrict the terms of the Licence. While distributing the Work, You may choose to conclude an additional agreement, defining obligations or services consistent with this Licence.",
+    "解释": "被许可人不得对作品或衍生作品施加改变或限制许可证条款的额外条件；仅可签订与许可证一致的附加服务协议，并自行承担责任、赔偿贡献者。"
+  }
+]

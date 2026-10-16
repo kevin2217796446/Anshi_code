@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "You may copy and distribute the Document in any medium, either commercially or noncommercially, provided that this License, the copyright notices, and the license notice saying this License applies to the Document are reproduced in all copies, and that you add no other conditions whatsoever to those of this License.",
+    "解释": "许可证明确允许将文档用于商业或非商业目的，没有禁止商业使用的条款。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及个人或组织内部修改后使用的场景，其条款主要针对复制、修改和分发行为，未规定内部使用是否触发开源义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may copy and distribute the Document in any medium, either commercially or noncommercially, provided that this License, the copyright notices, and the license notice saying this License applies to the Document are reproduced in all copies...",
+    "解释": "许可证明确允许在任何媒介上分发文档，但须保留许可证、版权声明和许可声明，并遵守其他条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "You may copy and distribute a Modified Version of the Document under the conditions of sections 2 and 3 above, provided that you release the Modified Version under precisely this License...",
+    "解释": "许可证允许复制和分发修改版本，但要求修改版本必须严格按本许可证发布，因此衍生作品具有强传染性，不得自由选择其他许可证。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "明确允许",
+    "原文": "A compilation of the Document or its derivatives with other separate and independent documents or works, in or on a volume of a storage or distribution medium, does not as a whole count as a Modified Version of the Document... this License does not apply to the other self-contained works thus compiled with the Document, on account of their being thus compiled, if they are not themselves derivative works of the Document.",
+    "解释": "许可证明确允许将文档与独立作品聚合在同一媒介上，只要不声称汇编版权，许可证不适用于其他独立作品，即独立作品的聚合不导致传染。该规定类似链接级传染性的排除，但本许可证是文档许可证，不涉及软件链接。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "本许可证是文档许可证，未包含任何专利授权或专利反诉终止条款。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "You may not copy, modify, sublicense, or distribute the Document except as expressly provided for under this License.",
+    "解释": "许可证明确禁止除本许可证明确规定外的复制、修改、再许可或分发行为，不允许以其他许可证进行再分发。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及通过网络提供服务或SaaS场景，也没有将网络交互视为分发或触发源代码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "List on the Title Page, as authors, one or more persons or entities responsible for authorship of the modifications in the Modified Version, together with at least five of the principal authors of the Document (all of its principal authors, if it has less than five).",
+    "解释": "许可证除版权声明外，还要求额外归属义务，如在标题页列出作者、保留历史章节和致谢章节等。但没有规定NOTICE文件，而是以文档章节形式要求保留归属信息。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "If you publish or distribute Opaque copies of the Document numbering more than 100, you must either include a machine-readable Transparent copy along with each Opaque copy, or state in or with each Opaque copy a publicly-accessible computer-network location containing a complete Transparent copy of the Document...",
+    "解释": "许可证要求在大规模分发不透明副本时提供机器可读的透明副本或可公开访问的网络位置，并保证至少一年可访问。这类似源代码公开义务，但针对文档透明副本。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "The author(s) and publisher(s) of the Document do not by this License give permission to use their names for publicity for or to assert or imply endorsement of any Modified Version.",
+    "解释": "许可证明确不授予使用作者或出版者名称进行宣传、断言或暗示认可修改版的权利，因此商标/名称使用权未被授予，相关使用受禁止。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "provided that this License, the copyright notices, and the license notice saying this License applies to the Document are reproduced in all copies...",
+    "解释": "许可证明确要求在所有副本中复制许可证、版权声明和说明本许可证适用的声明，以保留版权信息。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "模糊",
+    "原文": "while not being considered responsible for modifications made by others.",
+    "解释": "许可证未包含明确的免责声明或质量保证条款；仅在前言中提及作者和出版者不对他人所做的修改负责，未全面规定对文档损失的责任，因此质量保证与追责问题存在模糊。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "and that you add no other conditions whatsoever to those of this License.",
+    "解释": "许可证明确禁止用户在分发副本时添加本许可证之外的任何其他条件。"
+  }
+]

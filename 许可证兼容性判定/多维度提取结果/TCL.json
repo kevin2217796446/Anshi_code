@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "The authors hereby grant permission to use, copy, modify, distribute, and license this software and its documentation for any purpose",
+    "解释": "许可证明确授予以任何目的使用、复制、修改、分发和再许可的权利，包括商业用途，没有禁止商业使用的条款。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "The authors hereby grant permission to use, copy, modify, distribute, and license this software and its documentation for any purpose",
+    "解释": "许可证允许个人或组织内部使用和修改软件，内部使用不触发任何公开源代码义务；仅分发时需保留版权声明和通知。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "The authors hereby grant permission to use, copy, modify, distribute, and license this software and its documentation for any purpose, provided that existing copyright notices are retained in all copies and that this notice is included verbatim in any distributions.",
+    "解释": "明确允许向第三方分发代码，但分发时必须保留既有版权声明并逐字包含本许可证通知。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "Modifications to this software may be copyrighted by their authors and need not follow the licensing terms described here, provided that the new terms are clearly indicated on the first page of each file where they apply.",
+    "解释": "允许对软件进行修改，并允许修改后的作品选择不同于原始许可证的条款发布，不要求整个衍生作品以原许可证发布，属于宽松传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接、导入或其他链接机制，因此不涉及链接级传染性义务。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证没有明确授予专利权利，也没有规定专利反诉终止机制，因此专利授权相关内容未涉及。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "The authors hereby grant permission to use, copy, modify, distribute, and license this software and its documentation for any purpose",
+    "解释": "明确允许对软件进行再许可，并允许修改版本以不同于原始许可证的条款分发。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及以网络服务或SaaS形式提供软件是否触发源代码公开义务，也未将网络交互视为分发行为。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证要求保留既有版权声明并逐字包含本通知，但未提及单独的NOTICE文件或额外的归属文件义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证允许分发，但没有规定必须提供源代码、提供方式或源代码公开的触发条件。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证没有授予任何商标、商号或标识的使用权，也没有明确禁止商标使用，因此商标相关内容未涉及。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "existing copyright notices are retained in all copies and that this notice is included verbatim in any distributions.",
+    "解释": "许可证明确要求分发时必须保留现有版权声明，并逐字附带本许可证通知和免责声明内容。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "IN NO EVENT SHALL THE AUTHORS OR DISTRIBUTORS BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OF THIS SOFTWARE, ITS DOCUMENTATION, OR ANY DERIVATIVES THEREOF, EVEN IF THE AUTHORS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "解释": "许可证明确免除作者和分发者因使用软件、文档或衍生品造成的任何损害责任，同时排除了任何明示或默示担保，因此被授权者不能就质量问题向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确允许",
+    "原文": "Modifications to this software may be copyrighted by their authors and need not follow the licensing terms described here, provided that the new terms are clearly indicated on the first page of each file where they apply.",
+    "解释": "允许用户对修改后的版本采用不同于原始许可证的条款，包括施加额外限制，但必须在每个适用文件首页清晰标明新条款。"
+  }
+]

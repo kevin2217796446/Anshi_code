@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Activities other than distribution and/or modification of The Program are not covered by this license; they are outside its scope. In particular, the act of running The Program is not restricted.",
+    "解释": "许可证仅约束分发和修改行为，运行程序等使用行为不在其范围内，因此商业使用被允许，不受禁止。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Activities other than distribution and/or modification of The Program are not covered by this license; they are outside its scope. In particular, the act of running The Program is not restricted.",
+    "解释": "内部使用不属于分发或修改行为，不受许可证限制；内部修改虽然被建议遵守修改条件，但不触发强制开源义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may distribute a complete, unmodified copy of The Program. Distribution of only part of The Program is not allowed. You may distribute a modified file of The Program if, and only if, the following eight conditions are met:",
+    "解释": "允许分发完整未修改副本；修改文件的分发必须满足八项条件；禁止部分分发。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "You must distribute the modified file under a license that forbids distribution both of the modified file and of any files derived from the modified file with the filename of the original file.",
+    "解释": "LPPL不要求整个衍生作品以LPPL发布，修改文件可以选择其他许可证分发，但该许可证必须禁止以原始文件名分发修改文件及派生文件，因此不具有强传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅规定文件的分发和修改条件，未提及静态链接、动态链接、导入等机制，也没有规定链接是否触发传染，因此链接级传染性不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及专利授权、专利反诉终止或相关专利条款，因此专利授权在本许可证中不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "模糊",
+    "原文": "You must distribute the modified file under a license that forbids distribution both of the modified file and of any files derived from the modified file with the filename of the original file. If for any part of your program you want or need to use *distribution* conditions that differ from those in this license, then do not refer to this license anywhere in your program but instead distribute your program under a different license.",
+    "解释": "修改文件可在满足条件7的许可证下分发，允许使用不同于LPPL的许可证；但对于未修改副本能否再许可未作明确规定，整体存在模糊。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "模糊",
+    "原文": "`distribution' of a file means making the file available to others by any means. This includes, for instance, installing the file on any machine in such a way that the file is accessible by users other than yourself.",
+    "解释": "LPPL将分发定义为以任何方式使文件可供他人获取，包括安装到机器上供他人访问，这可能涵盖通过网络提供文件访问，但未明确网络服务或SaaS交互是否触发义务，存在解读空间。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及NOTICE文件或要求保留和传递单独归属文件；仅有修改文件时确认原作者和原文件名称的要求，但不涉及NOTICE文件义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "You must do either (A) or (B): (A) distribute a copy of The Program (that is, a complete, unmodified copy of The Program) together with the modified file; if your distribution of the modified file is made by offering access to copy the modified file from a designated place, then offering equivalent access to copy The Program from the same place meets this condition, even though third parties are not compelled to copy The Program along with the modified file; (B) provide to those who receive the modified file information that is sufficient for them to obtain a copy of The Program; for example, you may provide a Uniform Resource Locator (URL) for a site that you expect will provide them with a copy of The Program free of charge (either the version from which your modification is derived, or perhaps a later version).",
+    "解释": "分发修改文件时必须同时提供完整未修改的Program副本，或提供足够信息让接收者获取该副本；这构成LPPL下的源代码获取义务。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及商标、项目名称或Logo的使用授权，也未明确不授予商标权，因此商标使用不适用。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "模糊",
+    "原文": "In the modified file, you must acknowledge the authorship and name of the original file, and the name (if any) of the program which contains it. You must change any identification string in the file to indicate clearly that the modified file is not part of The Program.",
+    "解释": "LPPL要求修改文件确认原作者和原文件名，并更改标识字符串以区别于原程序，但对保留完整版权声明、许可证文本和免责声明的具体方式和范围未作明确规定，因此存在模糊。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "There is no warranty for The Program. Except when otherwise stated in writing, The Copyright Holder provides The Program `as is', without warranty of any kind, either expressed or implied, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. In no event unless agreed to in writing will The Copyright Holder, or any author named in the files of The Program, or any other party who may distribute and/or modify The Program as permitted above, be liable to you for damages, including any general, special, incidental or consequential damages arising out of any use of The Program or out of inability to use The Program.",
+    "解释": "许可证明确不提供任何担保，版权所有者、作者及分发者不对使用或无法使用造成的损失承担责任，被授权者无权追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "模糊",
+    "原文": "Individual files of The Program may bear supplementary and/or superseding conditions on modification of themselves and on the distribution of modified versions of themselves, but *no* file of The Program may bear supplementary or superseding conditions on the distribution of an unmodified copy of the file.",
+    "解释": "许可证允许个别文件对修改及修改版分发附加补充或取代条件，但禁止对未修改副本分发附加额外条件；对于被授权者能否对其修改版本施加超出许可证的其他限制未作明确规定，存在模糊。"
+  }
+]

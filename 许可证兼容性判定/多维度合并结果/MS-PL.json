@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Copyright Grant- Subject to the terms of this license, including the license conditions and limitations in section 3, each contributor grants you a non-exclusive, worldwide, royalty-free copyright license to reproduce its contribution, prepare derivative works of its contribution, and distribute its contribution or any derivative works that you create.",
+    "解释": "许可证授予复制、制作衍生作品和分发的权利，未设置禁止商业使用的条款，因此商业使用被明确允许。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "each contributor grants you a non-exclusive, worldwide, royalty-free copyright license to reproduce its contribution, prepare derivative works of its contribution, and distribute its contribution or any derivative works that you create.",
+    "解释": "许可证允许复制和制作衍生作品，内部使用及内部修改不涉及分发，因此不触发开源或源码公开义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "each contributor grants you a non-exclusive, worldwide, royalty-free copyright license to reproduce its contribution, prepare derivative works of its contribution, and distribute its contribution or any derivative works that you create. If you distribute any portion of the software, you must retain all copyright, patent, trademark, and attribution notices that are present in the software. If you distribute any portion of the software in source code form, you may do so only under this license by including a complete copy of this license with your distribution.",
+    "解释": "许可证明确允许分发代码及衍生作品，但分发时必须保留现有版权、专利、商标和归属声明；源码形式分发还必须附带本许可证完整副本。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "模糊",
+    "原文": "If you distribute any portion of the software in source code form, you may do so only under this license by including a complete copy of this license with your distribution. If you distribute any portion of the software in compiled or object code form, you may only do so under a license that complies with this license.",
+    "解释": "该条款要求源码形式分发时使用本许可证，目标代码形式可使用符合本许可证的许可证，但未明确规定整个衍生作品是否必须整体以本许可证发布，因此代码级传染范围存在多种解读。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接、导入等机制，也未明确链接是否构成衍生作品，因此链接级传染性在此许可证中未涉及。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "Patent Grant- Subject to the terms of this license, including the license conditions and limitations in section 3, each contributor grants you a non-exclusive, worldwide, royalty-free license under its licensed patents to make, have made, use, sell, offer for sale, import, and/or otherwise dispose of its contribution in the software or derivative works of the contribution in the software. If you bring a patent claim against any contributor over patents that you claim are infringed by the software, your patent license from such contributor to the software ends automatically.",
+    "解释": "许可证明确授予专利许可，允许制造、使用、销售、许诺销售、进口等行为；同时包含专利反诉终止机制，如果被许可方提起专利侵权诉讼，相关专利许可自动终止。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "If you distribute any portion of the software in source code form, you may do so only under this license by including a complete copy of this license with your distribution. If you distribute any portion of the software in compiled or object code form, you may only do so under a license that complies with this license.",
+    "解释": "源码形式分发只能使用本许可证，不能变更为其他许可证；目标代码形式可使用符合本许可证的许可证，但不允许使用不合规的许可证进行再分发。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及SaaS、网络服务或通过网络交互触发源代码公开义务，也未将网络交互视为分发行为。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "If you distribute any portion of the software, you must retain all copyright, patent, trademark, and attribution notices that are present in the software.",
+    "解释": "分发时必须保留软件中已有的所有版权、专利、商标和归属声明。许可证虽未使用“NOTICE文件”术语，但该等归属声明可包括NOTICE文件内容，因此需要保留并传递。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "If you distribute any portion of the software in source code form, you may do so only under this license by including a complete copy of this license with your distribution. If you distribute any portion of the software in compiled or object code form, you may only do so under a license that complies with this license.",
+    "解释": "仅在以源码形式分发时需要提供源码并附带本许可证；以编译或目标代码形式分发时，不强制公开源代码，但必须使用符合本许可证的许可证。分发行为按美国版权法定义。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "No Trademark License- This license does not grant you rights to use any contributors' name, logo, or trademarks.",
+    "解释": "许可证明确不授予使用贡献者名称、Logo或商标的权利，因此不能使用原作者的商标来推广衍生作品。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "If you distribute any portion of the software, you must retain all copyright, patent, trademark, and attribution notices that are present in the software. If you distribute any portion of the software in source code form, you may do so only under this license by including a complete copy of this license with your distribution. The software is licensed \"as-is.\" You bear the risk of using it. The contributors give no express warranties, guarantees, or conditions.",
+    "解释": "分发时必须保留软件中现有的所有版权、专利、商标和归属声明；源码分发须附带完整许可证文本，许可证中包含“按原样”许可和免责声明。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "The software is licensed \"as-is.\" You bear the risk of using it. The contributors give no express warranties, guarantees, or conditions. You may have additional consumer rights under your local laws which this license cannot change. To the extent permitted under your local laws, the contributors exclude the implied warranties of merchantability, fitness for a particular purpose and non-infringement.",
+    "解释": "许可证明确按“原样”提供软件，贡献者不提供任何明示或默示保证，并排除适销性、特定目的适用性和不侵权等默示保证，因此被授权者无权就软件造成的损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确允许或禁止用户在使用软件时施加超出原许可条款的额外限制，因此未涉及。"
+  }
+]

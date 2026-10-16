@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "(1) You are permitted to use the Standard Version and create and use Modified Versions for any purpose without restriction, provided that you do not Distribute the Modified Version. (2) You may Distribute verbatim copies of the Source form of the Standard Version of this Package in any medium without restriction, either gratis or for a Distributor Fee, provided that you duplicate all of the original copyright notices and associated disclaimers.",
+    "解释": "许可证明确允许为任何目的使用、创建和使用修改版本，包括商业目的；分发时允许收取分发费用，不禁止商业使用。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "(1) You are permitted to use the Standard Version and create and use Modified Versions for any purpose without restriction, provided that you do not Distribute the Modified Version. \"Distribute\" means providing a copy of the Package or making it accessible to anyone else, or in the case of a company or organization, to others outside of your company or organization.",
+    "解释": "许可证允许组织内部修改和使用，且仅向组织外部提供才构成分发；因此内部使用不触发分发或开源义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "(2) You may Distribute verbatim copies of the Source form of the Standard Version of this Package in any medium without restriction, either gratis or for a Distributor Fee, provided that you duplicate all of the original copyright notices and associated disclaimers. (4) You may Distribute your Modified Version as Source (either gratis or for a Distributor Fee, and with or without a Compiled form of the Modified Version) provided that you clearly document how it differs from the Standard Version, and provided that you do at least ONE of the following: (a)...(b)...(c)...",
+    "解释": "允许分发标准版本和修改版本，但需满足相应条件，如保留版权声明或满足修改版本分发选项之一。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "模糊",
+    "原文": "(4) You may Distribute your Modified Version as Source ... provided that you do at least ONE of the following: (a) make the Modified Version available to the Copyright Holder ... under the Original License ... (b) ensure that installation of your Modified Version does not prevent the user installing or running the Standard Version ... the Modified Version must bear a name that is different ... (c) allow anyone who receives a copy ... to make the Source form of the Modified Version available to others under (i) the Original License or (ii) a license that permits the licensee to freely copy, modify and redistribute ... and requires that the Source form ... be made freely available ... (10) Any use, modification, and distribution of the Standard or Modified Versions is governed by this Artistic License.",
+    "解释": "修改版本分发不强制采用 Artistic License：可通过 (b) 仅改名并保证标准版本可安装，或通过 (c) 选择符合要求的替代许可证；但整体使用、修改和分发仍受 Artistic License 约束。这种传染性范围不如 GPL 强，也不是完全宽松，存在多种解读。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "明确允许",
+    "原文": "(8) You are permitted to link Modified and Standard Versions with other works, to embed the Package in a larger work of your own, or to build stand-alone binary or bytecode versions of applications that include the Package, and Distribute the result without restriction, provided the result does not expose a direct interface to the Package. (9) Works ... that merely extend or make use of the Package, do not, by themselves, cause the Package to be a Modified Version. In addition, such works are not considered parts of the Package itself, and are not subject to the terms of this license.",
+    "解释": "允许将 Package 与其他作品链接、嵌入或构建包含 Package 的应用并无限制分发，只要不暴露直接接口到 Package；仅使用 Package 的作品不受本许可证约束，因此不传染自有代码。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "(13) This license includes the non-exclusive, worldwide, free-of-charge patent license to make, have made, use, offer to sell, sell, import and otherwise transfer the Package with respect to any patent claims licensable by the Copyright Holder that are necessarily infringed by the Package. If you institute patent litigation ... alleging that the Package constitutes direct or contributory patent infringement, then this Artistic License to you shall terminate on the date that such litigation is filed.",
+    "解释": "明确授予非排他、全球、免费的专利许可，覆盖必然被 Package 侵犯的专利权利要求；但若被许可方提起专利侵权诉讼，专利许可随许可证自动终止。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "(4)(c) allow anyone who receives a copy of the Modified Version to make the Source form of the Modified Version available to others under (i) the Original License or (ii) a license that permits the licensee to freely copy, modify and redistribute the Modified Version using the same licensing terms that apply to the copy that the licensee received, and requires that the Source form of the Modified Version, and of any works derived from it, be made freely available in that license fees are prohibited but Distributor Fees are allowed.",
+    "解释": "修改版本的源代码可以选择 Original License 或符合特定要求的替代许可证再分发，但替代许可证必须允许自由复制、修改和再分发，且禁止许可费。标准版本则应逐字按原许可证分发。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "模糊",
+    "原文": "\"Distribute\" means providing a copy of the Package or making it accessible to anyone else, or in the case of a company or organization, to others outside of your company or organization. (5) You may Distribute Compiled forms of the Standard Version without the Source, provided that you include complete instructions on how to get the Source of the Standard Version.",
+    "解释": "许可证未明确将网络交互或 SaaS 视为分发，但 Distribute 定义中的\"making it accessible\"可能涵盖通过网络提供访问的情况；是否触发源码公开义务存在解释空间，因此模糊。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求复制原始版权声明和免责声明（第2条），未提及 NOTICE 文件或额外的归属声明义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "(5) You may Distribute Compiled forms of the Standard Version without the Source, provided that you include complete instructions on how to get the Source of the Standard Version. Such instructions must be valid at the time of your distribution. If these instructions ... become invalid, you must provide new instructions on demand or cease further distribution. (6) You may Distribute a Modified Version in Compiled form without the Source, provided that you comply with Section 4 with respect to the Source of the Modified Version. \"Distribute\" means providing a copy of the Package or making it accessible to anyone else...",
+    "解释": "分发编译形式不附带源码时，必须提供获取源码的有效说明；分发修改版本编译形式则须遵守第4条的源码条件。分发定义涵盖提供副本或使他人可访问。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "(12) This license does not grant you the right to use any trademark, service mark, tradename, or logo of the Copyright Holder.",
+    "解释": "许可证明确不授予使用版权持有者商标、服务标志、商号或标识的任何权利。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "(2) You may Distribute verbatim copies of the Source form of the Standard Version of this Package in any medium without restriction, either gratis or for a Distributor Fee, provided that you duplicate all of the original copyright notices and associated disclaimers.",
+    "解释": "分发标准版本源码时必须复制所有原始版权声明和相关免责声明；许可证未具体规定展示形式，但必须保留这些声明。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "(14) THE PACKAGE IS PROVIDED BY THE COPYRIGHT HOLDER AND CONTRIBUTORS \"AS IS\" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES. THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT ARE DISCLAIMED TO THE EXTENT PERMITTED BY YOUR LOCAL LAW. UNLESS REQUIRED BY LAW, NO COPYRIGHT HOLDER OR CONTRIBUTOR WILL BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THE PACKAGE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "解释": "软件按\"现状\"提供，无任何明示或默示保证，版权持有人和贡献者对损失不承担责任，因此被授权者无权追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确授予用户施加超出原许可条款的额外限制的权利，也未明确禁止此类行为，因此本维度不适用。"
+  }
+]

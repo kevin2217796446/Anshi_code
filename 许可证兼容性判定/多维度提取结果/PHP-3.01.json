@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, is permitted provided that the following conditions are met:",
+    "解释": "许可证明确允许以源代码和二进制形式使用和再分发，无论是否修改，且未限制商业用途，因此商业使用是被允许的。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, is permitted provided that the following conditions are met:",
+    "解释": "许可证允许使用（含修改），包括在组织内部使用；再分发时才有条件，内部使用不触发开源义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, is permitted provided that the following conditions are met:",
+    "解释": "许可证允许将代码以源码或二进制形式分发给第三方，但需满足后续保留声明等条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证允许修改和再分发，但未要求衍生作品以相同许可证发布，也未明确允许自由选择许可证，因此未对代码级传染性（衍生作品许可证选择）作出规定。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接或导入等机制，也未规定链接后自有代码的开源义务，因此不适用链接级传染性。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未授予专利权利，也未包含专利反诉终止条款，因此不涉及专利授权。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "No one other than the PHP Group has the right to modify the terms applicable to covered code created under this License.",
+    "解释": "只有PHP Group有权修改覆盖代码的许可条款，其他方不得更改许可证或进行再许可。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未将网络服务（SaaS）或交互视为分发行为，也未规定网络服务会触发源代码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "Redistributions of any form whatsoever must retain the following acknowledgment: \"This product includes PHP software, freely available from <http://www.php.net/software/>\".",
+    "解释": "许可证要求在再分发时保留特定确认声明，构成额外归属义务；但未提及NOTICE文件。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未要求分发二进制时提供源代码，也未规定“分发”会触发源码公开义务，因此不涉及源代码公开。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "The name \"PHP\" must not be used to endorse or promote products derived from this software without prior written permission. Products derived from this software may not be called \"PHP\", nor may \"PHP\" appear in their name, without prior written permission from group@php.net.",
+    "解释": "未经PHP Group书面许可，不得使用PHP名称推广或命名衍生产品，因此不授予商标使用权，并明确禁止未经许可的商标使用。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. Redistributions of any form whatsoever must retain the following acknowledgment: \"This product includes PHP software, freely available from <http://www.php.net/software/>\".",
+    "解释": "分发源码或二进制时必须保留版权声明、条件列表、免责声明以及特定确认，许可证明确规定了这些分发时的声明义务。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THIS SOFTWARE IS PROVIDED BY THE PHP DEVELOPMENT TEAM ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE PHP DEVELOPMENT TEAM OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES...",
+    "解释": "许可证明确否认任何保证并排除损害赔偿责任，被授权者不能就软件质量或损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "No one other than the PHP Group has the right to modify the terms applicable to covered code created under this License.",
+    "解释": "除PHP Group外，任何人无权修改覆盖代码的许可条款，因此用户不得施加超出原许可证的额外限制。"
+  }
+]

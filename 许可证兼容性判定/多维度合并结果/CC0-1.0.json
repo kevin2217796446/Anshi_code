@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "build upon, modify, incorporate in other works, reuse and redistribute as freely as possible in any form whatsoever and for any purposes, including without limitation commercial purposes.",
+    "解释": "CC0明确允许将作品及其衍生品用于商业目的，没有任何商业使用限制。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes",
+    "解释": "允许个人或组织在内部修改和使用作品，不触发任何开源义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "reuse and redistribute as freely as possible in any form whatsoever and for any purposes",
+    "解释": "允许自由分发作品，无任何前置条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "build upon, modify, incorporate in other works, reuse and redistribute as freely as possible in any form whatsoever and for any purposes",
+    "解释": "允许合并、修改并融入其他作品，无传染性要求，衍生作品可自由选择许可证。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及链接机制或链接级传染性；由于CC0放弃所有版权及相关权利，链接自有代码不会产生开源义务，但无专门条款规定。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确禁止",
+    "原文": "No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document.",
+    "解释": "CC0明确不授予任何专利权利，也未包含专利反诉终止机制。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "redistribute as freely as possible in any form whatsoever and for any purposes",
+    "解释": "允许以任意形式自由再分发，因此可以改变许可证条款进行再许可。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务或SaaS场景，也未规定交互义务，因为CC0没有开源义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未要求保留归属声明或NOTICE文件，因为CC0放弃所有版权及相关权利，不设署名义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "reuse and redistribute as freely as possible in any form whatsoever and for any purposes",
+    "解释": "允许自由分发，不要求提供源代码，也不存在源码公开的触发条件。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document.",
+    "解释": "CC0明确不授予商标权，使用原作者商标需另行获得许可。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未要求分发时保留版权声明、许可证文本或免责声明，因为CC0已放弃版权及相关权利。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "Affirmer offers the Work as-is and makes no representations or warranties of any kind concerning the Work, express, implied, statutory or otherwise, including without limitation warranties of title, merchantability, fitness for a particular purpose, non infringement, or the absence of latent or other defects, accuracy, or the present or absence of errors, whether or not discoverable, all to the greatest extent permissible under applicable law.",
+    "解释": "作品按“现状”提供，无任何明示或默示担保，被授权者无权就损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确允许",
+    "原文": "build upon, modify, incorporate in other works, reuse and redistribute as freely as possible in any form whatsoever and for any purposes",
+    "解释": "允许用户对作品施加超出原有条款的额外约束，因为原始权利已被永久放弃，不受限制。"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Permission is granted to anyone to use this software for any purpose, including commercial applications",
+    "解释": "许可证明确允许将本软件用于任何目的，包括商业应用，没有禁止商业使用的条款。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Permission is granted to anyone to use this software for any purpose",
+    "解释": "允许任何目的的使用，包括组织或个人内部使用和修改；内部使用不涉及分发，因此不触发源码公开义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the above disclaimer and the following restrictions",
+    "解释": "明确允许自由再分发代码，但须遵守后续限制，如保留版权声明、免责声明及标记修改版本等。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "Permission is granted to anyone to use this software for any purpose ... and to alter it and redistribute it freely",
+    "解释": "允许修改并再分发衍生作品；没有要求衍生作品必须以相同许可证发布，只需保留声明并按要求标记修改，属于宽松、无强传染性的许可。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证虽将动态、共享或静态库版本列为修改版本的示例，但未规定链接或导入库会否导致自有代码开源，因此不涉及链接级传染性。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证原文未提及专利授权、专利权利或专利反诉终止机制，因此本维度不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "模糊",
+    "原文": "Permission is granted to anyone to use this software for any purpose ... and to alter it and redistribute it freely, subject to the above disclaimer and the following restrictions",
+    "解释": "许可证允许自由修改和再分发，但未明确说明是否允许以不同于原始许可证的条款进行再许可；限制仅要求保留声明等，是否包含再许可存在多种解读。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及通过网络提供服务、SaaS分发或网络交互是否触发源码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求保留版权声明、定义、免责声明和条件列表，没有要求保留或传递NOTICE文件或类似的额外归属文件。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未规定分发二进制时必须提供源代码，也未设定源代码公开的触发条件；仅对源码分发和二进制分发施加了保留版权声明的要求。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "Such altered versions also must not be misrepresented as being Info-ZIP releases--including, but not limited to, labeling of the altered versions with the names Info-ZIP (or any variation thereof), Pocket UnZip, WiZ or MacZip without the explicit permission of Info-ZIP.",
+    "解释": "许可证明确禁止在未经Info-ZIP明确许可的情况下，使用Info-ZIP等名称标记修改版本或将其宣称为Info-ZIP版本，未授予商标使用权。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "Redistributions of source code (in whole or in part) must retain the above copyright notice, definition, disclaimer, and this list of conditions. Redistributions in binary form (compiled executables and libraries) must reproduce the above copyright notice, definition, disclaimer, and this list of conditions in documentation and/or other materials provided with the distribution.",
+    "解释": "分发源码时必须在源码中保留版权声明、定义、免责声明和条件列表；分发二进制时必须在随附文档或其他材料中复制上述内容。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "This software is provided \"as is,\" without warranty of any kind, express or implied. In no event shall Info-ZIP or its contributors be held liable for any direct, indirect, incidental, special or consequential damages arising out of the use of or inability to use this software.",
+    "解释": "许可证明确不提供任何明示或默示担保，并排除Info-ZIP及其贡献者的损害赔偿责任，因此被授权者无权就软件造成的损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未规定用户是否有权对软件或其衍生作品施加超出原有许可条款的额外限制；原文中的限制均来自许可证本身，而非授予用户施加额外限制的权利。"
+  }
+]

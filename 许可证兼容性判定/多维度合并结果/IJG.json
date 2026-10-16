@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted to use, copy, modify, and distribute this software (or portions thereof) for any purpose, without fee, subject to these conditions: We specifically permit and encourage the use of this software as the basis of commercial products, provided that all warranty or liability claims are assumed by the product vendor.",
+    "解释": "许可证明确允许为任何目的使用、复制、修改和分发本软件，并特别允许和鼓励将其作为商业产品的基础，但产品供应商须承担保证和赔偿责任。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted to use, copy, modify, and distribute this software (or portions thereof) for any purpose, without fee, subject to these conditions:",
+    "解释": "许可证明确授予使用、复制和修改软件的权利，因此个人或组织可以在内部修改并使用；仅内部使用不涉及分发，不会触发本许可证中的分发相关义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted to use, copy, modify, and distribute this software (or portions thereof) for any purpose, without fee, subject to these conditions: (1) If any part of the source code for this software is distributed, then this README file must be included, with this copyright and no-warranty notice unaltered; and any additions, deletions, or changes to the original files must be clearly indicated in accompanying documentation. (2) If only executable code is distributed, then the accompanying documentation must state that \"this software is based in part on the work of the Independent JPEG Group\". (3) Permission for use of this software is granted only if the user accepts full responsibility for any undesirable consequences; the authors accept NO LIABILITY for damages of any kind.",
+    "解释": "许可证允许向第三方分发源代码或可执行代码，但须遵守三个条件：源码分发时需附带未修改的README并标明变更；仅分发可执行代码时需在文档中声明基于IJG；用户承担全部责任，作者不承担赔偿责任。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "These conditions apply to any software derived from or based on the IJG code, not just to the unmodified library. If you use our work, you ought to acknowledge us.",
+    "解释": "许可证允许修改和合并代码，并且这些条件适用于所有基于IJG代码的衍生软件；但它没有要求整个衍生作品以相同许可证发布，允许在满足保留通知和免责声明等条件的前提下选择其他许可证。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "明确允许",
+    "原文": "If only executable code is distributed, then the accompanying documentation must state that \"this software is based in part on the work of the Independent JPEG Group\".",
+    "解释": "允许仅分发可执行代码且无需公开源代码，因此链接该库不会强制自有代码开源，仅需在文档中声明。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未授予任何专利权利，也未包含专利反诉终止条款；文中仅提示算术编码和GIF相关第三方专利风险，并说明已移除相关功能以避免侵权，因此不构成专利授权条款。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确允许或禁止以其他许可证再分发代码，也未授予再许可权利；仅对分发施加保留通知和免责声明的条件。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未将网络服务或SaaS形式的使用视为分发，也未规定网络交互会触发源代码公开义务，因此不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "If any part of the source code for this software is distributed, then this README file must be included, with this copyright and no-warranty notice unaltered; and any additions, deletions, or changes to the original files must be clearly indicated in accompanying documentation. (2) If only executable code is distributed, then the accompanying documentation must state that \"this software is based in part on the work of the Independent JPEG Group\".",
+    "解释": "许可证规定了额外的归属义务：源码分发时必须包含未修改的README（含版权和免责声明）并在文档中清楚标明更改；仅分发可执行代码时必须在文档中声明该软件部分基于IJG代码。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "If only executable code is distributed, then the accompanying documentation must state that \"this software is based in part on the work of the Independent JPEG Group\".",
+    "解释": "不强制要求公开源代码；仅当分发源码时才需包含README文件，分发可执行文件则无需提供源码，只需文档声明。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "Permission is NOT granted for the use of any IJG author's name or company name in advertising or publicity relating to this software or products derived from it. This software may be referred to only as \"the Independent JPEG Group's software\".",
+    "解释": "许可证明确禁止在广告或宣传中使用作者姓名或公司名称，仅允许以“Independent JPEG Group's software”称呼该软件，因此不授予商标或名称推广权。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "If any part of the source code for this software is distributed, then this README file must be included, with this copyright and no-warranty notice unaltered; and any additions, deletions, or changes to the original files must be clearly indicated in accompanying documentation. (2) If only executable code is distributed, then the accompanying documentation must state that \"this software is based in part on the work of the Independent JPEG Group\". (3) Permission for use of this software is granted only if the user accepts full responsibility for any undesirable consequences; the authors accept NO LIABILITY for damages of any kind.",
+    "解释": "分发时必须以规定方式保留版权和免责声明：源码分发需附上未修改的README并标明变更；仅可执行代码分发需在文档中声明基于IJG；同时用户接受全部责任，作者不承担责任。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "The authors make NO WARRANTY or representation, either express or implied, with respect to this software, its quality, accuracy, merchantability, or fitness for a particular purpose. This software is provided \"AS IS\", and you, its user, assume the entire risk as to its quality and accuracy. ... the authors accept NO LIABILITY for damages of any kind.",
+    "解释": "许可证明确否认任何明示或默示担保，用户自行承担质量和准确性风险，作者对任何损失均不承担责任，因此被授权者无权就损失向作者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证没有授权用户对软件的使用或分发施加超出原有许可条款的额外限制，也没有禁止此类行为，因此该维度未涉及。"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "PSF hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python alone or in any derivative version",
+    "解释": "许可证明确授予复制、分析、测试、公开表演/展示、制作衍生作品、分发及以其他方式使用软件的权利，未对商业用途作出任何限制。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "PSF hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python alone or in any derivative version, provided, however, that PSF's License Agreement and PSF's notice of copyright ... are retained in Python alone or in any derivative version prepared by Licensee.",
+    "解释": "许可证允许个人或组织内部使用、修改源代码并制作衍生作品；内部使用不会触发源代码公开义务，但修改后的衍生版本仍需保留原许可证和版权声明。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "distribute, and otherwise use Python alone or in any derivative version, provided, however, that PSF's License Agreement and PSF's notice of copyright ... are retained in Python alone or in any derivative version prepared by Licensee.",
+    "解释": "许可证明确允许将软件分发给第三方，但分发时必须保留PSF许可证协议和版权声明；分发衍生作品时还须包含变更摘要。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "prepare derivative works ... provided, however, that PSF's License Agreement and PSF's notice of copyright ... are retained in Python alone or in any derivative version prepared by Licensee.",
+    "解释": "许可证明确允许修改、合并并制作衍生作品；不要求整个衍生作品以相同许可证发布，仅要求保留原始许可证和版权声明，属于宽松型传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "模糊",
+    "原文": "In the event Licensee prepares a derivative work that is based on or incorporates Python or any part thereof, and wants to make the derivative work available to others as provided herein, then Licensee hereby agrees to include in any such work a brief summary of the changes made to Python.",
+    "解释": "许可证未明确提及静态链接、动态链接或导入等机制，但使用了“incorporates Python or any part thereof”的表述，可能涵盖链接产生的情况；是否因此触发传染性存在不同解释空间。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证原文未提及任何专利授权、专利许可或专利反诉终止机制，因此该维度不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确授予或禁止以不同于原始许可证的其他许可证进行再分发，仅要求保留原许可证和版权声明，未涉及再许可权问题。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及以网络服务（SaaS）形式提供软件时的源代码公开义务，也未将网络交互视为分发行为，因此该维度不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及NOTICE文件的保留或传递义务；其归属要求主要体现在保留版权声明和许可证文本（见维度12）以及衍生作品的变更摘要。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证以源代码形式授权使用、复制和分发，但未规定额外的源代码提供条件、形式或触发机制，因此该维度不适用。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "This License Agreement does not grant permission to use PSF trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party.",
+    "解释": "许可证明确不授予使用PSF商标或商号的权利，禁止被许可人使用其商标推广产品或服务。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "PSF's License Agreement and PSF's notice of copyright ... are retained in Python alone or in any derivative version prepared by Licensee. ... include in any such work a brief summary of the changes made to Python.",
+    "解释": "分发软件或衍生作品时，必须保留PSF许可证协议、版权声明和免责声明；衍生作品还须包含对Python所做修改的简要说明。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "PSF is making Python available to Licensee on an \"AS IS\" basis. PSF MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. ... PSF SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.",
+    "解释": "许可证明确按“现状”提供软件，排除任何明示或默示担保，并排除因使用或修改软件造成的任何损害责任，因此被授权者无权就质量或损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确允许或禁止被授权者对软件施加超出原许可条款的额外限制；其保留原许可证的要求可能间接限制添加冲突条款，但无明确约定。"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "to use, copy, modify, merge, publish, perform, distribute and/or sell copies of the Original Work and derivative works thereof",
+    "解释": "许可证明确授予使用、复制、修改、合并、发布、表演、分发和销售原始作品及其衍生作品的权利，因此商业使用被明确允许。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "to use, copy, modify, merge, publish, perform, distribute and/or sell copies of the Original Work and derivative works thereof",
+    "解释": "许可证授予使用、复制和修改原始作品的权利，内部使用属于该授权范围，且不会触发分发义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Redistributions of the Original Work must reproduce all copyright notices in the Original Work as furnished by the Licensor, both in the Original Work itself and in any documentation and/or other materials provided with the distribution of the Original Work in executable form.",
+    "解释": "许可证允许再分发原始作品，但再分发时必须复制所有版权声明，并在源码及随可执行形式提供的文档或其他材料中保留。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证授予修改和制作衍生作品的权利，但未规定衍生作品必须以何种许可证发布，因此不存在代码级传染性要求。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接或导入等机制，因此未涉及链接级传染性。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "under patent claims owned or controlled by the Licensor that are embodied in the Original Work as furnished by the Licensor, to make, use, sell and offer for sale the Original Work and derivative works thereof; This License shall terminate automatically and You may no longer exercise any of the rights granted to You by this License if You file a lawsuit in any court alleging that any OSI Certified open source software that is licensed under any license containing this Mutual Termination for Patent Action clause infringes any patent claims that are essential to use that software.",
+    "解释": "许可证明确授予专利实施权，并包含专利诉讼相互终止条款：若用户对包含该条款的OSI认证软件提起专利侵权诉讼，专利授权自动终止。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "non-sublicenseable license",
+    "解释": "许可证明确不可再许可，用户不能以其他许可证再许可原始作品。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未规定以网络服务或SaaS形式提供软件时的源代码公开义务，也未将网络交互视为分发行为。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求保留版权声明，未提及NOTICE文件或其他额外归属义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "Licensor hereby agrees to provide a machine-readable copy of the Source Code of the Original Work along with each copy of the Original Work that Licensor distributes. Licensor reserves the right to satisfy this obligation by placing a machine-readable copy of the Source Code in an information repository reasonably calculated to permit inexpensive and convenient access by You for as long as Licensor continues to distribute the Original Work, and by publishing the address of that information repository in a notice immediately following the copyright notice that applies to the Original Work.",
+    "解释": "许可证要求许可方在分发原始作品时提供机器可读的源代码副本，或通过将源代码放置于合理信息库并公布地址来履行该义务。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "Neither the names of Licensor, nor the names of any contributors to the Original Work, nor any of their trademarks or service marks, may be used to endorse or promote products derived from this Original Work without express prior written permission of the Licensor.",
+    "解释": "许可证明确不授予商标或服务标记使用权，未经事先书面许可，不得使用许可方或贡献者的名称、商标推广衍生产品。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "Redistributions of the Original Work must reproduce all copyright notices in the Original Work as furnished by the Licensor, both in the Original Work itself and in any documentation and/or other materials provided with the distribution of the Original Work in executable form.",
+    "解释": "分发时必须复制所有版权声明，并应在源代码中以及随可执行形式提供的文档和/或其他材料中保留；许可证未明确要求传递许可证文本和免责声明。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THE ORIGINAL WORK IS PROVIDED UNDER THIS LICENSE ON AN \"AS IS\" BASIS, WITHOUT WARRANTY, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE WARRANTY OF NON-INFRINGEMENT AND WARRANTIES THAT THE ORIGINAL WORK IS MERCHANTABLE OR FIT FOR A PARTICULAR PURPOSE. UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE LICENSOR BE LIABLE TO ANY PERSON FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER ARISING AS A RESULT OF THIS LICENSE OR THE USE OF THE ORIGINAL WORK.",
+    "解释": "许可证按“原样”提供软件，不提供质量保证，并在法律允许范围内免除许可方对直接、间接、特殊、附带或后果性损害的责任，因此用户一般不能就质量问题向许可方追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未涉及用户是否可以对代码施加超出原许可条款的额外限制，因此该维度不适用。"
+  }
+]

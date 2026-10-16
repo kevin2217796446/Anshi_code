@@ -1,0 +1,5 @@
+Being in the public domain is not a license; rather, it means the
+material is not copyrighted and no license is needed. Practically
+speaking, though, if a work is in the public domain, it might as well
+have an all-permissive non-copyleft free software license. Public
+domain material is compatible with the GNU GPL.

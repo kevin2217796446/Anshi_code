@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Permission to use, copy, modify, and distribute this software and its associated documentation for any purpose and without fee is hereby granted",
+    "解释": "许可证明确授予为任何目的（包括商业目的）使用、复制、修改和分发软件的权利，不收取费用。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Permission to use, copy, modify, and distribute this software and its associated documentation for any purpose and without fee is hereby granted",
+    "解释": "许可证明确允许使用、复制和修改，未对个人或组织内部使用施加限制，内部修改不触发开源义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Permission to use, copy, modify, and distribute this software and its associated documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appears in all copies",
+    "解释": "许可证明确允许向第三方分发软件，前提是所有副本保留版权声明，并在支持文档中保留版权和许可声明，且不得未经许可使用版权方名称进行宣传。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "Permission to use, copy, modify, and distribute this software and its associated documentation for any purpose and without fee is hereby granted",
+    "解释": "许可证明确允许复制、修改和分发，未要求衍生作品以相同许可证发布，因此不具强传染性，衍生作品可自由选择许可证，但须保留原有声明。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接、导入或库的使用，因此链接级传染性问题在本许可证中不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及专利授权、专利反诉或相关终止机制，因此专利授权内容不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅允许使用、复制、修改和分发，未明确授权或禁止以不同许可证进行再分发，因此再许可问题未涉及。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS或通过网络交互是否触发源码公开义务，因此该维度不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及NOTICE文件或额外的归属文件要求，仅要求保留版权声明和许可声明，因此不涉及NOTICE文件义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证允许分发，但未规定必须提供源代码或以特定形式公开源码，因此源代码公开义务不涉及。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "that the name of the copyright holder not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission.",
+    "解释": "许可证明确禁止未经事先书面许可在广告或宣传中使用版权持有人的名称，不授予商标或名称推广权。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "the above copyright notice appears in all copies, and that both that copyright notice and this permission notice appear in supporting documentation",
+    "解释": "分发时必须在所有副本中保留版权声明，并在支持文档中同时保留版权声明和本许可声明。这是明确的分发条件。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THE COPYRIGHT HOLDER DISCLAIM ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM THE LOSS OF USE, DATA OR PROFITS",
+    "解释": "许可证明确排除所有担保，包括适销性和适用性的默示担保，并排除因使用软件造成的任何损失责任，因此被授权者无权就质量问题向版权方追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及用户是否有权施加超出原有条款的额外限制，因此该维度不适用。"
+  }
+]

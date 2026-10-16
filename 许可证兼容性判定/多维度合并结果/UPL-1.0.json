@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "without restriction, including without limitation the rights to copy, create derivative works of, display, perform, and distribute the Software and make, use, sell, offer for sale, import, export, have made, and have sold the Software and the Larger Work(s)",
+    "解释": "许可证明确授予商业目的的使用、复制、修改、销售、许诺销售、进出口等权利，未禁止商业使用。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "permission is hereby granted ... to deal in ... without restriction, including without limitation the rights to copy, create derivative works of, display, perform, and distribute the Software and make, use",
+    "解释": "许可证允许内部复制、修改和使用软件，未设置因内部使用而触发源码公开的义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "distribute the Software and make, use, sell, offer for sale, import, export, have made, and have sold ... and to sublicense the foregoing rights on either these or other terms.",
+    "解释": "许可证明确允许将软件分发给第三方，但分发时须满足保留版权声明和许可通知或UPL引用的条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "create derivative works of ... and to sublicense the foregoing rights on either these or other terms.",
+    "解释": "允许创建衍生作品，并允许以本许可证或其他条款再许可，因此衍生作品不强制以UPL发布，无代码级强传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接、导入等链接机制的传染性问题，因此链接级传染性在此不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "under any and all patent rights owned or freely licensable by each licensor hereunder covering either (i) the unmodified Software as contributed to or provided by such licensor, or (ii) the Larger Works",
+    "解释": "明确授予许可方拥有的相关专利权利，覆盖未修改软件和Larger Works；但未包含专利反诉终止机制。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "to sublicense the foregoing rights on either these or other terms.",
+    "解释": "明确允许以本许可证或其他条款进行再许可，即可变更再分发时的许可证。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及以网络服务或SaaS形式提供软件是否触发源码公开义务，也未将网络交互视为分发行为。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求保留版权声明和许可通知或UPL引用，未要求保留或传递NOTICE文件等额外归属内容。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "without restriction, including without limitation the rights to copy, create derivative works of, display, perform, and distribute the Software...; The above copyright notice and either this complete permission notice or at a minimum a reference to the UPL must be included in all copies or substantial portions of the Software.",
+    "解释": "许可证不要求分发时必须提供源代码，唯一条件是在所有副本或实质性部分中保留版权和许可声明。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未授予任何商标权，也未提及商标使用相关条款。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "The above copyright notice and either this complete permission notice or at a minimum a reference to the UPL must be included in all copies or substantial portions of the Software.",
+    "解释": "分发软件时必须保留原始版权声明，并包含完整许可通知或至少引用UPL，以履行版权声明义务。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+    "解释": "软件按现状提供，不提供任何明示或默示保证，作者或版权持有人不对任何损害承担责任，被授权者无权就质量问题追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确允许",
+    "原文": "to sublicense the foregoing rights on either these or other terms.",
+    "解释": "允许被授权方在再许可时采用本许可证以外的条款，因此可以施加超出原有许可条款的额外限制。"
+  }
+]

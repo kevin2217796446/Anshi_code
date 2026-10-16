@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Activities other than distribution and/or modification of The Program are not covered by this license; they are outside its scope. In particular, the act of running The Program is not restricted.",
+    "解释": "许可证仅约束分发和修改行为，运行程序等使用行为不在其范围内，因此商业使用被允许，不受禁止。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Activities other than distribution and/or modification of The Program are not covered by this license; they are outside its scope. In particular, the act of running The Program is not restricted.",
+    "解释": "内部使用不属于分发或修改行为，不受许可证限制；内部修改虽然被建议遵守修改条件，但不触发强制开源义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may distribute a complete, unmodified copy of The Program. Distribution of only part of The Program is not allowed. ... You may distribute a modified file of The Program if, and only if, the following eight conditions are met:",
+    "解释": "许可证明确允许分发完整未修改副本，并允许在满足八项条件时分发修改文件，但禁止仅分发程序的部分内容。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "You must distribute the modified file under a license that forbids distribution both of the modified file and of any files derived from the modified file with the filename of the original file.",
+    "解释": "许可证不要求整个衍生作品以LPPL发布，修改文件可以使用其他许可证，但该许可证必须禁止使用原始文件名，体现文件级弱传染性而非强传染。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接、导入或库的使用，因此链接级传染性不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及专利授权或专利反诉终止机制，因此专利相关条款不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "You must distribute the modified file under a license that forbids distribution both of the modified file and of any files derived from the modified file with the filename of the original file.",
+    "解释": "许可证允许以不同于LPPL的许可证分发修改文件，前提是该许可证禁止使用原始文件名并满足其他条件，因此允许再许可但有限制。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "模糊",
+    "原文": "Note that in the above, `distribution' of a file means making the file available to others by any means. This includes, for instance, installing the file on any machine in such a way that the file is accessible by users other than yourself.",
+    "解释": "许可证将分发定义为使文件对他人可用的任何方式，可能包括网络访问，但未明确网络服务（SaaS）是否触发源代码公开义务，存在解读空间。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未要求保留或传递NOTICE文件内容，仅要求修改文件时承认原作者和程序名称，因此NOTICE义务不适用。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "You must do either (A) or (B): (A) distribute a copy of The Program (that is, a complete, unmodified copy of The Program) together with the modified file; ... (B) provide to those who receive the modified file information that is sufficient for them to obtain a copy of The Program;",
+    "解释": "分发修改文件时，必须要么随附完整的未修改程序副本，要么提供足够信息（如URL）让接收者获取副本，从而确保源代码可获取。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未授予任何商标权，也未提及项目名称、Logo等商标的使用，因此商标使用不适用。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "模糊",
+    "原文": "In the modified file, you must acknowledge the authorship and name of the original file, and the name (if any) of the program which contains it.",
+    "解释": "许可证要求修改文件承认原作者和程序名称，但未明确要求传递许可证文本和免责声明，版权声明义务不够完整，因此存在模糊。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "There is no warranty for The Program. Except when otherwise stated in writing, The Copyright Holder provides The Program `as is', without warranty of any kind, either expressed or implied, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. ... In no event unless agreed to in writing will The Copyright Holder, or any author named in the files of The Program, or any other party who may distribute and/or modify The Program as permitted above, be liable to you for damages, including any general, special, incidental or consequential damages arising out of any use of The Program or out of inability to use The Program...",
+    "解释": "许可证明确否认任何担保，并排除了版权所有人和作者对使用软件造成的任何损害承担责任，因此被授权者无权追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "Individual files of The Program may bear supplementary and/or superseding conditions on modification of themselves and on the distribution of modified versions of themselves, but *no* file of The Program may bear supplementary or superseding conditions on the distribution of an unmodified copy of the file.",
+    "解释": "许可证明确禁止对未修改副本的分发施加额外约束，附加限制仅可由文件自身在修改或修改版本分发方面作出，用户无权任意增添超出原条款的限制。"
+  }
+]

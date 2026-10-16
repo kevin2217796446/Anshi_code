@@ -1,0 +1,89 @@
+# 在此文件追加新的映射关系（每行一条，去掉行首 # 才生效）
+# 格式：原始 license_text <tab> 映射结果
+# 示例（复制下面两行，去掉行首 # 即可）：
+# The Apache License, version 2.0	Apache-2.0
+# GNU 3	GPL-3.0-only
+The Apache License, version 2.0    Apache-2.0
+Proprietary Commercial License    Commercial
+ISC License (ISC)    ISC
+Mulan Permissive Software Licenseï¼Version 2 (Mulan PSL v2)    MulanPSL-2.0
+GNU AFFERO GENERAL PUBLIC LICENSE version 3    AGPL-3.0-only
+Commercial Private License    Commercial
+Proprietary â pre-GA    LicenseRef-cleansource-proprietary-license
+Proprietary â All Rights Reserved    LicenseRef-cleansource-proprietary-license
+Zero-Clause BSD License    0BSD
+Proprietary — pre-GA    LicenseRef-cleansource-proprietary-license
+SAP DEVELOPER LICENSE AGREEMENT for CAP    LicenseRef-cleansource-proprietary-license
+The zlib License    Zlib
+Compose HotSwan License (Commercial)    Commercial
+The GNU Lesser General Public License, version 3.0 (LGPL-3.0)    LGPL-3.0-only
+Proprietary — commercial license    Commercial
+EPL-2.0    EPL-2.0
+GPL-2.0 WITH Classpath-exception-2.0    GPL-2.0-with-classpath-exception
+LicenseRef-Internal-Use-Notice-and-Limited-License    LicenseRef-cleansource-proprietary-license
+European Space Agency Public License (ESA-PL) Weak Copyleft – v2.4    ESA-PL-weak-copyleft-2.4
+Functional Source License, Version 1.1, Apache 2.0 Future License    FSL-1.1-ALv2
+GFTC    LicenseRef-cleansource-oracle-gftc-2023-06-12
+GraalVM Free Terms and Conditions    GraalVM Free License
+LicenseRef-Bouncy-Castle-Licence    Bouncy Castle License
+LicenseRef-Codeprimate-1.0    LicenseRef-cleansource-proprietary-license
+LicenseRef-Elastic-License-2.0    Elastic-2.0
+GraalVM Free Terms and Conditions (GFTC) including License for Early Adopter Versions    GraalVM Free License
+LicenseRef-Element-Commercial    Commercial
+LicenseRef-Faktor-IPS-Alternative    LicenseRef-cleansource-proprietary-license
+LicenseRef-GSL-Binary-License    LicenseRef-cleansource-proprietary-license
+LicenseRef-KMediaMpv-Proprietary-1.0    LicenseRef-cleansource-proprietary-license
+LicenseRef-Proprietary-ObjectBox-Binary    LicenseRef-cleansource-proprietary-license
+LicenseRef-ObjectBox-Binary-Licence    LicenseRef-cleansource-proprietary-license
+LicenseRef-Stemmer-Data-License-Policy    LicenseRef-cleansource-proprietary-license
+LicenseRef-Qualcomm-Terms-of-Use    LicenseRef-cleansource-proprietary-license
+LicenseRef-Velr-Runtime-Binary-Redistribution    LicenseRef-cleansource-proprietary-license
+LicenseRef-ironcore-labs-commercial-license    LicenseRef-cleansource-proprietary-license
+LicenseRef-velr-runtime-binary-redistribution    LicenseRef-cleansource-proprietary-license
+Atlassian 3.0 End User License Agreement    LicenseRef-cleansource-atlassian-3.0
+no_license_404    no_license_404
+GPL (>= 2)    GPL-2.0-or-later
+GPL (>= 3)    GPL-3.0-or-later
+TODO    no_license
+GNU Public License, v2    GPL-2.0-or-later
+no    no_licnese
+GPL (>= 2.0)    GPL-2.0-or-later
+LGPL (>= 2)    LGPL-2.0-or-later
+Atlassian Customer Agreement    LicenseRef-cleansource-proprietary-license
+Atlassian End User License    LicenseRef-cleansource-proprietary-license
+Entrust Identity Verification Android SDK License    LicenseRef-cleansource-proprietary-license
+Atlassian Software License Agreement    LicenseRef-cleansource-proprietary-license
+Joyfill License    LicenseRef-cleansource-proprietary-license
+Atlassian Developer Terms    LicenseRef-cleansource-proprietary-license
+Modified GNU AGPL v3.0    LicenseRef-cleansource-unknown
+License    LicenseRef-cleansource-unknown
+Part of R 2.14.2     LicenseRef-cleansource-proprietary-license
+Additional Features Terms    LicenseRef-cleansource-proprietary-license
+MSA    no_license
+LGPL (>= 2.1)    LGPL-2.1-or-later
+LGPL (>= 3)    LGPL-3.0-or-later
+GPL (>=2)    GPL-2.0-or-later
+${maven.license.name}    no_license
+MuleSoft License Agreement    LicenseRef-cleansource-proprietary-license
+JSL Solucoes, Version 1.0    LicenseRef-cleansource-proprietary-license
+Digified Android SDK License    LicenseRef-cleansource-proprietary-license
+MicroBlink Terms of Use    LicenseRef-cleansource-proprietary-license
+BSD_3_clause    BSD-3-Clause
+BSD_2_clause    BSD-2-Clause
+CDDL license    CDDL-1.0
+EUPL-v1.1    EUPL-1.1
+Lesser Gnu Public License, Version 2.1    LGPL-2.1-or-later
+CC BY-SA 2.0    CC-BY-SA-2.0
+mit-license.org    MIT
+Red Hat Inc. License    LicenseRef-cleansource-proprietary-license
+CE    no_license
+GPL Exception    GPL-3.0-linking-exception
+Health-Related Additional Disclaimer of Warranty and Limitation of Liability    LicenseRef-cleansource-proprietary-license
+NOUMENA Runtime License    LicenseRef-cleansource-proprietary-license
+java-agent-license    no_license
+LICENSE    no_license
+LICENSE-2.0.txt    no_license
+BITDRIFT SDK LICENSE AGREEMENT    LicenseRef-cleansource-proprietary-license
+BOS-TopLogic-1.0    LicenseRef-cleansource-proprietary-license
+WALLETCONNECT COMMUNITY LICENSE    LicenseRef-cleansource-proprietary-license
+BITDRIFT SOFTWARE DEVELOPMENT KIT LICENSE AGREEMENT    LicenseRef-cleansource-proprietary-license

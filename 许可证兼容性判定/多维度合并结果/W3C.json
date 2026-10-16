@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Permission to copy, modify, and distribute this software and its documentation, with or without modification, for any purpose and without fee or royalty is hereby granted",
+    "解释": "许可证允许为任何目的（包括商业用途）复制、修改和分发软件及其文档，无需支付费用或版税。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "By obtaining, using and/or copying this work, you (the licensee) agree that you have read, understood, and will comply with the following terms and conditions. Permission to copy, modify, and distribute this software and its documentation, with or without modification, for any purpose and without fee or royalty is hereby granted",
+    "解释": "许可证授予使用、复制和修改的权利，未对内部使用设置额外的开源公开义务，因此允许在个人或组织内部修改后使用，仅需在副本上保留通知。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Permission to copy, modify, and distribute this software and its documentation, with or without modification, for any purpose and without fee or royalty is hereby granted, provided that you include the following on ALL copies of the software and documentation or portions thereof, including modifications:",
+    "解释": "许可证明确允许分发软件及其文档，但分发时必须满足在所有副本中保留通知、声明和变更记录等条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "Permission to copy, modify, and distribute this software and its documentation, with or without modification, for any purpose and without fee or royalty is hereby granted, provided that you include the following on ALL copies of the software and documentation or portions thereof, including modifications:",
+    "解释": "许可证允许修改和合并代码，未要求衍生作品以相同许可证发布，仅要求保留原通知和声明，因此不具强传染性，衍生作品可自由选择许可证。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接或导入库等场景下的传染性义务，因此该维度不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未包含明确的专利授权条款，也无专利反诉终止机制；仅在免责声明中声明不保证使用不侵犯第三方专利。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "模糊",
+    "原文": "Permission to copy, modify, and distribute this software and its documentation, with or without modification, for any purpose and without fee or royalty is hereby granted, provided that you include the following on ALL copies of the software and documentation or portions thereof, including modifications:",
+    "解释": "许可证未明确禁止以其他许可证再分发，也未明确授予再许可权；仅授予复制、修改和分发权利并要求保留通知，因此能否变更许可证再分发存在解释空间。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未涉及SaaS、网络服务或通过网络交互是否触发源代码公开义务，因此该维度不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "The full text of this NOTICE in a location viewable to users of the redistributed or derivative work. Any pre-existing intellectual property disclaimers, notices, or terms and conditions. If none exist, the W3C Software Short Notice should be included within the body of any redistributed or derivative code. Notice of any changes or modifications to the files, including the date changes were made.",
+    "解释": "许可证明确要求在再分发或衍生作品的可查看位置包含本通知全文、既有知识产权声明以及变更通知，构成额外的NOTICE保留义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未规定必须公开源代码的条件或形式，也未将分发定义为触发源代码公开义务，因此该维度不适用。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "The name and trademarks of copyright holders may NOT be used in advertising or publicity pertaining to the software without specific, written prior permission.",
+    "解释": "未经事先书面许可，禁止使用版权持有人的名称和商标进行广告宣传，不授予商标权。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "The full text of this NOTICE in a location viewable to users of the redistributed or derivative work. Any pre-existing intellectual property disclaimers, notices, or terms and conditions. If none exist, the W3C Software Short Notice should be included within the body of any redistributed or derivative code. Notice of any changes or modifications to the files, including the date changes were made.",
+    "解释": "分发时必须保留许可证全文、既有的知识产权声明和免责声明，并注明文件变更情况，以可见方式呈现给用户。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THIS SOFTWARE AND DOCUMENTATION IS PROVIDED \"AS IS,\" AND COPYRIGHT HOLDERS MAKE NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE SOFTWARE OR DOCUMENTATION WILL NOT INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS. COPYRIGHT HOLDERS WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF ANY USE OF THE SOFTWARE OR DOCUMENTATION.",
+    "解释": "软件按“原样”提供，不提供任何明示或默示保证，版权持有人不对任何直接、间接或后果性损害承担责任，被授权者无权追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及用户是否可以对其施加超出原有许可条款的额外约束，因此该维度不适用。"
+  }
+]

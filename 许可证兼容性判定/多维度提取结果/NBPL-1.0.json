@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "You may charge a reasonable copying fee for any distribution of this Package. You may charge any fee you choose for support of this Package. You may not charge a fee for this Package itself. However, you may distribute this Package in aggregate with other (possibly commercial) programs as part of a larger (possibly commercial) software distribution provided that you do not advertise this Package as a product of your own.",
+    "解释": "许可证明确允许将软件用于商业目的，包括收取合理复制费、支持费用，并允许与商业软件聚合分发，但禁止对Package本身收取费用，且不得将其宣传为自己的产品。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "use the modified Package only within your corporation or organization.",
+    "解释": "许可证明确允许在个人或组织内部使用修改后的Package，且选择该选项时不会触发开源义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may make and give away verbatim copies of the source form of the Standard Version of this Package without restriction, provided that you duplicate all of the original copyright notices and associated disclaimers.",
+    "解释": "许可证明确允许向第三方分发源代码和目标代码，但分发时必须保留原始版权声明和免责声明，并遵守其他相关条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "模糊",
+    "原文": "You may otherwise modify your copy of this Package in any way, provided that you insert a prominent notice in each changed file stating how and when you changed that file, and provided that you do at least ONE of the following: a) place your modifications in the Public Domain or otherwise make them Freely Available... b) use the modified Package only within your corporation or organization. c) rename any non-standard executables... d) make other distribution arrangements with the Copyright Holder.",
+    "解释": "许可证允许修改代码，但没有明确要求衍生作品必须以相同许可证发布，也未明确允许衍生作品自由选择许可证；分发修改后的Package须满足选项条件，传染性强弱存在解读空间，因此状态为模糊。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "模糊",
+    "原文": "C subroutines supplied by you and linked into this Package in order to emulate subroutines and variables of the language defined by this Package shall not be considered part of this Package, but are the equivalent of input as in Paragraph 6, provided these subroutines do not change the language in any way that would cause it to fail the regression tests for the language.",
+    "解释": "许可证仅针对特定情形——为模拟语言定义的子程序而链接的C子程序——规定不视为Package的一部分，因此该部分不传染；但未涵盖静态链接、动态链接等其他通用链接场景，故整体状态为模糊。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证原文未提及专利授权、专利许可或专利反诉终止机制，因此该维度不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及是否允许以不同于原始许可证的其他许可证进行再分发，也未明确禁止更改许可证，因此该维度未涉及。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证制定于1998年，未提及网络服务或SaaS模式，也未将网络交互视为分发行为，因此该维度不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求保留版权声明和免责声明，未提及额外的NOTICE文件或类似归属文件义务，因此该维度未涉及。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "You may distribute the programs of this Package in object code or executable form, provided that you do at least ONE of the following: a) distribute a Standard Version of the executables and library files, together with instructions (in the manual page or equivalent) on where to get the Standard Version. b) accompany the distribution with the machine-readable source of the Package with your modifications. c) accompany any non-standard executables with their corresponding Standard Version executables... d) make other distribution arrangements with the Copyright Holder.",
+    "解释": "许可证明确规定了以目标代码或可执行形式分发时的条件，必须通过提供标准版本、提供机器可读源码或与版权持有人另行安排等方式公开源代码。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "The name of the Copyright Holder may not be used to endorse or promote products derived from this software without specific prior written permission.",
+    "解释": "许可证明确禁止未经事先书面许可使用版权持有人的名称来背书或推广衍生作品，因此不授予商标使用权。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "provided that you duplicate all of the original copyright notices and associated disclaimers.",
+    "解释": "许可证明确要求分发软件时必须保留所有原始版权声明和相关免责声明，这是分发的必要条件。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THIS PACKAGE IS PROVIDED \"AS IS\" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.",
+    "解释": "许可证明确不提供任何明示或暗示担保，包括适销性和特定用途适用性，因此被授权者无权就软件造成的损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及用户是否有权对软件施加超出原有许可条款的额外约束，因此该维度未涉及。"
+  }
+]

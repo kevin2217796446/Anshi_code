@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Permission to use, copy, modify, and distribute this software and its documentation, with or without modification, for any purpose and without fee or royalty is hereby granted",
+    "解释": "许可证明确授予为任何目的使用、复制、修改和分发软件的权利，因此商业使用被明确允许，且无需支付费用或版税。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Permission to use, copy, modify, and distribute this software and its documentation, with or without modification, for any purpose and without fee or royalty is hereby granted",
+    "解释": "许可证明确允许使用、复制和修改软件，因此个人或组织内部使用和修改被允许；内部使用不触发源代码公开义务，但制作副本时需保留通知。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Permission to use, copy, modify, and distribute this software and its documentation, with or without modification, for any purpose ... provided that you include the following on ALL copies of the software and documentation or portions thereof, including modifications, that you make",
+    "解释": "许可证明确允许将软件和文档分发给第三方，前提是在所有副本中包含NOTICE、既有知识产权声明和修改说明。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "Permission to use, copy, modify, and distribute this software and its documentation, with or without modification, for any purpose ... provided that you include the following on ALL copies ... including modifications",
+    "解释": "许可证允许修改和合并代码，并未要求整个衍生作品以相同许可证发布；仅要求保留原通知和声明，因此属于宽松型许可，无强传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接或导入等机制，也未规定链接自有代码后是否必须开源，因此链接级传染性不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证不包含专利授权或专利反诉终止机制；仅在免责声明中表示不保证使用软件不会侵犯第三方专利等权利。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确允许或禁止以其他许可证再分发代码，也未提及能否更改许可证；仅规定分发时需保留原通知和声明。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务或SaaS场景，也未将通过网络与用户交互视为分发或触发源码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "The full text of this NOTICE in a location viewable to users of the redistributed or derivative work.",
+    "解释": "许可证明确要求在再分发或衍生作品中以用户可见的位置保留W3C NOTICE全文，构成额外的归属声明义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未规定分发时必须提供源代码或以特定形式提供源码获取方式，仅要求附带通知和声明，因此源代码公开义务不适用。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "The name and trademarks of copyright holders may NOT be used in advertising or publicity pertaining to the software without specific, written prior permission.",
+    "解释": "许可证明确禁止未经事先书面许可在广告或宣传中使用版权持有人的名称和商标，不授予商标使用权。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "Any pre-existing intellectual property disclaimers, notices, or terms and conditions. If none exist, a short notice ... should be used within the body of any redistributed or derivative code: Copyright © [$date-of-software] World Wide Web Consortium, (Massachusetts Institute of Technology, Institut National de Recherche en Informatique et en Automatique, Keio University). All Rights Reserved. http://www.w3.org/Consortium/Legal/",
+    "解释": "许可证要求在分发或衍生代码中保留已有知识产权声明、免责声明，如无则加入指定的版权声明短通知。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THIS SOFTWARE AND DOCUMENTATION IS PROVIDED AS IS, AND COPYRIGHT HOLDERS MAKE NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED ... COPYRIGHT HOLDERS WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF ANY USE OF THE SOFTWARE OR DOCUMENTATION.",
+    "解释": "许可证明确排除任何明示或暗示保证，并免除版权方对任何直接、间接或后果性损害的责任，被授权者无权就软件损失追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确允许或禁止用户在软件使用中施加超出原许可的额外限制，因此该维度不适用。"
+  }
+]

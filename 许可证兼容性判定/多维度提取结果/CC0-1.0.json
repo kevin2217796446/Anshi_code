@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes",
+    "解释": "CC0 放弃所有版权及相关权利，明确允许将作品用于商业目的，无任何限制。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes",
+    "解释": "内部修改和使用属于放弃权利涵盖的任意目的，不会触发任何源码公开义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "redistribute as freely as possible in any form whatsoever and for any purposes",
+    "解释": "明确允许以任何形式向第三方再分发作品，无需满足前置条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "build upon, modify, incorporate in other works, reuse and redistribute as freely as possible in any form whatsoever and for any purposes",
+    "解释": "明确允许修改、合并进其他作品，且未要求衍生作品使用特定许可证，因此无代码级传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确提及静态链接、动态链接或导入机制；鉴于权利已被整体放弃，通常不产生链接级传染性，但原文未作具体规定。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确禁止",
+    "原文": "No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document.",
+    "解释": "明确不授予任何专利权利，也不涉及专利反诉终止机制。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "redistribute as freely as possible in any form whatsoever and for any purposes",
+    "解释": "允许以任意形式自由再分发，因此可以改变许可证条款进行再许可。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务或 SaaS 场景，也未将网络交互视为分发而触发公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未要求保留或传递 NOTICE 文件，也没有额外的归属声明义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未规定任何必须提供源代码的条件或形式，分发不触发源码公开义务。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document.",
+    "解释": "明确不授予商标权，用户不得以此推广衍生作品。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未规定必须保留版权声明、许可证文本或免责声明的义务。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "Affirmer offers the Work as-is and makes no representations or warranties of any kind concerning the Work, express, implied, statutory or otherwise",
+    "解释": "作品按现状提供，不附带任何保证，被授权者无权就损失向提供者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确允许或禁止用户施加额外限制；原文无相关具体条款。"
+  }
+]

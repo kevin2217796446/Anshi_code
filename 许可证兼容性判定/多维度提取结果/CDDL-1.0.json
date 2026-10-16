@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "The Initial Developer hereby grants You a world-wide, royalty-free, non-exclusive license: (a) under intellectual property rights (other than patent or trademark) Licensable by Initial Developer, to use, reproduce, modify, display, perform, sublicense and distribute the Original Software (or portions thereof), with or without Modifications, and/or as part of a Larger Work",
+    "解释": "许可证明确授予使用、复制、修改、分发等权利，未限制商业目的，因此允许商业使用。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "to use, reproduce, modify, display, perform, sublicense and distribute the Original Software (or portions thereof), with or without Modifications, and/or as part of a Larger Work",
+    "解释": "许可证允许使用和修改软件，内部使用不涉及分发，不触发第3.1条规定的源代码公开义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "to use, reproduce, modify, display, perform, sublicense and distribute the Original Software (or portions thereof), with or without Modifications, and/or as part of a Larger Work",
+    "解释": "许可证明确允许分发代码，但分发可执行形式时必须遵守第3.1条的源代码提供义务。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "The Modifications that You create or to which You contribute are governed by the terms of this License. You may create a Larger Work by combining Covered Software with other code not governed by the terms of this License and distribute the Larger Work as a single product. In such a case, You must make sure the requirements of this License are fulfilled for the Covered Software.",
+    "解释": "CDDL要求对原文件的修改及包含原始代码的新文件按CDDL发布，但允许将Covered Software与其他非CDDL代码组合成Larger Work后整体按其他许可分发，只要Covered Software部分符合CDDL。属于文件级弱传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "模糊",
+    "原文": "Larger Work means a work which combines Covered Software or portions thereof with code not governed by the terms of this License.",
+    "解释": "CDDL通过Larger Work概念允许组合非CDDL代码，但未明确提及静态链接、动态链接或导入机制，也未明确这些链接场景是否触发自有代码开源，存在多种解读。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "under Patent Claims infringed by the making, using or selling of Original Software, to make, have made, use, practice, sell, and offer for sale, and/or otherwise dispose of the Original Software (or portions thereof). If You assert a patent infringement claim (excluding declaratory judgment actions) against Initial Developer or a Contributor... then any and all rights granted directly or indirectly to You by such Participant... shall, upon 60 days notice from Participant terminate prospectively and automatically.",
+    "解释": "许可证明确授予专利许可，并包含专利反诉终止机制：若被授权人对贡献者发起专利侵权诉讼，相关专利授权将在60天通知期满后自动终止。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "Any Covered Software that You distribute or otherwise make available in Executable form must also be made available in Source Code form and that Source Code form must be distributed only under the terms of this License. You may distribute the Executable form of the Covered Software under the terms of this License or under the terms of a license of Your choice, which may contain terms different from this License, provided that You are in compliance with the terms of this License and that the license for the Executable form does not attempt to limit or alter the recipient's rights in the Source Code form from the rights set forth in this License.",
+    "解释": "源码形式必须仅按CDDL分发，禁止更改许可证；仅可执行形式允许另选许可证，但不得限制或改变接收者在源码形式下的权利。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS或通过网络与用户交互是否构成分发或触发源代码公开义务，因此该维度不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未要求保留或传递NOTICE文件，仅在第3.3条要求不删除现有版权、专利、商标及归属通知，但无NOTICE文件的额外义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "Any Covered Software that You distribute or otherwise make available in Executable form must also be made available in Source Code form and that Source Code form must be distributed only under the terms of this License. You must inform recipients of any such Covered Software in Executable form as to how they can obtain such Covered Software in Source Code form in a reasonable manner on or through a medium customarily used for software exchange.",
+    "解释": "分发可执行形式时必须同时提供源码，源码形式仅按CDDL分发，并须以合理方式告知接收者获取源码的途径。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "under intellectual property rights (other than patent or trademark) Licensable by Initial Developer, to use, reproduce, modify, display, perform, sublicense and distribute the Original Software (or portions thereof), with or without Modifications, and/or as part of a Larger Work",
+    "解释": "许可证明确将商标权排除在授权范围之外，不授予用户使用原作者商标、项目名称或Logo推广衍生作品的权利。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "You may not remove or alter any copyright, patent or trademark notices contained within the Covered Software, or any notices of licensing or any descriptive text giving attribution to any Contributor or the Initial Developer.",
+    "解释": "分发时必须保留所有版权、专利、商标通知以及许可通知和归属说明，不得删除或更改。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "COVERED SOFTWARE IS PROVIDED UNDER THIS LICENSE ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT THE COVERED SOFTWARE IS FREE OF DEFECTS, MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY... BE LIABLE TO ANY PERSON FOR ANY INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER...",
+    "解释": "软件按“原样”提供，无任何明示或默示保证，且责任限制排除了间接损害赔偿，被授权者无权就质量问题向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "You may not offer or impose any terms on any Covered Software in Source Code form that alters or restricts the applicable version of this License or the recipients' rights hereunder.",
+    "解释": "禁止用户对源码形式的Covered Software施加任何改变或限制许可证条款及接收者权利的额外条款，可执行形式也不得限制源码权利。"
+  }
+]

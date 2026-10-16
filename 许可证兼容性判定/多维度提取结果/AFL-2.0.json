@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "You may use the Original Work in all ways not otherwise restricted or conditioned by this License or by law, and Licensor promises not to interfere with or be responsible for such uses by You.",
+    "解释": "许可证授予广泛使用权利，未对商业使用作出任何限制，因此商业使用被允许。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "a) to reproduce the Original Work in copies; b) to prepare derivative works (\"Derivative Works\") based upon the Original Work;",
+    "解释": "许可证明确允许复制和创作衍生作品，内部修改和使用不触发分发或开源义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "to distribute copies of the Original Work and Derivative Works to the public; If You distribute copies of the Original Work or a Derivative Work, You must make a reasonable effort under the circumstances to obtain the express assent of recipients to the terms of this License.",
+    "解释": "许可证明确允许向公众分发原始作品和衍生作品，但分发者应合理努力获得接收者对本许可证条款的明示同意。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "to prepare derivative works (\"Derivative Works\") based upon the Original Work; c) to distribute copies of the Original Work and Derivative Works to the public;",
+    "解释": "许可证允许创作并分发衍生作品，未要求整个衍生作品以相同许可证发布，因此不构成强传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接或库使用，也未规定链接是否触发自有代码开源义务。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "Licensor hereby grants You a world-wide, royalty-free, non-exclusive, perpetual, sublicenseable license, under patent claims owned or controlled by the Licensor that are embodied in the Original Work as furnished by the Licensor, to make, use, sell and offer for sale the Original Work and Derivative Works. This License shall terminate automatically and You may no longer exercise any of the rights granted to You by this License as of the date You commence an action, including a cross-claim or counterclaim, for patent infringement (i) against Licensor with respect to a patent applicable to software or (ii) against any entity with respect to a patent applicable to the Original Work (but excluding combinations of the Original Work with other software or hardware).",
+    "解释": "许可证明确授予专利权许可，并包含专利反诉终止机制：若被授权人提起特定专利诉讼，专利许可和许可证自动终止。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "Licensor hereby grants You a world-wide, royalty-free, non-exclusive, perpetual, sublicenseable license to do the following:",
+    "解释": "许可证明确授予可再许可的权利，因此被授权人可以在遵守本许可证的前提下向第三方进行再许可。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS 或网络交互，未将网络交互视为分发，也未规定相应源码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "You must retain, in the Source Code of any Derivative Works that You create, all copyright, patent or trademark notices from the Source Code of the Original Work, as well as any notices of licensing and any descriptive text identified therein as an \"Attribution Notice.\" You must cause the Source Code for any Derivative Works that You create to carry a prominent Attribution Notice reasonably calculated to inform recipients that You have modified the Original Work.",
+    "解释": "许可证规定了额外的归属义务：除版权声明外，还须保留原作品中的专利、商标、许可声明和 Attribution Notice，并在衍生作品中加入醒目的修改声明。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "模糊",
+    "原文": "Licensor hereby agrees to provide a machine-readable copy of the Source Code of the Original Work along with each copy of the Original Work that Licensor distributes. Licensor reserves the right to satisfy this obligation by placing a machine-readable copy of the Source Code in an information repository reasonably calculated to permit inexpensive and convenient access by You for as long as Licensor continues to distribute the Original Work, and by publishing the address of that information repository in a notice immediately following the copyright notice that applies to the Original Work.",
+    "解释": "第3条仅明确要求许可方在分发原始作品时提供源码；对被许可方分发衍生作品是否必须公开源码未作明确规定，因此该维度存在模糊。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "Neither the names of Licensor, nor the names of any contributors to the Original Work, nor any of their trademarks or service marks, may be used to endorse or promote products derived from this Original Work without express prior written permission of the Licensor. No right is granted to the trademarks of Licensor even if such marks are included in the Original Work.",
+    "解释": "许可证明确不授予商标权，未经许可方事先书面许可，不得使用许可方或贡献者的名称、商标或服务标志来背书或推广衍生产品。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "You must retain, in the Source Code of any Derivative Works that You create, all copyright, patent or trademark notices from the Source Code of the Original Work, as well as any notices of licensing and any descriptive text identified therein as an \"Attribution Notice.\"",
+    "解释": "分发衍生作品时必须在源码中保留原作品的所有版权、专利、商标和许可声明，以及被标识为 Attribution Notice 的说明文字。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THE ENTIRE RISK AS TO THE QUALITY OF THE ORIGINAL WORK IS WITH YOU. This DISCLAIMER OF WARRANTY constitutes an essential part of this License. Under no circumstances and under no legal theory, whether in tort (including negligence), contract, or otherwise, shall the Licensor be liable to any person for any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or the use of the Original Work including, without limitation, damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses.",
+    "解释": "许可证明确排除所有明示或默示保证，并限制许可方的责任，因此被授权方无权因质量问题或损失向许可方追责，仅在适用法律禁止的有限范围内例外。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "模糊",
+    "原文": "Nothing else but this License (or another written agreement between Licensor and You) grants You permission to create Derivative Works based upon the Original Work or to exercise any of the rights granted in Section 1 herein, and any attempt to do so except under the terms of this License (or another written agreement between Licensor and You) is expressly prohibited by U.S. copyright law, the equivalent laws of other countries, and by international treaty.",
+    "解释": "许可证未明确禁止被授权人对接收方施加额外限制；第9条要求分发时让接收者同意本许可证条款，可能暗示不得在许可证之外增加限制，但缺乏明确禁止额外限制的表述，因此存在模糊。"
+  }
+]

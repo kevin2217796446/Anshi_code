@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "unlimited permission to copy and/or distribute it",
+    "解释": "许可证授予无限制的复制和分发权限，未排除商业目的，因此允许商业使用。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "unlimited permission to copy and/or distribute it, with or without modifications, as long as this notice is preserved.",
+    "解释": "许可证明确允许复制和修改，内部使用所必需的复制和修改行为被涵盖；仅需保留声明，不触发公开义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "unlimited permission to copy and/or distribute it, with or without modifications, as long as this notice is preserved.",
+    "解释": "许可证明确授予分发代码的权利，分发条件是保留原始声明。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "unlimited permission to copy and/or distribute it, with or without modifications, as long as this notice is preserved.",
+    "解释": "许可证允许修改并分发，唯一条件是保留声明，未要求衍生作品以相同许可证发布，因此不具强传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及链接、导入或库使用机制，因而未涉及链接级传染性问题。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及专利授权或专利反诉终止机制，因此不授予相关专利权利。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "模糊",
+    "原文": "unlimited permission to copy and/or distribute it, with or without modifications, as long as this notice is preserved.",
+    "解释": "条款仅要求分发时保留声明，未明确是否允许以不同许可证再分发或进行再许可，存在多种解读。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS或通过网络交互是否触发源码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "as long as this notice is preserved",
+    "解释": "许可证明确要求在复制和分发时保留原始通知；但未额外要求传递单独的NOTICE文件。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未规定提供源代码的条件或形式，其分发权限未区分源码与二进制，也未设置源代码公开触发条件。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及商标、项目名称或Logo的使用授权。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "as long as this notice is preserved.",
+    "解释": "许可证明确允许分发，同时明确要求分发时保留版权及许可声明；保留声明是唯一分发条件。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未包含任何关于质量、保证或损害赔偿的条款，因此未规定向所有者追责的权利。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "模糊",
+    "原文": "unlimited permission to copy and/or distribute it, with or without modifications, as long as this notice is preserved.",
+    "解释": "许可证仅设置保留声明的限制，未明确禁止用户附加额外约束；unlimited permission 与附加限制之间关系存在解读空间。"
+  }
+]

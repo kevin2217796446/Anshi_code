@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Permission to use, copy, modify, distribute, and sell this software and its documentation for any purpose is hereby granted without fee",
+    "解释": "许可证明确授予为任何目的使用、复制、修改、分发和销售软件及其文档的权利，无费用，因此允许商业使用。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Permission to use, copy, modify, distribute, and sell this software and its documentation for any purpose is hereby granted without fee",
+    "解释": "许可证明确授予为任何目的使用、复制和修改软件的权利，允许在个人或组织内部修改后使用，且未设置触发开源义务的条件。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Permission to use, copy, modify, distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that (i) the above copyright notices and this permission notice appear in all copies of the software and related documentation, and (ii) the names of Sam Leffler and Silicon Graphics may not be used in any advertising or publicity relating to the software without the specific, prior written permission of Sam Leffler and Silicon Graphics.",
+    "解释": "许可证明确授予分发和销售软件及文档的权利，但分发时必须保留版权与许可声明，并且未经事先书面许可不得在广告或宣传中使用作者名称。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未规定修改或合并后衍生作品的许可证选择，未设置copyleft或相同许可证发布要求，因此不涉及代码级传染性条款。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接或导入机制，也未规定链接自有代码是否触发开源义务，因此不涉及链接级传染性。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及专利授权或专利反诉终止机制，因此不涉及专利相关条款。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确允许或禁止以不同于原许可证的其他许可证进行再分发；仅要求分发时保留版权和许可声明，因此再许可问题未涉及。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS场景或通过网络交互是否触发源代码公开义务，因此不涉及该维度。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求保留版权声明和许可声明，未要求额外的NOTICE文件或额外归属文件，因此不涉及额外归属义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未要求分发时提供源代码或以特定形式公开源码；没有copyleft条款，因此源代码公开义务不适用。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "the names of Sam Leffler and Silicon Graphics may not be used in any advertising or publicity relating to the software without the specific, prior written permission of Sam Leffler and Silicon Graphics.",
+    "解释": "许可证明确禁止未经事先书面许可在广告或宣传中使用Sam Leffler和Silicon Graphics的名称，不授予任何商标或名称推广权利。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "the above copyright notices and this permission notice appear in all copies of the software and related documentation",
+    "解释": "许可证明确要求在所有软件副本及相关文档中保留上述版权声明和本许可声明；这是分发的强制条件。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THE SOFTWARE IS PROVIDED \"AS-IS\" AND WITHOUT WARRANTY OF ANY KIND, EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT SHALL SAM LEFFLER OR SILICON GRAPHICS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER OR NOT ADVISED OF THE POSSIBILITY OF DAMAGE, AND ON ANY THEORY OF LIABILITY, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.",
+    "解释": "许可证明确按“原样”提供软件，不提供任何明示或默示的担保（包括适销性和特定用途适用性），并排除Sam Leffler和Silicon Graphics的任何损害赔偿责任，因此被授权者无权因软件质量问题向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及用户是否有权对软件施加超出原许可条款的额外约束，因此不涉及附加限制。"
+  }
+]

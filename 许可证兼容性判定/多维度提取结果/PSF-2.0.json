@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python alone or in any derivative version",
+    "解释": "许可证授予复制、分析、测试、执行、公开展示、准备衍生作品、分发及以其他方式使用Python的权利，未设置禁止商业使用的条款。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python alone or in any derivative version",
+    "解释": "许可证允许复制、分析、测试、执行和使用软件，内部修改和使用不触发额外的源代码公开义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "distribute, and otherwise use Python alone or in any derivative version ... retain PSF's License Agreement and PSF's notice of copyright ... include in any such work a brief summary of the changes made to Python.",
+    "解释": "许可证明确允许分发Python或衍生作品，但分发时必须保留PSF许可证文本和版权声明；分发衍生作品时还需包含对Python所做更改的简要摘要。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "prepare derivative works ... provided, however, that PSF's License Agreement and PSF's notice of copyright ... are retained in Python alone or in any derivative version prepared by Licensee.",
+    "解释": "许可证允许修改、合并并创作衍生作品，仅要求保留原许可证文本和版权声明，不要求衍生作品以Python许可证或相同许可证发布，因此属于宽松型、无强代码级传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接、导入等机制，也未规定自有代码是否必须开源，因此链接级传染性不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未授予专利权利，也未包含专利反诉终止机制，因此专利授权条款不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "模糊",
+    "原文": "provided, however, that PSF's License Agreement and PSF's notice of copyright ... are retained in Python alone or in any derivative version prepared by Licensee.",
+    "解释": "许可证要求保留原许可证文本和版权声明，但未明确是否允许以不同于原始许可证的许可证再分发，也未明确禁止更改许可证，因此存在多种解读。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS形式或通过网络交互是否触发源代码公开义务，因此该维度不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求保留PSF许可证文本和版权声明，未提及NOTICE文件或其他额外归属文件的要求，因此该维度不适用。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未规定分发时必须提供源代码，也未设置源代码公开的触发条件或提供形式，因此该维度不适用。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "This License Agreement does not grant permission to use PSF trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party.",
+    "解释": "许可证明确不授予使用PSF商标或商号进行背书或推广的权利，禁止将PSF商标用于产品和服务推广。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "PSF's License Agreement and PSF's notice of copyright ... are retained in Python alone or in any derivative version prepared by Licensee; include in any such work a brief summary of the changes made to Python.",
+    "解释": "分发时必须保留PSF许可证文本和版权声明；分发衍生作品时还需加入变更摘要。许可证对版权声明和许可证文本的保留有明确要求。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "PSF is making Python available to Licensee on an \"AS IS\" basis. PSF MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. ... PSF SHALL NOT BE LIABLE ... FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS ...",
+    "解释": "软件按“AS IS”提供，PSF免除所有明示或默示保证，且不承担任何附带、特殊或后果性损害赔偿责任，被授权方无权就质量或损失向PSF追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未规定被许可方是否可以对软件施加超出原许可条款的额外限制，因此该维度不适用。"
+  }
+]

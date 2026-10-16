@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted to use, copy, modify, and distribute this source code, or portions hereof, for any purpose, without fee, subject to the following restrictions: ... The Contributing Authors and Group 42, Inc. specifically permit, without fee, and encourage the use of this source code as a component to supporting the PNG file format in commercial products.",
+    "解释": "许可证明确允许将源代码或其部分用于任何目的，包括商业目的，并明确鼓励在商业产品中作为组件使用。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted to use, copy, modify, and distribute this source code, or portions hereof, for any purpose, without fee...",
+    "解释": "许可证授予使用、复制和修改源代码的权利，适用于个人或组织内部使用；内部修改不会触发源代码公开义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted to use, copy, modify, and distribute this source code, or portions hereof, for any purpose, without fee, subject to the following restrictions: 1. The origin of this source code must not be misrepresented. 2. Altered versions must be plainly marked as such and must not be misrepresented as being the original source. 3. This Copyright notice may not be removed or altered from any source or altered source distribution.",
+    "解释": "允许向第三方分发源代码或修改版，但分发时必须满足三项条件：不得误导来源、修改版须明确标记、保留版权声明。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted to use, copy, modify, and distribute this source code, or portions hereof, for any purpose... Altered versions must be plainly marked as such and must not be misrepresented as being the original source.",
+    "解释": "允许直接复制、修改和合并代码；许可证没有要求衍生作品以相同许可证发布，也没有强传染性，只要求修改版标记且不得冒充原始版本。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接、导入等机制，也没有规定链接后自有代码的传染性义务。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确授予专利权利，也未包含专利反诉终止机制。虽然免责声明中提及不保证不侵犯他人权利，但不构成专利授权。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "模糊",
+    "原文": "Permission is hereby granted to use, copy, modify, and distribute this source code, or portions hereof, for any purpose, without fee, subject to the following restrictions: ... This Copyright notice may not be removed or altered from any source or altered source distribution.",
+    "解释": "许可证允许为任何目的分发源代码，但未明确授予再许可或以不同许可证分发衍生作品的权利，也未明确禁止更改许可证；仅要求保留版权声明，因此存在多种解读。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及以网络服务（SaaS）形式提供软件，也未将网络交互视为分发或触发源代码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未要求保留或传递原项目中的NOTICE文件，也未规定额外归属义务；产品中使用时确认并非必需（acknowledgment is not required）。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅允许分发源代码本身，未规定在二进制分发或修改分发时必须提供源代码，也没有源代码公开触发条件。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅提及提供PNG logo文件，未授予商标使用权，也未明确不授予商标权。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确禁止",
+    "原文": "This Copyright notice may not be removed or altered from any source or altered source distribution.",
+    "解释": "分发源代码或修改版时必须保留版权声明，禁止移除或更改版权声明；许可证未另行明确要求保留完整免责声明文本，但版权声明必须随分发传递。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "The PNG Reference Library is supplied \"AS IS\". The Contributing Authors and Group 42, Inc. disclaim all warranties, expressed or implied, including, without limitation, the warranties of merchantability and of fitness for any purpose. The Contributing Authors and Group 42, Inc. assume no liability for direct, indirect, incidental, special, exemplary, or consequential damages, which may result from the use of the PNG Reference Library, even if advised of the possibility of such damage.",
+    "解释": "软件按“原样”提供，贡献者与组织不提供任何明示或默示担保，也不对任何直接、间接或后果性损害承担责任，被授权者无权就此向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确允许或禁止用户对代码施加超出原许可条款的额外限制，因此该维度不适用。"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "you have the freedom to give away or sell copies of free software",
+    "解释": "许可证前言明确允许自由分发副本，包括出售副本和收取分发费用，因此商业使用被允许。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "You may modify your copy or copies of the Program or any portion of it",
+    "解释": "许可证允许用户修改自己的程序副本。内部修改和使用未触发分发或发布义务，因此不要求公开源码。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may copy and distribute verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this General Public License and to the absence of any warranty; and give any other recipients of the Program a copy of this General Public License along with the Program.",
+    "解释": "许可证允许分发源代码副本及其修改版、二进制形式，但必须附带版权声明、免责声明和GPL许可证副本。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确禁止",
+    "原文": "cause the whole of any work that you distribute or publish, that in whole or in part contains the Program or any part thereof, either with or without modifications, to be licensed at no charge to all third parties under the terms of this General Public License",
+    "解释": "任何包含程序或部分程序的作品在分发或发布时，整体必须以GPL v1许可，不得自由选择其他许可证，属于强传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "模糊",
+    "原文": "the whole of any work that you distribute or publish, that in whole or in part contains the Program or any part thereof",
+    "解释": "许可证要求包含程序或部分程序的作品整体以GPL许可，但未明确静态链接、动态链接或导入等机制是否构成“包含程序”，因此链接级传染性存在多种解读。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证全文未提及专利授权、专利许可或专利反诉终止机制，因此该维度不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "You may not copy, modify, sublicense, distribute or transfer the Program except as expressly provided under this General Public License.",
+    "解释": "许可证明确禁止再许可，除非从作者或自由软件基金会获得单独许可，否则不能将程序以其他许可证再分发。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及SaaS、网络服务或通过网络交互是否触发源码公开义务，因此该维度不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证要求保留版权和其他通知，但没有建立NOTICE文件机制，也未要求传递独立的NOTICE文件内容。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "You may copy and distribute the Program (or a portion or derivative of it, under Paragraph 2) in object code or executable form under the terms of Paragraphs 1 and 2 above provided that you also do one of the following: a) accompany it with the complete corresponding machine-readable source code, which must be distributed under the terms of Paragraphs 1 and 2 above; or, b) accompany it with a written offer, valid for at least three years, to give any third party free (except for a nominal charge for the cost of distribution) a complete machine-readable copy of the corresponding source code, to be distributed under the terms of Paragraphs 1 and 2 above; or, c) accompany it with the information you received as to where the corresponding source code may be obtained.",
+    "解释": "分发二进制或可执行形式时，必须以三种方式之一提供源代码：附带完整机器可读源码、至少三年有效的书面提供源码要约，或在特定非商业分发情况下提供获取源码的信息。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未授予任何商标、商号或标识的使用权，也未提及商标相关内容。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this General Public License and to the absence of any warranty; and give any other recipients of the Program a copy of this General Public License along with the Program.",
+    "解释": "分发时必须显著发布版权声明和免责声明，保留所有GPL相关通知，并向接收者提供GPL副本；修改文件还须添加变更声明。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.",
+    "解释": "许可证明确排除任何担保，程序按“原样”提供，因使用或无法使用程序造成的风险由用户承担，不能向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "You may not impose any further restrictions on the recipients' exercise of the rights granted herein.",
+    "解释": "许可证禁止分发时对接收者行使GPL授予的权利附加任何额外限制。"
+  }
+]

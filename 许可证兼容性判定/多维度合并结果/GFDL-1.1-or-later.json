@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "You may copy and distribute the Document in any medium, either commercially or noncommercially, provided that this License, the copyright notices, and the license notice saying this License applies to the Document are reproduced in all copies, and that you add no other conditions whatsoever to those of this License.",
+    "解释": "许可证明确允许将文档及其副本用于商业目的，包括商业复制和分发，但须满足保留声明和不附加限制的条件。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证规范的是复制、修改和分发行为，未明确提及个人或组织内部修改后使用的情形，也未规定内部使用是否触发开源义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may copy and distribute the Document in any medium, either commercially or noncommercially, provided that this License, the copyright notices, and the license notice saying this License applies to the Document are reproduced in all copies, and that you add no other conditions whatsoever to those of this License.",
+    "解释": "允许向第三方分发文档，但必须保留许可证、版权声明和许可声明，不得附加额外条件，也不得使用技术措施阻碍阅读或复制。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "You may copy and distribute a Modified Version of the Document under the conditions of sections 2 and 3 above, provided that you release the Modified Version under precisely this License, with the Modified Version filling the role of the Document.",
+    "解释": "允许修改和合并，但衍生作品必须以与本许可证完全相同的GFDL发布，形成强传染性（copyleft），不允许衍生作品选择其他许可证。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "GFDL是文档许可证，不涉及软件代码的静态/动态链接或库的使用，因此链接级传染性不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证全文未提及专利授权或专利反诉终止机制，因此专利相关条款不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "You may not copy, modify, sublicense, or distribute the Document except as expressly provided for under this License. Any other attempt to copy, modify, sublicense or distribute the Document is void, and will automatically terminate your rights under this License.",
+    "解释": "明确禁止再许可或以超出本许可证明示条款的方式分发，修改版必须以相同许可证发布，不得更改许可证。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未规定网络服务或SaaS情形下的源码公开义务，也未将网络交互视为分发行为。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "List on the Title Page, as authors, one or more persons or entities responsible for authorship of the modifications in the Modified Version, together with at least five of the principal authors of the Document (all of its principal authors, if it has less than five). Preserve all the copyright notices of the Document.",
+    "解释": "许可证明确要求除版权声明外，还须在标题页列出修改作者和主要作者、保留所有版权声明、保留历史章节等归属信息，构成额外的归属义务。GFDL未使用NOTICE文件术语，但功能类似。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "If you publish or distribute Opaque copies of the Document numbering more than 100, you must either include a machine-readable Transparent copy along with each Opaque copy, or state in or with each Opaque copy a publicly-accessible computer-network location containing a complete Transparent copy of the Document, free of added material, which the general network-using public has access to download anonymously at no charge using public-standard network protocols.",
+    "解释": "分发超过100份不透明副本时，必须同时提供机器可读的透明副本或提供可公开访问的下载位置，相当于要求提供文档的源代码格式。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "The author(s) and publisher(s) of the Document do not by this License give permission to use their names for publicity for or to assert or imply endorsement of any Modified Version.",
+    "解释": "许可证不授予使用作者或出版者姓名进行宣传或暗示认可的权利，即不授予商标类权利。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "provided that this License, the copyright notices, and the license notice saying this License applies to the Document are reproduced in all copies, and that you add no other conditions whatsoever to those of this License.",
+    "解释": "分发时必须保留许可证文本、版权声明和许可声明在所有副本中；修改版还必须保留原版权声明并添加新声明。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未包含关于软件质量、性能保证、免责声明或责任承担的条款，因此质量保证问题未涉及。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "and that you add no other conditions whatsoever to those of this License.",
+    "解释": "明确禁止用户在再分发时添加超出原许可证的额外条件。"
+  }
+]

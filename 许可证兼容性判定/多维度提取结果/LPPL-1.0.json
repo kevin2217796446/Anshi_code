@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Redistribution of unchanged files is allowed provided that all files that make up the distribution of The Program are distributed.",
+    "解释": "许可证允许再分发和代码复用，未对商业用途设置限制，因此商业使用被允许。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证的条款主要针对复制、分发和修改的条件，没有提及仅在个人或组织内部修改后使用是否触发义务，因此本维度不适用。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Redistribution of unchanged files is allowed provided that all files that make up the distribution of The Program are distributed.",
+    "解释": "许可证允许分发未修改版本，也允许在满足改名、提供原始版本等限制条件下分发修改版本。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "模糊",
+    "原文": "You rename the file before you make any changes to it, unless the file explicitly says that renaming is not required. Any such changed files must be distributed under a license that forbids distribution of those files, and any files derived from them, under the names used by the original files in the distribution of The Program.",
+    "解释": "许可证允许修改和代码复用，但要求修改后的文件必须改名，并在禁止使用原始文件名的许可证下分发；许可证未明确要求整个衍生作品必须以LPPL发布，因此代码级传染范围存在模糊。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未讨论库的静态或动态链接、导入或绑定机制，链接级传染性不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证中没有任何专利授权、专利许可或专利反诉终止的条款。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "If you do need to modify the distribution terms of some files, do not refer to this license, instead distribute The Program under a different license.",
+    "解释": "许可证允许在需要修改分发条款时以不同许可证分发程序，但前提是不引用LPPL且不造成按LPPL分发的印象；修改文件还须遵守改名等限制。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS或通过网络交互是否构成分发，因此网络服务相关义务不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "You acknowledge the source and authorship of the original version in the modified file.",
+    "解释": "许可证明确要求在修改文件中承认原始来源和作者身份，构成额外归属义务；但未提及传统NOTICE文件的单独传递。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "You also distribute the unmodified version of the file or alternatively provide sufficient information so that the user of your modified file can be reasonably expected to be able to obtain an original, unmodified copy of The Program.",
+    "解释": "修改版本分发时，必须同时分发未修改原件或提供足够信息以便用户获取原始副本；未修改分发也要求完整分发所有组成文件。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未授予商标使用权，也未明确提及商标；改名要求仅用于避免混淆，不构成商标授权条款。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "To use this license, the files of your distribution should have an explicit copyright notice giving your name and the year, together with a reference to this license.",
+    "解释": "分发时文件应带有明确版权声明和许可证引用；修改文件还必须承认原作者。未修改分发需完整包含原分发文件。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "There is no warranty for The Program, to the extent permitted by applicable law.",
+    "解释": "许可证明确排除担保和赔偿责任，版权持有人对使用或无法使用程序造成的损害不承担责任，被授权者无权追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "Individual files may have specific further constraints on modification, but no file should have restrictions on distribution other than those specified below.",
+    "解释": "许可证明确禁止对分发施加超出本许可证的额外限制，只允许个体文件在修改方面附加进一步限制。"
+  }
+]

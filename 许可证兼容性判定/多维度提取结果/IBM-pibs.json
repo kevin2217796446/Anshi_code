@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Anyone receiving this source is licensed under IBM copyrights to use it in any way he or she deems fit, including copying it, modifying it, compiling it, and redistributing it either with or without modifications.",
+    "解释": "许可证授权以任何方式使用，包括复制、修改、编译和再分发，未禁止商业用途，因此商业使用被明确允许。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Anyone receiving this source is licensed under IBM copyrights to use it in any way he or she deems fit, including copying it, modifying it, compiling it, and redistributing it either with or without modifications.",
+    "解释": "许可证明确允许在内部使用、修改和编译源代码，且未设置内部使用触发开源义务的条款。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Anyone receiving this source is licensed under IBM copyrights to use it in any way he or she deems fit, including copying it, modifying it, compiling it, and redistributing it either with or without modifications. Any person who transfers this source code or any derivative work must include the IBM copyright notice, this paragraph, and the preceding two paragraphs in the transferred software.",
+    "解释": "允许将源代码或其修改版分发给第三方，但分发时必须附带IBM版权声明和指定免责声明段落。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "Anyone receiving this source is licensed under IBM copyrights to use it in any way he or she deems fit, including copying it, modifying it, compiling it, and redistributing it either with or without modifications. Any person who transfers this source code or any derivative work must include the IBM copyright notice, this paragraph, and the preceding two paragraphs in the transferred software.",
+    "解释": "允许修改并再分发衍生作品，未要求衍生作品以相同许可证发布，仅要求保留原通知，因此不具强传染性，衍生作品可自由选择许可证。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接或导入等机制，也未规定链接后自有代码的传染性义务。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确禁止",
+    "原文": "No license under IBM patents or patent applications is to be implied by the copyright license.",
+    "解释": "许可证明确表示版权许可不默示授予IBM专利或专利申请的任何权利，因此专利授权被明确排除。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "模糊",
+    "原文": "Anyone receiving this source is licensed under IBM copyrights to use it in any way he or she deems fit, including copying it, modifying it, compiling it, and redistributing it either with or without modifications. Any person who transfers this source code or any derivative work must include the IBM copyright notice, this paragraph, and the preceding two paragraphs in the transferred software.",
+    "解释": "许可证授权任意使用和再分发，但未明确是否允许以不同于原始许可证的条款进行再许可，仅要求保留原声明；能否变更许可证存在多种解读。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及SaaS、网络服务或通过网络交互是否触发源代码公开义务，因此该维度不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "Any person who transfers this source code or any derivative work must include the IBM copyright notice, this paragraph, and the preceding two paragraphs in the transferred software.",
+    "解释": "许可证要求传递源码或衍生作品时必须包含IBM版权声明、本段及前两段内容，构成额外的归属声明义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未规定在分发时必须提供源代码或以特定形式公开源代码，仅要求保留版权及免责声明，因此源代码公开条件不明确。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅涉及版权许可和版权声明，未授予任何商标权，也未提及项目名称或Logo的使用。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "Any person who transfers this source code or any derivative work must include the IBM copyright notice, this paragraph, and the preceding two paragraphs in the transferred software.",
+    "解释": "分发源码或衍生作品时必须保留IBM版权声明、许可证文本和免责声明段落，确保原始声明随软件传递。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "This source code has been made available to you by IBM on an AS-IS basis. Any user of this software should understand that IBM cannot provide technical support for this software and will not be responsible for any consequences resulting from the use of this software.",
+    "解释": "软件按现状提供，IBM不提供技术支持且不对使用后果承担责任，被授权者无权就损失向IBM追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未规定用户是否可以对软件施加超出原许可条款的额外限制，因此该维度不适用。"
+  }
+]

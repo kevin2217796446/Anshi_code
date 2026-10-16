@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted to use, copy, modify and/or distribute this package",
+    "解释": "许可证明确授予使用、复制、修改和分发权，并未对商业目的作出任何限制，因此商业使用被允许。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted to use, copy, modify and/or distribute this package",
+    "解释": "许可证允许使用和修改，内部使用不涉及分发，不会触发开源义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "any distribution of this package, whether modified or not, includes this license text.",
+    "解释": "允许分发，但分发时必须包含许可证文本，并保留版权声明。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted to use, copy, modify and/or distribute this package, provided that: copyright notices are retained unchanged, any distribution of this package, whether modified or not, includes this license text.",
+    "解释": "许可证允许修改和分发修改版，仅要求保留版权声明和包含许可证文本，未要求衍生作品必须采用相同许可证，因此衍生作品可以自由选择许可证（宽松传染性）。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "明确允许",
+    "原文": "Permission is hereby also granted to distribute binary programs which depend on this package. If the binary program depends on a modified version of this package, you are encouraged to publicly release the modified version of this package.",
+    "解释": "明确允许分发依赖此包的二进制程序，对修改版仅鼓励发布而非强制，链接不传染自有代码。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及专利授权或专利反诉终止条款。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "模糊",
+    "原文": "any distribution of this package, whether modified or not, includes this license text.",
+    "解释": "许可证要求分发时必须包含本许可证文本，这意味着不得去除原许可证，但未明确是否允许在保留本许可证的同时附加其他许可证或更改许可证，存在模糊性。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务或SaaS模式下的源代码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求保留版权声明和包含许可证文本，未提及NOTICE文件。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted to use, copy, modify and/or distribute this package, provided that: copyright notices are retained unchanged, any distribution of this package, whether modified or not, includes this license text. Permission is hereby also granted to distribute binary programs which depend on this package.",
+    "解释": "许可证未要求提供源代码，分发只需保留版权声明和许可证文本，因此源代码公开不是分发的条件。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未涉及商标使用授权。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "copyright notices are retained unchanged, any distribution of this package, whether modified or not, includes this license text.",
+    "解释": "分发时必须保留版权声明和包含许可证文本，这是分发的前提条件。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THIS PACKAGE IS PROVIDED \"AS IS\" AND WITHOUT WARRANTY. ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHORS BE LIABLE TO ANY PARTY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THIS PACKAGE.",
+    "解释": "许可证明确否认所有担保，作者对任何损害不承担责任，被授权者无权向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及用户是否可以施加额外限制，因此本维度不适用。"
+  }
+]

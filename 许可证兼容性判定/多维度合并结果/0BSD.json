@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.",
+    "解释": "许可证明确授予为任何目的使用、复制、修改和分发软件的权利，无论是否有费用，因此商业使用被明确允许。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.",
+    "解释": "许可证允许任何目的下的使用、复制和修改，个人或组织内部修改后使用被明确允许，且不触发开源义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.",
+    "解释": "许可证明确允许将软件分发给第三方，且未设置任何前置条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.",
+    "解释": "许可证允许修改和分发软件，未要求衍生作品以相同许可证发布，因此属于宽松许可，无强传染性，衍生作品可自由选择许可证。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接或导入等绑定机制，也未规定链接或使用库是否触发开源义务，因此该维度不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅涉及版权许可，未提及专利授权，也没有专利反诉终止机制。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确允许或禁止以其他许可证再分发或再许可，因此该维度不适用。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及以网络服务或SaaS形式提供软件的情形，也未规定网络交互是否触发源代码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未要求保留或传递原项目中的NOTICE文件内容，也没有额外的归属义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "虽然许可证允许分发软件，但未设定任何源代码公开义务或触发条件，因此该维度未涉及具体规定。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及商标或Logo的使用授权，既未授予商标权，也未明确禁止使用原作者商标。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未要求分发时必须保留版权声明、许可证文本或免责声明，因此该维度未涉及。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.",
+    "解释": "许可证明确按“原样”提供软件，作者不承担任何明示或默示担保，并对直接或间接损失不承担责任，因此被授权者无权就软件造成的损失向作者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅授予广泛的使用、复制、修改和分发权利，未对用户是否可施加额外限制作出规定，因此该维度不适用。"
+  }
+]

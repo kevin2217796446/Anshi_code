@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "While this license is intended to facilitate the commercial use of the Program, the Contributor who includes the Program in a commercial product offering should do so in a manner which does not create potential liability for other Contributors.",
+    "解释": "许可证明确表示其意图是促进程序的商业使用，并在第2条授予复制、分发和制作衍生作品等权利，因此商业使用被明确允许。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, distribute and sublicense the Contribution...",
+    "解释": "第2条授予复制和制作衍生作品的非独占版权许可，未限制接收者在内部修改和使用；许可证义务主要在第3条分发时触发，因此内部使用被允许且不自动触发开源义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free copyright license to ... distribute and sublicense the Contribution ... in source code and object code form.",
+    "解释": "第2条明确授予将代码及其衍生作品以源码或目标码形式分发给第三方的权利，但第3条为分发设置了具体条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "When the Program is made available in source code form: it must be made available under this Agreement; and a copy of this Agreement must be included with each copy of the Program.",
+    "解释": "许可证允许修改和制作衍生作品；但源码形式的程序（包括贡献和衍生作品）必须继续按本许可证发布并附协议副本。目标码形式可在分发者自有许可协议下提供，但须符合第3条条件，因此源码分发具有同许可证传染性，目标码传染性较灵活。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接、导入等链接机制，也未明确链接是否导致自有代码受传染。仅在定义中排除独立模块，但未涉及链接场景。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free patent license under Licensed Patents to make, use, sell, offer to sell, import and otherwise transfer the Contribution... If Recipient institutes patent litigation against a Contributor with respect to a patent applicable to software... then any patent licenses granted by that Contributor to such Recipient under this Agreement shall terminate...",
+    "解释": "许可证明确授予必要专利许可，但设有专利反诉终止机制：如果接收者对贡献者提起软件专利诉讼，专利许可自动终止。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "A Contributor may choose to distribute the Program in object code form under its own license agreement, provided that... When the Program is made available in source code form: it must be made available under this Agreement...",
+    "解释": "允许再许可：目标码形式可在分发者自己的许可协议下分发，但须满足免责、排除责任、声明差异和提供源码等条件；源代码形式必须继续按本许可证分发。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS、网络交互或类似情形，也没有将网络使用或交互视为分发，因此不发生由此触发的源代码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "Each Contributor must include the following in a conspicuous location in the Program: Copyright (C) 1996, 1999 International Business Machines Corporation and others. All Rights Reserved. In addition, each Contributor must identify itself as the originator of its Contribution, if any, in a manner that reasonably allows subsequent Recipients to identify the originator of the Contribution.",
+    "解释": "许可证要求保留版权声明并标识贡献者身份，但不要求保留或传递NOTICE文件。此归属义务是明确的。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "states that source code for the Program is available from such Contributor, and informs licensees how to obtain it in a reasonable manner on or through a medium customarily used for software exchange. When the Program is made available in source code form: it must be made available under this Agreement; and a copy of this Agreement must be included with each copy of the Program.",
+    "解释": "目标码分发时，分发者必须在自己的许可协议中声明源码可获得并说明合理获取方式；源码分发时必须附上本许可证副本。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证不包含商标许可条款，未授予使用IBM或任何贡献者商标、名称或标志的权利；第7条还保留未明确授予的所有权利。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "Each Contributor must include the following in a conspicuous location in the Program: Copyright (C) 1996, 1999 International Business Machines Corporation and others. All Rights Reserved. In addition, each Contributor must identify itself as the originator of its Contribution, if any, in a manner that reasonably allows subsequent Recipients to identify the originator of the Contribution.",
+    "解释": "分发时必须保留指定版权声明，并将协议副本包含在每个副本中；贡献者还需以合理方式标识其贡献来源。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THE PROGRAM IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED... NEITHER RECIPIENT NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES...",
+    "解释": "许可证明确否认任何明示或暗示的保证，并排除直接、间接、附带、特殊或后果性损害责任，因此用户不能就软件质量或损失向贡献者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确允许",
+    "原文": "A Contributor may choose to distribute the Program in object code form under its own license agreement, provided that: ... states that any provisions which differ from this Agreement are offered by that Contributor alone and not by any other party...",
+    "解释": "目标码形式分发时，分发者可以在自有许可协议中加入不同于本许可证的额外条款或限制，但必须声明这些条款仅由该分发者提供，且不得削弱对其他贡献者的免责和排除责任。"
+  }
+]

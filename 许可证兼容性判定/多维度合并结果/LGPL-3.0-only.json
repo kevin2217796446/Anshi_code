@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "You may charge any price or no price for each copy that you convey, and you may offer support or warranty protection for a fee.",
+    "解释": "许可证明确允许对分发副本收费，也允许提供付费支持或担保服务，因此商业使用和商业分发被允许。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "You may make, run and propagate covered works that you do not convey, without conditions so long as your license otherwise remains in force.",
+    "解释": "许可证允许在不对外分发的条件下自由制作、运行和传播受保护作品，内部修改不触发源代码公开义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may convey verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice.",
+    "解释": "许可证允许向第三方分发源代码副本，但必须附有显著和适当的版权声明等条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "If you modify a copy of the Library, and, in your modifications, a facility refers to a function or data to be supplied by an Application that uses the facility (other than as an argument passed when the facility is invoked), then you may convey a copy of the modified version:",
+    "解释": "LGPL允许修改和合并。修改Library本身后，可按LGPL或GPL发布修改版，对库本身保留传染性；但将Application与Library合并为Combined Work时可按自选条款发布，只要不限制库部分的修改权和反向工程，因此传染性较弱。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "明确允许",
+    "原文": "You may convey a Combined Work under terms of your choice that, taken together, effectively do not restrict modification of the portions of the Library contained in the Combined Work and reverse engineering for debugging such modifications.",
+    "解释": "明确允许通过链接或组合方式形成Combined Work，并可选择自有条款分发，不强求Application开源；但不得限制库部分的修改和逆向工程。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contents of its contributor version.",
+    "解释": "许可证明确授予用户非独占、全球、免许可费的必要专利许可。同时，如违反许可证条款，包括禁止发起特定专利诉讼的限制，权利会自动终止。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "Sublicensing is not allowed; section 10 makes it unnecessary.",
+    "解释": "许可证明确禁止再许可，不能以不同于原许可证的条款再分发；但许可证允许在LGPL与GPL之间进行有限选择，这不属于再许可。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "明确允许",
+    "原文": "Mere interaction with a user through a computer network, with no transfer of a copy, is not conveying.",
+    "解释": "许可证明确将单纯的网络交互排除在分发行为之外，因此以SaaS等方式提供软件而不传输副本时，不触发源代码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及NOTICE文件或类似的额外归属文件义务；其归属要求主要体现在保留版权声明、许可证文本和无担保声明。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "You may convey a covered work in object code form under the terms of sections 4 and 5, provided that you also convey the machine-readable Corresponding Source under the terms of this License, in one of these ways.",
+    "解释": "许可证明确允许以对象代码形式分发，但前提是必须同时提供机器可读的对应源代码，并提供了多种源码提供方式。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "主许可条款未明确授予或禁止使用原作者商标、商品名或服务标记；仅允许通过附加条款限制商标使用，因此不授予商标推广权利。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "You may convey verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice; keep intact all notices stating that this License and any non-permissive terms added in accord with section 7 apply to the code; keep intact all notices of the absence of any warranty; and give all recipients a copy of this License along with the Program.",
+    "解释": "分发时必须显著发布适当版权声明，保留许可证及无担保相关通知，并随副本提供许可证文本。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.",
+    "解释": "许可证明确排除质量保证，软件按原样提供，用户自行承担质量与性能风险；版权持有人不对损失承担责任。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "You may not impose any further restrictions on the exercise of the rights granted or affirmed under this License.",
+    "解释": "许可证明确禁止在行使本许可证授予的权利时施加额外限制；除第7条允许的有限附加条款外，不得增加进一步约束。"
+  }
+]

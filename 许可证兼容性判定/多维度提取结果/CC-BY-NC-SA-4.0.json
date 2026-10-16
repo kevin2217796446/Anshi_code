@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确禁止",
+    "原文": "reproduce and Share the Licensed Material, in whole or in part, for NonCommercial purposes only; and produce, reproduce, and Share Adapted Material for NonCommercial purposes only.",
+    "解释": "许可证仅授予非商业目的下的复制、分享和改编权利，明确禁止将许可材料或其改编作品用于商业目的。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未单独规定内部使用的权利或义务，仅适用于非商业目的的复制和分享行为，因此内部使用不构成本许可证的独立授权范畴。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "reproduce and Share the Licensed Material, in whole or in part, for NonCommercial purposes only",
+    "解释": "许可证允许在非商业目的下复制和分享许可材料，但分享时必须遵守第3条的归属、相同方式共享等条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "The Adapter's License You apply must be a Creative Commons license with the same License Elements, this version or later, or a BY-NC-SA Compatible License.",
+    "解释": "许可证明确要求改编作品必须使用相同许可证要素（BY-NC-SA）的CC许可证或兼容许可证，具有强传染性，不允许自由选择其他许可证。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "本许可证为通用内容许可证，未涉及软件库、静态链接或动态链接等代码组合方式，因此不适用于链接级传染性判断。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确禁止",
+    "原文": "Patent and trademark rights are not licensed under this Public License.",
+    "解释": "许可证明确不授予任何专利权利，也不包含专利反诉终止机制。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "non-sublicensable",
+    "解释": "许可证明确授予的许可权利不可再许可，因此禁止将代码以其他许可证再分发。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "明确允许",
+    "原文": "Share means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.",
+    "解释": "Share的定义明确包括使公众可以在线访问材料，因此网络服务提供行为构成分享，会触发归属和相同方式共享等条件；但许可证不涉及源代码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "retain the following if it is supplied by the Licensor with the Licensed Material: identification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated); a copyright notice; a notice that refers to this Public License; a notice that refers to the disclaimer of warranties; a URI or hyperlink to the Licensed Material to the extent reasonably practicable;",
+    "解释": "许可证要求保留创作者身份、版权声明、许可证引用、免责声明和URI等归属信息，但不要求传递单独的NOTICE文件。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "本许可证适用于一般创意作品而非软件，未规定源代码公开义务或提供源代码的形式。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "Patent and trademark rights are not licensed under this Public License.",
+    "解释": "许可证明确不授予商标权，使用原作者的商标需另行获得许可。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "retain the following if it is supplied by the Licensor with the Licensed Material: ... a copyright notice; a notice that refers to this Public License; a notice that refers to the disclaimer of warranties;",
+    "解释": "分发许可材料时必须保留版权声明、许可证文本和免责声明，并可以合理方式提供URI或超链接。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "in no event will the Licensor be liable to You on any legal theory (including, without limitation, negligence) or otherwise for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages arising out of this Public License or use of the Licensed Material, even if the Licensor has been advised of the possibility of such losses, costs, expenses, or damages.",
+    "解释": "许可证明确免除许可方的所有保证和责任，被授权者无权就软件造成的损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.",
+    "解释": "许可证明确禁止对许可材料或改编作品施加额外限制或技术措施，以保护下游接收者行使许可权利。"
+  }
+]

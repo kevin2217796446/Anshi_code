@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "While this license is intended to facilitate the commercial use of the Program",
+    "解释": "许可证明确表示旨在促进程序的商业使用，允许将代码及其衍生品用于商业目的；但商业分发者需承担一定赔偿义务。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, Distribute and sublicense the Contribution",
+    "解释": "许可证授予复制和制作衍生作品的权利，内部修改和使用不要求公开源码；只有分发程序时才会触发第3条源码义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, Distribute and sublicense the Contribution of such Contributor, if any, and such Derivative Works.",
+    "解释": "允许将程序分发给第三方，但分发须遵守第3条要求，例如提供源码和保留声明。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "When the Program is Distributed as Source Code: it must be made available under this Agreement, or if the Program (i) is combined with other material in a separate file or files made available under a Secondary License ... then the Program may be made available under the terms of such Secondary Licenses",
+    "解释": "允许合并和修改代码，但程序作为源码分发时须按本协议或初始贡献者指定的次级许可证发布；EPL采用文件级传染，不要求整个衍生作品整体使用同一许可证。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "明确允许",
+    "原文": "Modified Works shall not include works that contain only declarations, interfaces, types, classes, structures, or files of the Program solely in each case in order to link to, bind by name, or subclass the Program or Modified Works thereof.",
+    "解释": "仅为链接、按名称绑定或继承而包含的声明、接口、类型等不构成Modified Works，因此静态或动态链接及子类化不会使自有代码受EPL传染。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free patent license under Licensed Patents to make, use, sell, offer to sell, import and otherwise transfer the Contribution of such Contributor ... If Recipient institutes patent litigation against any entity ... alleging that the Program itself ... infringes such Recipient's patent(s), then such Recipient's rights granted under Section 2(b) shall terminate",
+    "解释": "明确授予必要专利许可，但包含专利反诉终止机制：如果接收者对程序本身提起专利诉讼，其专利许可终止。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "the Contributor may Distribute the Program under a license different than this Agreement, provided that such license: ... does not attempt to limit or alter the recipients' rights in the Source Code under section 3.2; and requires any subsequent distribution of the Program by any party to be under a license that satisfies the requirements of this section 3.",
+    "解释": "允许以不同于EPL的许可证再分发程序，但新许可证必须满足保护贡献者、不限制源码权利等条件，且后续分发也须遵守第3条。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "EPL未将网络服务或SaaS交互视为分发，也未规定网络交互触发源码公开义务，因此该许可证不涉及网络服务与交互义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "模糊",
+    "原文": "Contributors may not remove or alter any copyright, patent, trademark, attribution notices, disclaimers of warranty, or limitations of liability contained within the Program from any copy of the Program which they Distribute",
+    "解释": "许可证要求保留程序中的版权、商标、归属声明等通知，但未明确要求传递独立的NOTICE文件及其内容；是否构成独立的NOTICE文件传递义务存在模糊。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "the Program must also be made available as Source Code, in accordance with section 3.2, and the Contributor must accompany the Program with a statement that the Source Code for the Program is available under this Agreement, and informs Recipients how to obtain it in a reasonable manner on or through a medium customarily used for software exchange",
+    "解释": "分发程序时必须同时以源码形式提供，并附声明告知接收者如何合理获取源码；触发条件是任何形式的分发。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "Except as expressly stated in Sections 2(a) and 2(b) above, Recipient receives no rights or licenses to the intellectual property of any Contributor under this Agreement, whether expressly, by implication, estoppel or otherwise.",
+    "解释": "许可证仅在2(a)和2(b)中授予版权和专利权，未授予商标权；除明确授予的权利外，贡献者的知识产权均保留，因此不授予商标使用权利。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "a copy of this Agreement must be included with each copy of the Program. Contributors may not remove or alter any copyright, patent, trademark, attribution notices, disclaimers of warranty, or limitations of liability contained within the Program",
+    "解释": "分发时必须保留版权、商标、归属声明及免责声明，并随附本协议副本；这些声明应保留在程序副本中。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THE PROGRAM IS PROVIDED ON AN AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.",
+    "解释": "程序按原样提供，不提供任何明示或默示保证，并排除直接、间接、特殊等损害赔偿责任，因此被授权者无权就质量问题追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "does not attempt to limit or alter the recipients' rights in the Source Code under section 3.2; and requires any subsequent distribution of the Program by any party to be under a license that satisfies the requirements of this section 3.",
+    "解释": "分发者不得通过更换许可证限制或改变接收者在第3.2条下的源码权利，且后续分发也须满足第3条要求，因此不得施加超出原许可证的额外限制。"
+  }
+]

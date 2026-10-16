@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted to use, copy, modify and/or distribute this package, provided that: copyright notices are retained unchanged; any distribution of this package, whether modified or not, includes this file",
+    "解释": "许可证明确授予使用、复制、修改和分发软件包的权利，未对商业用途设置任何限制，因此允许商业使用。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted to use, copy, modify and/or distribute this package",
+    "解释": "许可证授予使用、复制和修改的权利，内部使用不触发源代码公开义务；只有分发依赖修改版本的二进制程序时才有公开修改版的义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted to use, copy, modify and/or distribute this package, provided that: copyright notices are retained unchanged; any distribution of this package, whether modified or not, includes this file",
+    "解释": "允许向第三方分发软件包，但须满足两个条件：保留版权声明，并在分发时包含本许可证文件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "模糊",
+    "原文": "Permission is hereby granted to use, copy, modify and/or distribute this package, provided that: any distribution of this package, whether modified or not, includes this file; if the binary program depends on a modified version of this package, you must publicly release the modified version of this package",
+    "解释": "许可证允许修改和分发，但仅要求分发修改版包时包含许可证文件，并在二进制程序依赖修改版时公开修改版包；未明确要求衍生作品整体以相同许可证发布，也未明确衍生作品可自由选择许可证，因此代码级传染性强弱存在歧义。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "明确允许",
+    "原文": "Permission is hereby also granted to distribute binary programs which depend on this package, provided that: if the binary program depends on a modified version of this package, you must publicly release the modified version of this package",
+    "解释": "许可证明确允许分发依赖本包的二进制程序，不要求依赖程序或自有代码开放源代码；仅当二进制程序依赖本包的修改版本时，才需要公开修改版包。未区分静态与动态链接的传染性差异。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及专利授权、专利反诉或相关权利，因此该维度不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确允许或禁止以其他许可证再分发，也未明确授予再许可权利，因此该维度未涉及。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS或通过网络交互是否触发源代码公开义务，因此该维度不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "copyright notices are retained unchanged; any distribution of this package, whether modified or not, includes this file",
+    "解释": "除保留版权声明外，许可证还要求分发软件包时包含许可证文件本身，构成额外的归属传递义务；未单独要求NOTICE文件，但该文件起到类似传递通知的作用。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "模糊",
+    "原文": "if the binary program depends on a modified version of this package, you must publicly release the modified version of this package",
+    "解释": "许可证仅在二进制程序依赖修改版本时要求公开发布修改版包，但未明确该公开发布是否必须以源代码形式提供，以及提供源代码的具体方式，因此存在歧义。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未授予任何商标权，也未提及使用项目名称或Logo推广衍生作品的问题，因此该维度不适用。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "copyright notices are retained unchanged; any distribution of this package, whether modified or not, includes this file",
+    "解释": "分发软件包时必须保留版权声明不变，并包含完整的许可证文件，其中含有免责声明。该义务明确且适用于所有分发行为，无论是否修改。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THIS PACKAGE IS PROVIDED \"AS IS\" AND WITHOUT WARRANTY. ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHORS BE LIABLE TO ANY PARTY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THIS PACKAGE.",
+    "解释": "许可证明确按“原样”提供软件，否认所有明示或默示担保，并排除作者对任何直接、间接、附带、特殊或后果性损害的责任，因此被授权者无权就质量问题向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及用户是否可以对软件施加超出原许可条款的额外限制，因此该维度不适用。"
+  }
+]

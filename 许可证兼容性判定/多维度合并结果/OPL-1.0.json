@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "use, reproduce, modify, display, perform, sublicense and distribute the Original Code (or portions thereof) with or without Modifications, or as part of a Larger Work",
+    "解释": "许可证明确授予使用、复制、修改、展示、执行、再许可和分发原始代码及其修改版本或作为更大作品的一部分的权利，且允许就保修、支持、赔偿等收取费用，因此商业使用被明确允许。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Any Modification which You create or to which You contribute must be made available, prior to any use, except for internal development and practice, in Source Code form under the terms of this License either on the same media as an Executable version or via an accepted Electronic Distribution Mechanism to anyone to whom you made an Executable version available",
+    "解释": "许可证规定修改通常须在首次使用前向获得可执行版本者提供源码，但明确将内部开发和实践作为例外，因此内部开发和实践使用被允许且不触发源码公开义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may distribute Covered Code in Executable form only if the requirements of Section 3.1-3.5 have been met for that Covered Code. The Source Code version of Covered Code may be distributed only under the terms of this License or a future version of this License released under Section 6.1",
+    "解释": "许可证允许分发源码和可执行形式的Covered Code，但须遵守第3节的各项义务，包括源码仅在本许可证或未来版本下分发，可执行分发须满足第3.1-3.5条。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "The Modifications which You create or to which You contribute are governed by the terms of this License. You may create a Larger Work by combining Covered Code with other code not governed by the terms of this License and distribute the Larger Work as a single product.",
+    "解释": "许可证要求您创建或贡献的修改受本许可证约束，源码版本只能按本许可证或未来版本分发，显示代码级传染性；但允许将Covered Code与不受本许可约束的其他代码组合为Larger Work并作为单一产品分发，只要对Covered Code部分满足许可证要求，因此其他部分不强制开源。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接、导入等链接机制，也没有规定自有代码与Covered Code链接后是否必须开源；Larger Work条款允许合并非本许可代码，但未明确链接传染性。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "under patents now or hereafter owned or controlled by Initial Developer, to make, have made, use and sell (offer to sell and import) the Original Code (or portions thereof), but solely to the extent that any such patent is reasonably necessary to enable You to Utilize the Original Code (or portions thereof). If You initiate litigation by asserting a patent infringement claim (excluding declatory judgment actions) against Initial Developer or a Contributor ... any and all rights granted by such Participant to You under Sections 2.1 and/or 2.2 of this License shall, upon 60 days notice from Participant terminate prospectively",
+    "解释": "许可证明确授予初始开发者和贡献者拥有的专利权，允许制造、使用、销售等，但限于合理必要范围；同时第8.2条规定了专利反诉终止机制，即被授权方对初始开发者或贡献者提起专利侵权诉讼将导致相关授权终止。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "sublicense and distribute the Original Code. The Source Code version of Covered Code may be distributed only under the terms of this License or a future version of this License. You may distribute the Executable version of Covered Code under a license of Your choice, which may contain terms different from this License",
+    "解释": "许可证授予再许可和分发权，并允许可执行版本按自选许可证分发（可包含不同条款）；但源码版本只能按本许可证或未来版本分发，不得改变或限制源码接收者的权利，因此源码许可证不可变更，可执行版本可不同。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证没有提及网络服务、SaaS或通过网络交互是否触发源码公开义务，也未将网络交互视为分发。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "You must duplicate the notice in Exhibit A in each file of the Source Code, and this License in any documentation for the Source Code, where You describe recipients' rights relating to Covered Code. You must include a prominent statement that the Modification is derived, directly or indirectly, from Original Code provided by the Initial Developer and including the name of the Initial Developer in (a) the Source Code, and (b) in any notice in an Executable version or related documentation in which You describe the origin or ownership of the Covered Code.",
+    "解释": "许可证要求在每个源码文件中复制Exhibit A通知，并在文档中放置本许可证；还要求在源码和可执行版本的相关通知中显著声明修改源自Initial Developer并包含其名称，构成额外的归属义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "Any Modification which You create or to which You contribute must be made available, prior to any use, except for internal development and practice, in Source Code form under the terms of this License either on the same media as an Executable version or via an accepted Electronic Distribution Mechanism to anyone to whom you made an Executable version available; and if made available via Electronic Distribution Mechanism, must remain available for at least twelve (12) months after the date it initially became available",
+    "解释": "分发可执行版本时，必须向获得者可取得源码，形式可以是同一介质或电子分发机制，电子分发需保留至少12个月；内部开发实践除外。触发条件为向他人提供可执行版本。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "under intellectual property rights (other than patent or trademark) to use, reproduce, modify, display, perform, sublicense and distribute the Original Code (or portions thereof)",
+    "解释": "许可证授权明确将商标权排除，只涵盖除专利和商标以外的知识产权，因此不授予任何商标权，无法使用原作者的商标推广衍生作品。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "You must duplicate the notice in Exhibit A in each file of the Source Code, and this License in any documentation for the Source Code, where You describe recipients' rights relating to Covered Code. If you distribute executable versions containing Covered Code, you must reproduce the notice in Exhibit B in the documentation and/or other materials provided with the product.",
+    "解释": "分发源码时必须在每个文件复制Exhibit A通知并在文档中包含许可证文本；分发可执行版本时必须在文档和/或其他材料中复制Exhibit B通知，构成明确的版权声明和许可文本保留义务。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "COVERED CODE IS PROVIDED UNDER THIS LICENSE ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT THE COVERED CODE IS FREE OF DEFECTS, MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE INITIAL DEVELOPER, ANY OTHER CONTRIBUTOR, OR ANY DISTRIBUTOR OF COVERED CODE, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO YOU OR ANY OTHER PERSON FOR ANY INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER",
+    "解释": "许可证明确以“AS IS”方式提供，不提供任何明示或默示保证，并排除间接、特殊、偶然或后果性损害责任，因此被授权者无权就软件缺陷或损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "You may not offer or impose any terms on any Source Code version that alters or restricts the applicable version of this License or the recipients' rights hereunder. However, You may include an additional document offering the additional rights described in Section 3.5.",
+    "解释": "许可证明确禁止对源码版本施加任何改变或限制本许可条款或接收者权利的额外条款；仅允许通过附加文档提供额外权利（如保修、支持等），不得以附加限制缩减原许可证权利。"
+  }
+]

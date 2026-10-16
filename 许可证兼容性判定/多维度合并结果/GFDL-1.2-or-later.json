@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "to assure everyone the effective freedom to copy and redistribute it, with or without modifying it, either commercially or noncommercially. You may copy and distribute the Document in any medium, either commercially or noncommercially...",
+    "解释": "许可证明确允许将文档及其修改版本用于商业目的，也允许非商业使用，没有禁止商业使用的条款。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证主要围绕复制、修改和分发设定条件，未单独定义或限制个人或组织内部使用，因此内部使用是否触发开源义务在本许可证中未作规定。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may copy and distribute the Document in any medium, either commercially or noncommercially, provided that this License, the copyright notices, and the license notice saying this License applies to the Document are reproduced in all copies, and that you add no other conditions whatsoever to those of this License.",
+    "解释": "许可证明确允许向第三方分发文档，但分发时必须保留许可证文本、版权声明和许可证适用声明，并且不得附加本许可证之外的条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "You may copy and distribute a Modified Version of the Document under the conditions of sections 2 and 3 above, provided that you release the Modified Version under precisely this License, with the Modified Version filling the role of the Document...",
+    "解释": "许可证允许修改文档并合并内容，但要求修改版本必须精确地按照本许可证发布，因此具有强传染性，衍生作品必须沿用 GFDL。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "GFDL 是文档许可证，不涉及软件库、静态链接、动态链接或导入等机制，因此未规定链接级传染性。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及专利授权、专利反诉终止或与专利相关的任何权利，因为 GFDL 主要适用于文档而非软件技术方案。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "You may not copy, modify, sublicense, or distribute the Document except as expressly provided for under this License.",
+    "解释": "许可证明确禁止在未按本许可证规定的情况下进行再许可或分发，修改版本也必须继续使用本许可证，因此不得以其他许可证再分发。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未将以网络服务形式提供文档或与用户通过网络交互视为分发，也未因此施加源代码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "Preserve all the copyright notices of the Document... Include, immediately after the copyright notices, a license notice... Preserve in that license notice the full lists of Invariant Sections and required Cover Texts... Preserve all the Invariant Sections of the Document, unaltered in their text and in their titles.",
+    "解释": "许可证除要求保留版权声明外，还施加了额外的归属义务，包括列出作者、保留历史章节、致谢章节、不变章节等；但未使用 NOTICE 文件这一机制。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "If you publish or distribute Opaque copies of the Document numbering more than 100, you must either include a machine-readable Transparent copy along with each Opaque copy, or state in or with each Opaque copy a computer-network location from which the general network-using public has access to download using public-standard network protocols a complete Transparent copy of the Document, free of added material.",
+    "解释": "许可证要求在分发超过 100 份不透明副本时，必须同时提供机器可读的透明副本或提供可公开下载的网络位置，类似源代码公开义务；触发条件是分发超过 100 份不透明副本。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "The author(s) and publisher(s) of the Document do not by this License give permission to use their names for publicity for or to assert or imply endorsement of any Modified Version.",
+    "解释": "许可证明确不授予使用原作者或出版者姓名进行宣传、声称或暗示认可修改版本的权利，因此商标和姓名背书权未被授予。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "provided that this License, the copyright notices, and the license notice saying this License applies to the Document are reproduced in all copies... Preserve all the copyright notices of the Document... Include, immediately after the copyright notices, a license notice...",
+    "解释": "分发时必须复制并保留许可证文本、版权声明和许可证适用声明，修改版本还需保留原有版权声明并加入新的许可声明，具有明确的版权声明保留义务。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "The Document may include Warranty Disclaimers next to the notice which states that this License applies to the Document. These Warranty Disclaimers are considered to be included by reference in this License, but only as regards disclaiming warranties: any other implication that these Warranty Disclaimers may have is void and has no effect on the meaning of this License.",
+    "解释": "许可证引用并保留担保免责声明，作者或出版者不提供质量保证；被授权者不能就文档造成的损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "and that you add no other conditions whatsoever to those of this License. You may not use technical measures to obstruct or control the reading or further copying of the copies you make or distribute.",
+    "解释": "许可证明确禁止用户在分发时附加本许可证之外的任何条件，也禁止使用技术手段阻碍阅读或进一步复制，因此不得施加超出原有许可条款的额外约束。"
+  }
+]

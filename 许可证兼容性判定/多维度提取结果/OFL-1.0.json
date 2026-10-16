@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software, subject to the following conditions: 1) Neither the Font Software nor any of its individual components, in Standard or Modified Versions, may be sold by itself. 2) Standard or Modified Versions of the Font Software may be bundled, redistributed and sold with any software",
+    "解释": "允许商业使用和销售字体软件，但字体本身不能单独出售，必须与软件捆绑销售。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify...",
+    "解释": "允许个人或组织内部使用、复制、修改字体软件，且不触发公开源码义务，只有分发时才需遵守相应条件。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Standard or Modified Versions of the Font Software may be bundled, redistributed and sold with any software, provided that each copy contains the above copyright notice and this license. The Font Software, modified or unmodified, in part or in whole, must be distributed using this license",
+    "解释": "允许将字体软件分发给第三方，但每个副本必须包含版权声明和许可证，并且必须使用本许可证进行分发。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "The Font Software, modified or unmodified, in part or in whole, must be distributed using this license, and may not be distributed under any other license.",
+    "解释": "允许合并和修改字体软件，但衍生作品必须使用相同的许可证发布，不得使用其他许可证，属于强传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "字体许可证不涉及库或链接机制，未提及静态链接、动态链接或导入等情况的传染性。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确授予专利权利，也未包含专利反诉终止机制，仅在免责声明中提及不保证不侵犯专利权。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "The Font Software, modified or unmodified, in part or in whole, must be distributed using this license, and may not be distributed under any other license.",
+    "解释": "明确禁止以其他许可证再分发字体软件，必须始终使用本许可证。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务（SaaS）或网络交互是否触发源代码公开义务，因此该维度不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求保留版权声明和许可证文本，未要求额外的NOTICE文件归属义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证要求分发时使用本许可证并保留版权声明，但未明确要求必须提供源代码，也没有额外的源代码公开触发条件。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "The name(s) of the Copyright Holder or the Author(s) of the Font Software shall not be used to promote, endorse or advertise any Modified Version, except to acknowledge the contribution(s) of the Copyright Holder and the Author(s) or with their explicit written permission.",
+    "解释": "明确禁止未经许可使用原作者名称或商标来推广、背书或宣传修改版，不授予商标使用权。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "provided that each copy contains the above copyright notice and this license. These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.",
+    "解释": "分发时必须保留版权声明和许可证文本，可以以独立文本文件、人类可读头或机器可读元数据字段等形式提供，但必须易于用户查看。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THE FONT SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY...",
+    "解释": "明确不提供任何担保，且版权持有人不承担任何责任，被授权者无权就软件造成的损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "The Font Software, modified or unmodified, in part or in whole, must be distributed using this license, and may not be distributed under any other license.",
+    "解释": "必须使用本许可证分发，不得采用其他许可证，从而禁止施加超出原许可条款的额外限制。"
+  }
+]

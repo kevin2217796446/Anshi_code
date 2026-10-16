@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Licensor grants You a worldwide, royalty-free, non-exclusive, sublicensable license, for the duration of the copyright, to do the following: ... to distribute or communicate copies of the Original Work and Derivative Works to the public ... to perform the Original Work publicly; and ... to display the Original Work publicly. ... to make, use, sell, offer for sale, have made, and import the Original Work and Derivative Works.",
+    "解释": "AFL授予复制、修改、分发、公开表演展示以及专利实施（包括销售、许诺销售）的权利，未对商业用途设置禁止条款，因此商业使用明确允许。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "to reproduce the Original Work in copies, either alone or as part of a collective work; ... to translate, adapt, alter, transform, modify, or arrange the Original Work, thereby creating derivative works ... External Deployment means the use, distribution, or communication of the Original Work or Derivative Works in any way such that the Original Work or Derivative Works may be used by anyone other than You...",
+    "解释": "许可证明确授予复制和修改权；第5条仅将可被他人使用的外部部署视为分发，纯内部使用不构成外部部署，因此不会触发第1(c)条的分发条件。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "to distribute or communicate copies of the Original Work and Derivative Works to the public, under any license of your choice that does not contradict the terms and conditions, including Licensor's reserved rights and remedies, in this Academic Free License",
+    "解释": "第1(c)条明确允许向公众分发或传播原始作品和衍生作品，前提是所选许可证不与AFL条款及许可人保留的权利相矛盾；第9条还要求分发时合理努力获得接收者明示同意。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "to translate, adapt, alter, transform, modify, or arrange the Original Work, thereby creating derivative works ... to distribute or communicate copies of the Original Work and Derivative Works to the public, under any license of your choice that does not contradict the terms and conditions...",
+    "解释": "允许创建并分发衍生作品，且不要求衍生作品必须以AFL或相同许可证发布；只要求所选择的许可证不与AFL条款矛盾，因此无强代码级传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "AFL未提及静态链接、动态链接、导入或库的使用，也未界定链接是否构成衍生作品，因此链接级传染性在该许可证中不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "Licensor grants You a worldwide, royalty-free, non-exclusive, sublicensable license, under patent claims owned or controlled by the Licensor that are embodied in the Original Work as furnished by the Licensor, for the duration of the patents, to make, use, sell, offer for sale, have made, and import the Original Work and Derivative Works. ... This License shall terminate automatically and You may no longer exercise any of the rights granted to You by this License as of the date You commence an action, including a cross-claim or counterclaim, against Licensor or any licensee alleging that the Original Work infringes a patent.",
+    "解释": "第2条明确授予专利实施许可，涵盖制造、使用、销售、许诺销售、委托制造和进口；第10条规定了专利诉讼反诉终止机制，但组合侵权的专利诉讼除外。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "Licensor grants You a worldwide, royalty-free, non-exclusive, sublicensable license ... to distribute or communicate copies of the Original Work and Derivative Works to the public, under any license of your choice that does not contradict the terms and conditions, including Licensor's reserved rights and remedies, in this Academic Free License",
+    "解释": "授权明确包含可再许可（sublicensable），并且第1(c)条允许以不与AFL条款矛盾的任何许可证分发作品；第16条仅禁止修改AFL文本本身用于原始作品或衍生作品，不禁止选择其他许可证。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "模糊",
+    "原文": "External Deployment means the use, distribution, or communication of the Original Work or Derivative Works in any way such that the Original Work or Derivative Works may be used by anyone other than You, whether those works are distributed or communicated to those persons or made available as an application intended for use over a network. As an express condition for the grants of license hereunder, You must treat any External Deployment by You of the Original Work or a Derivative Work as a distribution under section 1(c).",
+    "解释": "AFL明确将网络应用提供视为外部部署并要求按第1(c)条的分发处理，但第1(c)条本身未明确要求提供源代码，第3条的源码提供义务仅针对原始许可方，因此SaaS场景是否触发被许可方的源代码公开义务存在模糊。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "You must retain, in the Source Code of any Derivative Works that You create, all copyright, patent, or trademark notices from the Source Code of the Original Work, as well as any notices of licensing and any descriptive text identified therein as an \"Attribution Notice.\" You must cause the Source Code for any Derivative Works that You create to carry a prominent Attribution Notice reasonably calculated to inform recipients that You have modified the Original Work.",
+    "解释": "第6条要求衍生作品源码中保留原始作品源码中的版权、专利、商标和许可声明及归因通知，并加入醒目的修改声明；这是明确的归属义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "模糊",
+    "原文": "Licensor agrees to provide a machine-readable copy of the Source Code of the Original Work along with each copy of the Original Work that Licensor distributes. Licensor reserves the right to satisfy this obligation by placing a machine-readable copy of the Source Code in an information repository reasonably calculated to permit inexpensive and convenient access by You for as long as Licensor continues to distribute the Original Work.",
+    "解释": "源码提供义务明确落在原始许可方分发原始作品时，可通过随作品提供或信息库访问履行；但对于被许可方分发衍生作品或原始作品副本时是否必须提供源代码，许可证未作明确规定，因此源代码公开义务的触发范围存在模糊。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "Neither the names of Licensor, nor the names of any contributors to the Original Work, nor any of their trademarks or service marks, may be used to endorse or promote products derived from this Original Work without express prior permission of the Licensor. ... No license is granted to the trademarks of Licensor even if such marks are included in the Original Work.",
+    "解释": "第4条明确不授予商标权，未经许可人明确事先许可，不得使用许可人或贡献者的名称、商标或服务标记来推广衍生作品。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "You must retain, in the Source Code of any Derivative Works that You create, all copyright, patent, or trademark notices from the Source Code of the Original Work, as well as any notices of licensing and any descriptive text identified therein as an \"Attribution Notice.\" You must cause the Source Code for any Derivative Works that You create to carry a prominent Attribution Notice reasonably calculated to inform recipients that You have modified the Original Work.",
+    "解释": "第6条要求在衍生作品源码中保留原始作品中的所有版权、专利、商标声明、许可声明和归因通知，并添加醒目的修改通知；该义务在源码层面适用。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "the Original Work is provided under this License on an \"AS IS\" BASIS and WITHOUT WARRANTY, either express or implied, including, without limitation, the warranties of non-infringement, merchantability or fitness for a particular purpose. THE ENTIRE RISK AS TO THE QUALITY OF THE ORIGINAL WORK IS WITH YOU. ... Under no circumstances and under no legal theory ... shall the Licensor be liable to anyone for any indirect, special, incidental, or consequential damages...",
+    "解释": "第7条和第8条明确排除任何明示或默示保证（包括不侵权、适销性、特定用途适用性），并限制许可方责任；用户需自担质量风险，不能就损失向许可方追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确允许",
+    "原文": "to distribute or communicate copies of the Original Work and Derivative Works to the public, under any license of your choice that does not contradict the terms and conditions, including Licensor's reserved rights and remedies, in this Academic Free License ... Nothing in this License permits You to modify this License as applied to the Original Work or to Derivative Works.",
+    "解释": "第1(c)条允许用户选择不与AFL条款矛盾的许可证分发作品，因此可以附加额外许可条件；但第16条禁止修改AFL文本对原始作品或衍生作品的适用，用户不得移除原有条件。"
+  }
+]

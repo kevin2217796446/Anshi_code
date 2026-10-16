@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Any person is hereby authorized, without fee, to view, use, reproduce, and distribute all documents and files solely for informational purposes in the creation of products supporting the Unicode Standard",
+    "解释": "许可证授权任何人在无需付费的情况下查看、使用、复制和分发文档与文件，用于创建支持Unicode标准的产品；该授权未排除商业目的，因此商业使用应被允许。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Any person is hereby authorized, without fee, to modify such documents and files to create derivative works conforming to the Unicode® Standard",
+    "解释": "许可证允许任何人修改被标记为允许修改的文档和文件并创建符合Unicode标准的衍生作品，使用行为也未限定场景；未设置内部使用触发源码公开的义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Any person is hereby authorized, without fee, to view, use, reproduce, and distribute all documents and files solely for informational purposes in the creation of products supporting the Unicode Standard",
+    "解释": "许可证明确允许分发文档和文件，但分发须为信息性目的，即用于创建支持Unicode标准的产品；部分文件可能有额外限制。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证允许对某些文件进行修改并创建衍生作品，但未规定衍生作品必须以相同许可证发布，也没有设置代码级传染性或著佐权条款，因此无法判断代码级传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证条款未提及静态链接、动态链接、导入或其他链接机制，也未规定链接或组合后自有代码的许可证义务，因而不适用链接级传染性分析。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未包含专利授权条款，未明确授予专利权利，也没有专利反诉终止机制；仅在不侵权免责声明中否认担保，未涉及专利许可。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确允许或禁止以其他许可证再分发代码；虽然要求特定文件副本必须逐字，但未涉及再许可或变更许可证的规则。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未将网络交互或SaaS提供方式视为分发，也未规定以此方式提供时触发源代码公开义务；仅禁止收费镜像Unicode网站。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证除保留Unicode版权声明和遵守商标政策外，未要求保留或传递NOTICE文件内容，没有额外归属声明义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证主要针对文档和数据文件，未规定分发时须提供源代码，也未定义源代码公开的条件和形式，因此不适用。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "模糊",
+    "原文": "The Unicode Word Mark and the Unicode Logo are trademarks of Unicode, Inc. ... Use of the information and materials found on this website indicates your acknowledgement of Unicode, Inc.'s exclusive worldwide rights in the Unicode Word Mark, the Unicode Logo, and the Unicode trade names.",
+    "解释": "许可证明确Unicode对商标拥有排他性权利并要求遵守商标政策，但未直接明确用户在衍生作品中使用商标推广是否一律禁止，商标政策本身未附上，因此存在模糊。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "模糊",
+    "原文": "Modification is not permitted with respect to this document. All copies of this document must be verbatim.",
+    "解释": "对于特定文档，许可证要求所有副本必须逐字复制，据此应保留其中的版权声明、许可证文本和免责声明；但该要求仅针对本文档，并未普遍规定所有分发文件的版权声明保留义务，因此整体上较模糊。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "EXCEPT AS PROVIDED IN SECTION C.2, THIS PUBLICATION AND/OR SOFTWARE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND EITHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING, BUT NOT LIMITED TO, ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. UNICODE AND ITS LICENSORS ASSUME NO RESPONSIBILITY FOR ERRORS OR OMISSIONS. In no event shall Unicode or its licensors be liable for any special, incidental, indirect or consequential damages.",
+    "解释": "许可证明确按现状提供且不提供任何明示、暗示或法定担保，并排除特殊、间接或后果性损害赔偿责任，因此被授权者无权因质量或损失向Unicode追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未授予用户对其使用施加超出原许可条款的额外限制的权利，也未明确禁止此类限制，因此该维度不适用。"
+  }
+]

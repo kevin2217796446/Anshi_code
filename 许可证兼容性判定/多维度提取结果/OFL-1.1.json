@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted ... to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software, subject to the following conditions: 1) Neither the Font Software nor any of its individual components, in Original or Modified Versions, may be sold by itself.",
+    "解释": "OFL明确允许将字体软件用于商业目的，包括出售修改和未修改的副本；但字体软件本身不得单独出售，需与任何软件捆绑、嵌入或随软件一起销售。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify...",
+    "解释": "OFL明确授予使用、研究、复制、合并、嵌入和修改的权利，且开源义务仅在分发时触发，因此内部修改和使用被允许且不触发源码公开。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted ... to redistribute, and sell modified and unmodified copies of the Font Software, subject to the following conditions... 2) Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software, provided that each copy contains the above copyright notice and this license.",
+    "解释": "OFL明确允许向第三方分发字体软件，但分发时必须保留版权声明和许可证文本；字体本身不得单独出售。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "Permission is hereby granted ... to use, study, copy, merge, embed, modify... 5) The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be distributed under any other license. The requirement for fonts to remain under this license does not apply to any document created using the Font Software.",
+    "解释": "OFL明确允许复制、合并和修改字体软件；但任何修改或未修改的字体软件必须整体在OFL下分发，不得采用其他许可证，体现强传染性。使用字体创建的文档不受此传染性约束。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "明确允许",
+    "原文": "The fonts, including any derivative works, can be bundled, embedded, redistributed and/or sold with any software provided that any reserved names are not used by derivative works. ... Permission is hereby granted ... to embed...",
+    "解释": "OFL允许将字体软件捆绑或嵌入任何软件，并且未要求宿主软件以OFL或开源许可发布；因此嵌入/捆绑不传染自有代码。OFL未区分静态或动态链接，因为其对象是字体而非代码库。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "OFL未包含专利授权条款或专利反诉终止机制，仅在免责声明中表示不保证不侵犯专利权。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "5) The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be distributed under any other license.",
+    "解释": "OFL明确禁止将字体软件以OFL以外的许可证进行再分发；修改或未修改版本都必须保持在OFL下。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "OFL未提及网络服务、SaaS或网络交互是否触发源代码公开义务，也未将网络交互视为分发。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "2) Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software, provided that each copy contains the above copyright notice and this license. These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields... 4) The name(s) of the Copyright Holder(s) or the Author(s) ... shall not be used to promote, endorse or advertise any Modified Version, except to acknowledge the contribution(s)...",
+    "解释": "OFL要求每份副本包含原始版权声明和许可证文本，且可通过独立文本文件、人类可读头或机器可读元数据呈现。它未单独要求NOTICE文件，但有明确的版权和许可归属义务，并限制使用作者名称推广修改版。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "OFL没有规定必须提供源代码或源码包，因为字体软件本身即为被分发的对象，未区分源代码与目标代码。分发条件仅要求保留版权声明和许可证文本。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "3) No Modified Version of the Font Software may use the Reserved Font Name(s) unless explicit written permission is granted by the corresponding Copyright Holder. ... 4) The name(s) of the Copyright Holder(s) or the Author(s) ... shall not be used to promote, endorse or advertise any Modified Version...",
+    "解释": "OFL不授予商标或名称使用权；明确禁止修改版使用保留字体名称，并禁止使用版权人或作者名称进行推广、背书或广告，除非获得书面许可或仅用于致谢。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "2) Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software, provided that each copy contains the above copyright notice and this license. These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.",
+    "解释": "OFL明确要求分发时保留原始版权声明和许可证文本，可以以独立文本文件、人类可读头部或机器可读元数据字段提供，前提是用户能容易查看。免责声明包含在许可证文本中。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THE FONT SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED... IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY...",
+    "解释": "OFL明确按现状提供软件，不提供任何明示或默示保证，版权持有人对任何索赔或损害不承担责任，因此被授权者无权因质量问题向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "模糊",
+    "原文": "5) The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be distributed under any other license.",
+    "解释": "OFL要求分发必须完全按其条款进行且不得使用其他许可证，这似乎限制了附加许可条款；但许可证未明确禁止其他类型的额外合同或技术限制，因此存在解读空间。"
+  }
+]

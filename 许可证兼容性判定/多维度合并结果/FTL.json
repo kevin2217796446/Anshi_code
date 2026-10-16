@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "We specifically permit and encourage the inclusion of this software, with or without modifications, in commercial products.",
+    "解释": "许可证明确允许将FreeType用于商业产品，无论是否修改，且无需付费。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "This license grants a worldwide, royalty-free, perpetual and irrevocable right and license to use, execute, perform, compile, display, copy, create derivative works of, distribute and sublicense the FreeType Project (in both source and object code forms) and derivative works thereof for any purpose;",
+    "解释": "许可证授予任何目的的使用、执行、编译、复制和修改等权利，未限制内部使用，也未对内部使用设置源码公开义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "distribute and sublicense the FreeType Project (in both source and object code forms) and derivative works thereof for any purpose;",
+    "解释": "许可证明确允许将源代码和目标代码形式分发或再许可给第三方，但须遵守保留许可证文件、版权声明和免责声明等条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "These conditions apply to any software derived from or based on the FreeType Project, not just the unmodified files. If you use our work, you must acknowledge us.",
+    "解释": "许可证允许创作和分发衍生作品，不要求衍生作品采用相同许可证，仅要求满足保留声明和致谢条件，因此无强代码级传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "明确允许",
+    "原文": "`You' refers to the licensee, or person using the project, where `using' is a generic term including compiling the project's source code as well as linking it to form a `program' or `executable'.",
+    "解释": "许可证明确将编译和链接视为使用，但未要求链接后的自有代码开源；二进制分发时仅需在文档中提供基于FreeType的声明，无链接传染性。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及专利授权、专利侵权或专利反诉终止机制，因此本维度不涉及。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "distribute and sublicense the FreeType Project (in both source and object code forms) and derivative works thereof for any purpose; and to authorize others to exercise some or all of the rights granted herein",
+    "解释": "许可证明确授予再许可权，允许授权他人行使部分或全部权利；但源代码再分发必须保留原许可证文件，不能完全移除或更改许可证文本。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS或网络交互是否触发源代码公开义务，因此本维度不涉及。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "Redistribution of source code must retain this license file (`FTL.TXT') unaltered; The copyright notices of the unaltered, original files must be preserved in all copies of source files. Redistribution in binary form must provide a disclaimer that states that the software is based in part of the work of the FreeType Team, in the distribution documentation.",
+    "解释": "许可证明确要求保留许可证文件、原始版权声明，并在二进制分发文档中提供免责声明和致谢；虽未单独要求NOTICE文件，但存在类似的额外归属义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "Redistribution of source code must retain this license file (`FTL.TXT') unaltered; any additions, deletions or changes to the original files must be clearly indicated in accompanying documentation. Redistribution in binary form must provide a disclaimer that states that the software is based in part of the work of the FreeType Team, in the distribution documentation.",
+    "解释": "许可证允许以源码或二进制分发，无强制公开源代码义务。源码分发须保留FTL.TXT并标注修改；二进制分发须在文档中声明基于FreeType；分发触发条件为向第三方提供源码或二进制副本。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "Neither the FreeType authors and contributors nor you shall use the name of the other for commercial, advertising, or promotional purposes without specific prior written permission.",
+    "解释": "许可证明确禁止未经事先书面许可将FreeType作者或贡献者的名称用于商业、广告或推广，因此不授予商标使用权。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "Redistribution of source code must retain this license file (`FTL.TXT') unaltered; any additions, deletions or changes to the original files must be clearly indicated in accompanying documentation. The copyright notices of the unaltered, original files must be preserved in all copies of source files. Redistribution in binary form must provide a disclaimer that states that the software is based in part of the work of the FreeType Team, in the distribution documentation.",
+    "解释": "许可证明确要求分发时保留许可证文件、原始版权声明，在二进制分发文档中提供免责声明，并对修改作出明确标示。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THE FREETYPE PROJECT IS PROVIDED `AS IS' WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT WILL ANY OF THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY DAMAGES CAUSED BY THE USE OR THE INABILITY TO USE, OF THE FREETYPE PROJECT.",
+    "解释": "许可证明确排除任何明示或默示担保，作者不对使用或无法使用造成的损害承担责任，因此被授权者无权追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确允许或禁止被授权人施加超出原许可条款的额外约束，因此本维度不涉及。"
+  }
+]

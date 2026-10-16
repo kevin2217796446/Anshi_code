@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Activities other than distribution and/or modification of the Work are not covered by this license; they are outside its scope. In particular, the act of running the Work is not restricted and no requirements are made concerning any offers of support for the Work.",
+    "解释": "许可证适用范围仅限于分发和修改行为，运行等使用行为不受限制，因此商业使用（包括以商业目的运行软件）不被禁止，属于明确允许。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "If you are not the Current Maintainer of the Work, you may modify your copy of the Work, thus creating a Derived Work based on the Work, and compile this Derived Work, thus creating a Compiled Work based on the Derived Work.",
+    "解释": "非维护者可以修改自己的副本，且只要不分发就不会触发分发条件义务，因此个人或组织内部修改使用是允许的，无需公开源码。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may distribute a complete, unmodified copy of the Work as you received it. ... If you are not the Current Maintainer of the Work, you may distribute a Derived Work provided the following conditions are met...",
+    "解释": "许可证明确允许分发完整未修改副本，也允许非维护者在满足特定条件时分发衍生作品，因此分发代码是被允许的。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "If you are not the Current Maintainer of the Work, you may distribute a Derived Work provided the following conditions are met for every component of the Work unless that component clearly states in the copyright notice that it is exempt from that condition. ... A Derived Work may be distributed under a different license provided that license itself honors the conditions listed in Clause 6 above, in regard to the Work, though it does not have to honor the rest of the conditions in this license.",
+    "解释": "许可证允许修改并分发衍生作品，且衍生作品可以采用不同许可证分发，只要新许可证尊重Clause 6关于原始Work的条件；没有要求整个衍生作品必须使用LPPL，因此传染性较弱，不强制相同许可证。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接或导入等机制，也没有规定库或链接场景下的传染性，因此该维度在本许可证中不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证原文未包含任何关于专利授权、专利许可或专利反诉终止的条款，因此该维度不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "A Derived Work may be distributed under a different license provided that license itself honors the conditions listed in Clause 6 above, in regard to the Work, though it does not have to honor the rest of the conditions in this license.",
+    "解释": "许可证允许衍生作品以不同许可证再分发，即允许变更衍生作品的许可证，但原始未修改Work的许可证（LPPL）不可更改，且新许可证必须遵守Clause 6条件。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅在Definitions中将通过FTP、HTTP、NFS等文件传输方式提供访问界定为分发，但没有规定以网络服务（SaaS）形式提供软件或通过网络交互须公开源码的义务，因此该维度未涉及。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证没有提及NOTICE文件或其保留传递义务；虽然要求在衍生作品中标识修改和提供变更通知，但不涉及保留原项目中的特定NOTICE文件。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "You distribute at least one of the following with the Derived Work: 1. A complete, unmodified copy of the Work; ... 2. Information that is sufficient to obtain a complete, unmodified copy of the Work. ... If you are not the Current Maintainer of the Work, you may distribute a Compiled Work generated from a Derived Work, as long as the Derived Work is distributed to all recipients of the Compiled Work...",
+    "解释": "分发衍生作品时必须附带原始Work的完整副本或获取该副本的信息；分发编译作品时必须同时向接收者提供衍生作品（可修改形式），从而确保源代码可获得。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证没有提及商标、Logo或项目名称的使用授权，也没有明确不授予商标权，因此该维度未涉及。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "To use this license, place in each of the components of your work both an explicit copyright notice including your name and the year the work was authored and/or last substantially modified. Include also a statement that the distribution and/or modification of that component is constrained by the conditions in this license. ... You may distribute a complete, unmodified copy of the Work as you received it.",
+    "解释": "许可证要求在每个组件中放置版权声明和许可证约束声明；分发未修改副本必须完整保留，分发衍生作品须提供原始Work副本或信息，从而确保版权声明和许可证文本被传递。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "There is no warranty for the Work. Except when otherwise stated in writing, the Copyright Holder provides the Work 'as is', without warranty of any kind, either expressed or implied, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. ... In no event ... will The Copyright Holder ... be liable to you for damages...",
+    "解释": "许可证明确排除任何担保，并排除版权持有者及作者的损害赔偿责任，因此被授权者对软件可能造成的损失无权向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确允许",
+    "原文": "A Derived Work may be distributed under a different license provided that license itself honors the conditions listed in Clause 6 above, in regard to the Work, though it does not have to honor the rest of the conditions in this license.",
+    "解释": "许可证允许衍生作品采用不同许可证分发，因此用户可以在衍生作品上施加额外限制，但新许可证必须尊重Clause 6针对原始Work的条件，不能削弱对原始Work的保护。"
+  }
+]

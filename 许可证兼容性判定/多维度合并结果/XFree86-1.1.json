@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software",
+    "解释": "许可证明确授予使用、复制、修改、合并、发布、分发、再许可和销售等权利，没有禁止商业使用的条款，因此可用于商业目的。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "to deal in the Software without restriction, including without limitation the rights to use, copy, modify...",
+    "解释": "许可证允许个人或组织内部使用、复制和修改软件；开源义务仅在再分发源代码或二进制时触发，纯内部使用不触发源码公开义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "distribute, sublicense, and/or sell copies of the Software",
+    "解释": "许可证明确允许向第三方分发、再许可和销售软件副本，但分发时必须遵守保留版权声明、免责声明和致谢等条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software",
+    "解释": "许可证允许修改和合并软件，并且没有要求衍生作品必须以相同许可证发布，因此不产生代码级传染性，衍生作品可自由选择许可证。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接、导入或其他链接机制，因此未规定链接场景下是否会传染自有代码。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未包含任何专利授权条款，也没有专利反诉终止机制。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "sublicense, and/or sell copies of the Software",
+    "解释": "许可证明确授予再许可权，允许将软件副本再授权给第三方；但原始版权声明、条件列表和免责声明必须保留。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS 或通过网络交互是否构成分发，因此不涉及网络服务相关源代码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "The end-user documentation included with the redistribution, if any, must include the following acknowledgment: \"This product includes software developed by The XFree86 Project, Inc (http://www.xfree86.org/) and its contributors\", in the same place and form as other third-party acknowledgments. Alternately, this acknowledgment may appear in the software itself, in the same form and location as other such third-party acknowledgments.",
+    "解释": "除版权声明外，许可证还要求分发时在最终用户文档或软件中，以与第三方致谢相同的方式包含特定致谢声明。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证只对源代码和二进制再分发施加保留声明要求，未规定任何情况下必须公开或提供源代码，因此源代码公开义务未涉及。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "Except as contained in this notice, the name of The XFree86 Project, Inc shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from The XFree86 Project, Inc.",
+    "解释": "许可证明确禁止未经事先书面授权使用 XFree86 Project, Inc 的名称进行广告或推广，不授予商标权。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "Redistributions of source code must retain the above copyright notice, this list of conditions, and the following disclaimer. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution...",
+    "解释": "分发源码和二进制时都必须保留版权声明、条件列表和免责声明；二进制分发还需在文档或随附材料中以与其他版权信息相同的位置和形式重现。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES... ARE DISCLAIMED. IN NO EVENT SHALL THE XFREE86 PROJECT, INC OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES...",
+    "解释": "许可证明确否认所有明示或默示保证，并排除项目及贡献者的损害赔偿责任，因此被授权者无权就软件造成的损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确允许或禁止被授权者在分发时施加超出原许可条款的额外限制；只对原始声明和名称使用作出相应约束。"
+  }
+]

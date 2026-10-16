@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, distribute and sublicense the Contribution of such Contributor, if any, and such derivative works, in source code and object code form. While this license is intended to facilitate the commercial use of the Program...",
+    "解释": "CPL明确授予复制、修改、分发及再许可等权利，并表明许可证旨在促进商业使用，因此允许商业使用。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, distribute and sublicense the Contribution of such Contributor, if any, and such derivative works, in source code and object code form.",
+    "解释": "许可证允许复制和制作衍生作品，这涵盖组织内部的修改和使用；源代码公开义务仅在分发时触发，因此内部使用不要求公开源码。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free copyright license to ... distribute and sublicense the Contribution of such Contributor, if any, and such derivative works, in source code and object code form. A Contributor may choose to distribute the Program in object code form under its own license agreement, provided that...",
+    "解释": "CPL明确授予分发和再许可源码及目标代码的权利，但分发须遵守第3条的要求，例如保留版权声明、提供免责声明和说明源码获取方式。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "When the Program is made available in source code form: a) it must be made available under this Agreement... Contributions do not include additions to the Program which: (i) are separate modules of software distributed in conjunction with the Program under their own license agreement, and (ii) are not derivative works of the Program.",
+    "解释": "CPL允许修改和组合代码，但源码形式的Program及其衍生作品必须以CPL发布；独立且非衍生作品的模块可在自有许可证下分发，因此传染性限于Program及衍生部分，不强制整个组合作品全部开源。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "模糊",
+    "原文": "Contributions do not include additions to the Program which: (i) are separate modules of software distributed in conjunction with the Program under their own license agreement, and (ii) are not derivative works of the Program.",
+    "解释": "CPL排除了自有许可的独立模块，但未明确静态链接、动态链接或导入是否构成衍生作品，因此链接产生的组合是否受传染存在模糊。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free patent license under Licensed Patents to make, use, sell, offer to sell, import and otherwise transfer the Contribution of such Contributor, if any, in source code and object code form. If Recipient institutes patent litigation against a Contributor with respect to a patent applicable to software ... then any patent licenses granted by that Contributor to such Recipient under this Agreement shall terminate as of the date such litigation is filed.",
+    "解释": "CPL明确授予专利许可，并包含专利诉讼反制条款：接收者若对贡献者提起软件专利诉讼，相关专利许可终止；若主张Program本身侵权，第2(b)条下的权利终止。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, distribute and sublicense the Contribution... When the Program is made available in source code form: a) it must be made available under this Agreement... A Contributor may choose to distribute the Program in object code form under its own license agreement, provided that...",
+    "解释": "CPL明确授予再许可权，但源码形式分发必须继续使用CPL，不得更换为其他许可证；目标代码可在满足第3条条件时以分发者自有许可证提供。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "CPL未提及网络服务、SaaS或远程交互，未将通过网络提供服务视为分发，因此该维度不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "CPL没有关于NOTICE文件的额外归属要求；其归属义务限于保留版权声明和标识贡献者，见分发与版权声明维度。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "A Contributor may choose to distribute the Program in object code form under its own license agreement, provided that: ... iv) states that source code for the Program is available from such Contributor, and informs licensees how to obtain it in a reasonable manner on or through a medium customarily used for software exchange. When the Program is made available in source code form: a) it must be made available under this Agreement; and b) a copy of this Agreement must be included with each copy of the Program.",
+    "解释": "CPL明确要求目标代码分发时告知被许可人如何合理获取源码；源码形式分发必须按CPL并随程序附上协议副本。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "CPL未提及商标权授予，第7条也未明示商标许可，因此商标使用不在本许可证授权范围内。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "Contributors may not remove or alter any copyright notices contained within the Program. When the Program is made available in source code form: ... a copy of this Agreement must be included with each copy of the Program.",
+    "解释": "CPL明确要求在分发时保留程序中的版权声明，源码分发时附上CPL全文；目标代码分发还需在许可协议中保留免责声明和责任排除等条款。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, THE PROGRAM IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED... NEITHER RECIPIENT NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES...",
+    "解释": "CPL明确排除所有明示或默示保证，并排除直接、间接等损害赔偿责任，因此被授权者无权就软件质量或损失向贡献者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "模糊",
+    "原文": "A Contributor may choose to distribute the Program in object code form under its own license agreement, provided that: ... iii) states that any provisions which differ from this Agreement are offered by that Contributor alone and not by any other party... Except as expressly stated in Sections 2(a) and 2(b) above, Recipient receives no rights or licenses to the intellectual property of any Contributor under this Agreement...",
+    "解释": "CPL允许目标代码在自有许可协议下分发，并要求差异条款仅由该分发者负责，但未明确此类自有条款能否对下游施加超出CPL的额外限制，因此边界模糊。"
+  }
+]

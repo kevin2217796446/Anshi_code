@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software",
+    "解释": "MIT许可证明确授予使用、复制、修改、合并、发布、分发、再许可和/或销售软件副本的权利，因此允许商业使用。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "use, copy, modify",
+    "解释": "许可证授予不受限制的使用、复制和修改权利，内部使用属于该等授权范围，且未设置任何触发开源义务的条件。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "distribute, sublicense, and/or sell copies of the Software",
+    "解释": "许可证明确允许分发和发布软件副本，但分发时须保留版权声明和许可声明。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "modify, merge",
+    "解释": "许可证允许修改和合并代码，未要求衍生作品以MIT许可证或相同许可证发布，因此无代码级传染性，衍生作品可自由选择许可证，但须保留原声明。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "MIT许可证未提及静态链接、动态链接或链接库等使用场景，因此该维度不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "MIT许可证原文未提及专利授权或专利反诉终止机制，因此该维度不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确允许",
+    "原文": "sublicense",
+    "解释": "许可证明确授予再许可的权利，允许将软件以其他许可证条款再分发，但须保留原版权声明和许可声明。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务/SaaS场景，也未将网络交互视为分发，因此无相关义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "MIT许可证仅要求保留版权声明和许可声明，未要求额外的NOTICE文件归属义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "MIT许可证不要求分发时提供源代码，也未规定源代码公开的条件或形式，因此该维度不适用。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "MIT许可证未授予任何商标权，也未提及商标使用，因此该维度不适用。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "The above copyright notice and this permission notice (including the next paragraph) shall be included in all copies or substantial portions of the Software.",
+    "解释": "许可证明确要求在所有副本或实质性部分中包含版权声明和许可声明，因此分发时必须保留这些声明。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+    "解释": "许可证明确不提供任何明示或默示担保，并排除作者或版权持有人的责任，被授权者无权就软件造成的损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "MIT许可证未明确提及是否允许附加额外限制，因无明确条款，该维度标注未涉及。"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "You may use the Original Work in all ways not otherwise restricted or conditioned by this License or by law",
+    "解释": "许可证未禁止将代码或其衍生品用于商业目的，并在第15条中保留所有未被明确限制的使用方式，因此商业使用被允许，但仍须遵守分发等条件。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "You may use the Original Work in all ways not otherwise restricted or conditioned by this License or by law. External Deployment means the use, distribution, or communication of the Original Work or Derivative Works in any way such that the Original Work or Derivative Works may be used by anyone other than You...",
+    "解释": "个人或组织内部修改并使用代码不构成外部部署，不触发第1(c)的分发及源码公开义务，因此内部使用被允许。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "to distribute or communicate copies of the Original Work and Derivative Works to the public, with the proviso that copies of Original Work or Derivative Works that You distribute or communicate shall be licensed under this Open Software License",
+    "解释": "许可证明确允许将原始作品和衍生作品分发给第三方，但分发的副本必须继续采用OSL-3.0许可。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "to translate, adapt, alter, transform, modify, or arrange the Original Work, thereby creating derivative works (Derivative Works) based upon the Original Work; ... copies of Original Work or Derivative Works that You distribute or communicate shall be licensed under this Open Software License",
+    "解释": "允许修改和创作衍生作品，但分发或传播衍生作品时必须采用OSL-3.0许可，体现强代码级传染性，不允许衍生作品自由选择许可证。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "模糊",
+    "原文": "to translate, adapt, alter, transform, modify, or arrange the Original Work, thereby creating derivative works (Derivative Works) based upon the Original Work",
+    "解释": "许可证通过衍生作品定义约束修改和组合，但未明确静态链接、动态链接或导入是否构成衍生作品，也未区分链接形式的传染性，存在多种解读。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "Licensor grants You a worldwide, royalty-free, non-exclusive, sublicensable license, under patent claims owned or controlled by the Licensor that are embodied in the Original Work as furnished by the Licensor... This License shall terminate automatically and You may no longer exercise any of the rights granted to You by this License as of the date You commence an action... alleging that the Original Work infringes a patent.",
+    "解释": "明确授予用户相关专利实施权，但若用户对许可人或被许可人提起专利侵权诉讼，专利授权及许可证将自动终止，构成专利反诉终止机制。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "copies of Original Work or Derivative Works that You distribute or communicate shall be licensed under this Open Software License... Nothing in this License permits You to modify this License as applied to the Original Work or to Derivative Works.",
+    "解释": "分发或传播原始作品及衍生作品必须采用OSL-3.0许可，且禁止修改适用于这些作品的许可证条款，因此不允许以其他许可证再分发。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "明确允许",
+    "原文": "As an express condition for the grants of license hereunder, You must treat any External Deployment by You of the Original Work or a Derivative Work as a distribution under section 1(c).",
+    "解释": "网络部署或供第三方通过网络使用应用被定义为外部部署，必须视为分发，从而触发OSL-3.0下的源码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "You must retain, in the Source Code of any Derivative Works that You create, all copyright, patent, or trademark notices from the Source Code of the Original Work, as well as any notices of licensing and any descriptive text identified therein as an Attribution Notice. You must cause the Source Code for any Derivative Works that You create to carry a prominent Attribution Notice reasonably calculated to inform recipients that You have modified the Original Work.",
+    "解释": "除保留版权声明外，还要求保留专利、商标、许可通知及被标识为Attribution Notice的描述文本，并在衍生作品源码中显著标明修改信息，存在额外的归属义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "Licensor agrees to provide a machine-readable copy of the Source Code of the Original Work along with each copy of the Original Work that Licensor distributes. Licensor reserves the right to satisfy this obligation by placing a machine-readable copy of the Source Code in an information repository reasonably calculated to permit inexpensive and convenient access... You must treat any External Deployment... as a distribution under section 1(c).",
+    "解释": "分发原始作品或衍生作品时必须提供机器可读源代码，或者将源代码放在便于获取的信息仓库中；网络外部部署同样被视为分发并触发源码提供义务。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "Neither the names of Licensor, nor the names of any contributors to the Original Work, nor any of their trademarks or service marks, may be used to endorse or promote products derived from this Original Work without express prior permission of the Licensor. No license is granted to the trademarks of Licensor even if such marks are included in the Original Work.",
+    "解释": "许可证明确不授予商标权，未经事先许可不得使用许可人或贡献者的名称、商标或服务标记来推广衍生作品。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "You must retain, in the Source Code of any Derivative Works that You create, all copyright, patent, or trademark notices from the Source Code of the Original Work, as well as any notices of licensing and any descriptive text identified therein as an Attribution Notice. copies of Original Work or Derivative Works that You distribute or communicate shall be licensed under this Open Software License",
+    "解释": "分发时必须保留原始作品中的版权、专利和商标声明以及许可通知和Attribution Notice，并按OSL-3.0传递许可证文本及其中的免责声明。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "The Original Work is provided under this License on an AS IS BASIS and WITHOUT WARRANTY, either express or implied, including, without limitation, the warranties of non-infringement, merchantability or fitness for a particular purpose. THE ENTIRE RISK AS TO THE QUALITY OF THE ORIGINAL WORK IS WITH YOU. Under no circumstances... shall the Licensor be liable... for any indirect, special, incidental, or consequential damages...",
+    "解释": "软件按现状提供，不附带任何明示或默示担保，使用风险由使用者承担，且许可人在法律允许范围内不承担间接或后果性损害赔偿责任，因此被授权者不能就质量损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "模糊",
+    "原文": "copies of Original Work or Derivative Works that You distribute or communicate shall be licensed under this Open Software License... Nothing in this License permits You to modify this License as applied to the Original Work or to Derivative Works.",
+    "解释": "许可证要求以OSL-3.0分发且禁止修改许可证条款，但未明文禁止在分发时附加超出原许可的额外限制，因此是否可施加额外限制存在解读空间。"
+  }
+]

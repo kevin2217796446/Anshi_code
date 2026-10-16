@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Licensor hereby grants You a worldwide, royalty-free, non-exclusive, perpetual (for the duration of the applicable copyright) license to exercise the rights in the Work as stated below",
+    "解释": "许可证授予全球、免版税、非独占、永久性的权利，未设置禁止商业使用的条款，因此允许将作品及其复制品或Collection用于商业目的。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确禁止",
+    "原文": "The above rights include the right to make such modifications as are technically necessary to exercise the rights in other media and formats, but otherwise you have no rights to make Adaptations.",
+    "解释": "许可证不授予制作改编作品的权利，除为跨媒介或格式行使权利所必需的技术性修改外，内部修改后使用也因禁止改编条款而被禁止；内部使用不触发源代码公开义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "to Distribute and Publicly Perform the Work including as incorporated in Collections. You may Distribute or Publicly Perform the Work only under the terms of this License.",
+    "解释": "允许分发作品及将其收录于Collection中分发，但必须遵守本许可证条款，包括附带许可证副本或URI、保留通知、不得施加额外限制等。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确禁止",
+    "原文": "you have no rights to make Adaptations. this does not require the Collection apart from the Work itself to be made subject to the terms of this License.",
+    "解释": "NoDerivs条款明确禁止制作Adaptations或衍生作品，因此不能通过修改或合并创作衍生作品；但将作品未修改地收录于Collection中，不要求整个Collection适用本许可证，无强传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "该许可证针对文学艺术作品，不涉及软件库、静态/动态链接或导入机制，因此不适用链接级传染性分析。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证全文未提及专利授权、专利反诉终止机制或与专利相关的任何条款，因此不涉及专利授权。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "You may not sublicense the Work. You may Distribute or Publicly Perform the Work only under the terms of this License.",
+    "解释": "明确禁止对作品进行再许可，分发或公开表演必须以本许可证条款进行，不得变更为其他许可证或再许可。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS或通过网络交互触发源代码公开义务的规则，因此该维度不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "You must... keep intact all copyright notices for the Work and provide, reasonable to the medium or means You are utilizing: (i) the name of the Original Author... (ii) the title of the Work if supplied; (iii) to the extent reasonably practicable, the URI...",
+    "解释": "许可证明确要求除保留版权声明外，还须以合理方式提供原作者的姓名、作品标题、指定URI等归因信息；但不涉及软件许可证中常见的NOTICE文件传递义务。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "该许可证适用于文学艺术作品而非软件源代码，未规定源代码公开的条件、形式或触发要件。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "Except for the limited purpose of indicating to the public that the Work is licensed under the CCPL, Creative Commons does not authorize the use by either party of the trademark \"Creative Commons\" or any related trademark or logo of Creative Commons without the prior written consent of Creative Commons. You may not implicitly or explicitly assert or imply any connection with, sponsorship or endorsement by the Original Author, Licensor and/or Attribution Parties...",
+    "解释": "不授予使用相关商标的权利，禁止未经事先书面同意使用Creative Commons商标或相关标识，并禁止暗示原作者或许可人背书或赞助。但Creative Commons商标限制文本本身声称不构成许可证的正式条款。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "You must keep intact all notices that refer to this License and to the disclaimer of warranties with every copy of the Work You Distribute or Publicly Perform. You must... keep intact all copyright notices for the Work...",
+    "解释": "许可证明确要求分发或公开表演时必须保留版权声明、许可证相关通知和免责声明，并以合理方式呈现，属于明确的合规义务。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "LICENSOR OFFERS THE WORK AS-IS AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND... IN NO EVENT WILL LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES...",
+    "解释": "许可人按“原样”提供作品，不提供任何明示、暗示或法定的质量保证，且在法律允许范围内排除损害赔偿责任，因此被授权者无权就质量问题或损失向许可人追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "You may not offer or impose any terms on the Work that restrict the terms of this License or the ability of the recipient of the Work to exercise the rights granted to that recipient under the terms of the License. You may not impose any effective technological measures on the Work that restrict the ability of a recipient...",
+    "解释": "明确禁止被授权者对作品施加任何会限制本许可证条款或限制接收者行使权利的其他条件或有效技术措施，因此无权附加额外限制。"
+  }
+]

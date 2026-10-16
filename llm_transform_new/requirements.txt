@@ -1,0 +1,14 @@
+# ========== 非标转换机器部署 真正需要的依赖 ==========
+
+# LLM 调用（LangChain 核心 + OpenAI 兼容接口）
+langchain-core==1.2.18
+langchain-openai==1.1.11
+httpx==0.28.1
+python-dotenv==1.2.1
+
+# 相似度搜索 / 模糊匹配（tool_calling 里的 search_* 工具）
+numpy
+rapidfuzz
+
+# 向量嵌入模型（_embed_model.py 用 all-MiniLM-L6-v2，会自动带 torch）
+sentence-transformers

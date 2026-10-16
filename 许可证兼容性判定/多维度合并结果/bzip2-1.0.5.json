@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+    "解释": "许可证明确允许将bzip2及其衍生品用于商业目的，包括以源码或二进制形式使用和再分发，只要满足后续条件即可，没有禁止商业使用的条款。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+    "解释": "许可证允许使用和修改软件，包括在个人或组织内部使用；内部使用不涉及再分发，不会触发源码公开等开源义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+    "解释": "明确允许以源码和二进制形式向第三方分发代码，但分发需满足保留版权声明、不歪曲来源、修改版本标记及作者名称使用限制等条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.",
+    "解释": "许可证允许修改和合并代码并再分发，没有要求衍生作品必须以相同许可证发布，仅要求修改后的源码版本明确标记且不得歪曲为原始软件，因此没有代码级传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "明确允许",
+    "原文": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+    "解释": "允许以二进制形式再分发，因此允许静态或动态链接到自有代码后分发，且许可证未要求自有代码开源，没有链接级传染性。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证虽然提到bzip2和libbzip2据作者所知未使用专利算法，但明确不提供任何保证，也未授予任何专利权利或设置专利反诉终止机制，因此专利授权条款不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确允许或禁止以其他许可证再分发，未授予再许可权利。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及通过网络提供服务（SaaS）或网络交互是否触发源代码公开义务，因此该维度不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证要求保留版权声明、条件列表和免责声明，但没有额外的NOTICE文件传递义务，因此该维度不适用。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证允许以源码和二进制形式分发，但没有规定任何必须提供源代码的条件或义务，因此源代码公开义务不适用。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "The name of the author may not be used to endorse or promote products derived from this software without specific prior written permission.",
+    "解释": "许可证明确禁止未经事先书面许可使用作者姓名来认可或推广衍生产品，因此未授予商标或名称使用权。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.",
+    "解释": "分发源码时必须保留上述版权声明、条件列表和免责声明，这是进行源码分发的前置条件。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THIS SOFTWARE IS PROVIDED BY THE AUTHOR \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.",
+    "解释": "许可证明确按“现状”提供软件，不提供任何明示或默示保证，作者不对任何损害承担责任，因此用户无权就软件造成的损失向作者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确允许或禁止用户对软件施加超出原有许可条款的额外约束，因此该维度不适用。"
+  }
+]

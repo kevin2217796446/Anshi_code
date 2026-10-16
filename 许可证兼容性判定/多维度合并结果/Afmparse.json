@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "This file may be freely copied and redistributed as long as: 1) This entire notice continues to be included in the file, 2) If the file has been modified in any way, a notice of such modification is conspicuously indicated.",
+    "解释": "许可证允许自由复制和再分发，并未禁止商业使用，因此可以用于商业目的。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "This file may be freely copied and redistributed as long as: 1) This entire notice continues to be included in the file, 2) If the file has been modified in any way, a notice of such modification is conspicuously indicated.",
+    "解释": "许可证允许复制和修改文件，内部使用时无需公开源代码，但修改后需显著标识修改情况。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "This file may be freely copied and redistributed as long as: 1) This entire notice continues to be included in the file, 2) If the file has been modified in any way, a notice of such modification is conspicuously indicated.",
+    "解释": "允许向第三方再分发该文件，但必须保留完整通知，并在修改时显著标注修改内容。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "If the file has been modified in any way, a notice of such modification is conspicuously indicated.",
+    "解释": "许可证允许修改文件，仅要求显著标注修改，不要求衍生作品以相同许可证发布，因此不具有代码级强传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接、导入或绑定等机制，因此不涉及链接级传染性判断。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证原文未提及专利授权、专利权利或专利反诉终止机制。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "模糊",
+    "原文": "This file may be freely copied and redistributed as long as: 1) This entire notice continues to be included in the file, 2) If the file has been modified in any way, a notice of such modification is conspicuously indicated.",
+    "解释": "许可证要求完整保留原通知，但未明确是否允许以其他许可证进行再许可或再分发；是否可以附加或替换许可证条款存在多种解读。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS或通过网络与用户交互是否触发源代码公开义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "This entire notice continues to be included in the file.",
+    "解释": "许可证明确要求保留整个通知内容，构成明确的归属义务，但未额外要求传递独立的NOTICE文件。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "This file may be freely copied and redistributed as long as: 1) This entire notice continues to be included in the file, 2) If the file has been modified in any way, a notice of such modification is conspicuously indicated.",
+    "解释": "该文件本身即为源代码，许可证允许直接再分发，除保留通知和标注修改外没有额外的源代码公开触发条件。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "模糊",
+    "原文": "PostScript, Display PostScript, and Adobe are registered trademarks of Adobe Systems Incorporated.",
+    "解释": "许可证仅声明相关商标归属，未明确授予也未明确禁止用户使用这些商标来推广衍生作品，因此商标使用授权不清晰。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "This entire notice continues to be included in the file.",
+    "解释": "分发时必须完整保留通知，包括版权声明、许可条件、商标声明和免责声明。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THE INFORMATION BELOW IS FURNISHED AS IS, IS SUBJECT TO CHANGE WITHOUT NOTICE, AND SHOULD NOT BE CONSTRUED AS A COMMITMENT BY ADOBE SYSTEMS INCORPORATED. ADOBE SYSTEMS INCORPORATED ASSUMES NO RESPONSIBILITY OR LIABILITY FOR ANY ERRORS OR INACCURACIES, MAKES NO WARRANTY OF ANY KIND (EXPRESS, IMPLIED OR STATUTORY) WITH RESPECT TO THIS INFORMATION, AND EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES OF MERCHANTABILITY, FITNESS FOR PARTICULAR PURPOSES AND NONINFRINGEMENT OF THIRD PARTY RIGHTS.",
+    "解释": "许可证明确排除任何明示、默示或法定保证，并声明对错误或损失不承担责任，因此被授权者无权就软件造成的损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及用户是否可以施加超出原有许可条款的额外约束，因此该维度不适用。"
+  }
+]

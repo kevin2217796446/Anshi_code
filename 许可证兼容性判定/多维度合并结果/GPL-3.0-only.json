@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "You may charge any price or no price for each copy that you convey, and you may offer support or warranty protection for a fee.",
+    "解释": "GPLv3明确允许将代码及其衍生品用于商业目的，包括收费分发和提供付费支持或担保，不禁止商业使用。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "You may make, run and propagate covered works that you do not convey, without conditions so long as your license otherwise remains in force.",
+    "解释": "允许个人或组织在内部修改、运行和传播而不对外分发，且无需满足额外条件，不触发源代码公开义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "You may convey verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice; keep intact all notices stating that this License and any non-permissive terms added in accord with section 7 apply to the code; keep intact all notices of the absence of any warranty; and give all recipients a copy of this License along with the Program.",
+    "解释": "允许向第三方分发代码，但须保留版权声明、许可通知和无担保声明，并向接收者提供许可证副本；第5节和第6节分别规定修改后源码和目标代码分发的进一步条件。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "You must license the entire work, as a whole, under this License to anyone who comes into possession of a copy. This License will therefore apply, along with any applicable section 7 additional terms, to the whole of the work, and all its parts, regardless of how they are packaged. This License gives no permission to license the work in any other way, but it does not invalidate such permission if you have separately received it.",
+    "解释": "允许修改和合并代码，但由此形成的整体作品必须整体以GPLv3发布，具有强代码级传染性；不得以其他许可证许可整体作品，除非已单独获得授权。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "模糊",
+    "原文": "Corresponding Source includes interface definition files associated with source files for the work, and the source code for shared libraries and dynamically linked subprograms that the work is specifically designed to require, such as by intimate data communication or control flow between those subprograms and other parts of the work.",
+    "解释": "GPLv3未明确区分静态链接与动态链接的传染性，但要求对应源码包含特定动态链接子程序，暗示此类链接可能受GPL约束；是否所有形式的链接都构成衍生作品存在解释空间，因此判定为模糊。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "明确允许",
+    "原文": "Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contents of its contributor version.",
+    "解释": "明确授予贡献者专利的非独占、全球、免许可费许可；第8节规定违反许可证时专利许可终止，第10节禁止对程序发起专利侵权诉讼，形成专利反诉终止机制。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "Sublicensing is not allowed; section 10 makes it unnecessary. This License gives no permission to license the work in any other way, but it does not invalidate such permission if you have separately received it.",
+    "解释": "明确禁止再许可或以其他许可证再分发；下游接收者自动获得原许可人的GPLv3许可，但分发者无权更改许可证，除非已单独获得授权。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "明确允许",
+    "原文": "Mere interaction with a user through a computer network, with no transfer of a copy, is not conveying.",
+    "解释": "GPLv3明确将单纯的网络交互排除在分发之外，因此以SaaS方式提供软件不触发GPLv3下的源代码公开义务；如组合AGPLv3作品，则第13节会引入网络交互要求。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "GPLv3没有要求保留和传递独立的NOTICE文件；它仅要求保留版权声明、许可证通知和无担保声明等，未使用NOTICE文件机制。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "明确允许",
+    "原文": "You may convey a covered work in object code form under the terms of sections 4 and 5, provided that you also convey the machine-readable Corresponding Source under the terms of this License, in one of these ways:",
+    "解释": "在分发目标代码时，必须以规定方式提供机器可读的对应源码，包括随附物理介质、书面要约、网络服务器访问或点对点传输等；触发条件是分发非源码形式。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "GPLv3没有授予用户使用原作者商标、商号或服务标记的权利，也没有明确规定商标使用是否被禁止。商标权问题不在许可证条款范围内，仅在第7条允许通过附加条款对商标使用作出限制。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "You may convey verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice; keep intact all notices stating that this License and any non-permissive terms added in accord with section 7 apply to the code; keep intact all notices of the absence of any warranty; and give all recipients a copy of this License along with the Program.",
+    "解释": "分发时必须显著保留适当版权声明，保持许可证及无担保声明完整，并向接收者提供GPLv3许可证文本；修改版本还须按第5节添加修改声明。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM.",
+    "解释": "许可证明确排除任何明示或默示担保，质量与性能风险由使用者承担；在法律允许范围内，版权方不对使用或无法使用造成的损害负责，因此被授权者无权因质量问题追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "You may not impose any further restrictions on the exercise of the rights granted or affirmed under this License.",
+    "解释": "不得对GPLv3已授予的权利施加额外限制；例如不得收取许可费、不得以专利侵权为由提起诉讼，以保障下游用户的自由。"
+  }
+]

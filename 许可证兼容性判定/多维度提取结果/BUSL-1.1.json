@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "模糊",
+    "原文": "The Licensor hereby grants you the right to copy, modify, create derivative works, redistribute, and make non-production use of the Licensed Work. The Licensor may make an Additional Use Grant, above, permitting limited production use. If your use of the Licensed Work does not comply with the requirements currently in effect as described in this License, you must purchase a commercial license from the Licensor, its affiliated entities, or authorized resellers, or you must refrain from using the Licensed Work.",
+    "解释": "许可证明确允许非生产使用，生产使用需通过额外授权或购买商业许可。商业使用若涉及生产用途则受限，但许可证未完全禁止所有商业目的的非生产使用，因此存在模糊之处。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "模糊",
+    "原文": "The Licensor hereby grants you the right to copy, modify, create derivative works, redistribute, and make non-production use of the Licensed Work.",
+    "解释": "许可证允许非生产性使用，包括内部修改后使用；但生产性内部使用可能需要额外授权或商业许可，且许可证未明确内部使用是否触发开源义务，因此存在模糊之处。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "明确允许",
+    "原文": "The Licensor hereby grants you the right to copy, modify, create derivative works, redistribute, and make non-production use of the Licensed Work. All copies of the original and modified Licensed Work, and derivative works of the Licensed Work, are subject to this License.",
+    "解释": "许可证明确授予再分发的权利，但分发时所有副本和衍生作品必须继续受本许可证约束。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确禁止",
+    "原文": "All copies of the original and modified Licensed Work, and derivative works of the Licensed Work, are subject to this License.",
+    "解释": "许可证要求衍生作品继续受本许可证约束，不允许自由选择其他许可证，具有强传染性，直至变更日期。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接或导入等机制，也未定义链接是否构成衍生作品，因此该维度不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及专利授权或专利反诉终止机制，因此该维度不适用。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "明确禁止",
+    "原文": "All copies of the original and modified Licensed Work, and derivative works of the Licensed Work, are subject to this License. Effective on the Change Date, or the fourth anniversary of the first publicly available distribution of a specific version of the Licensed Work under this License, whichever comes first, the Licensor hereby grants you rights under the terms of the Change License, and the rights granted in the paragraph above terminate.",
+    "解释": "在变更日期之前，所有副本和衍生作品必须受本许可证约束，不允许以其他许可证再分发；变更日期到达后可按变更许可证授权。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS或网络交互是否构成分发，也未施加源代码公开义务，因此该维度不适用。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证仅要求显眼展示本许可证文本，未要求保留或传递原项目中的NOTICE文件内容，因此该维度不适用。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证允许再分发并要求副本受本许可证约束，但未明确源代码公开的触发条件、提供形式等义务，因此该维度不适用。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "明确禁止",
+    "原文": "This License does not grant you any right in any trademark or logo of Licensor or its affiliates (provided that you may use a trademark or logo of Licensor as expressly required by this License).",
+    "解释": "许可证明确不授予任何商标或Logo权利，除非本许可证明确要求使用，因此禁止未经许可的商标使用。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确禁止",
+    "原文": "You must conspicuously display this License on each original or modified copy of the Licensed Work.",
+    "解释": "分发时必须显眼展示本许可证文本，其中包含版权声明和免责声明；不展示许可证文本则不得分发。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSED WORK IS PROVIDED ON AN \"AS IS\" BASIS. LICENSOR HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS, EXPRESS OR IMPLIED, INCLUDING (WITHOUT LIMITATION) WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, AND TITLE.",
+    "解释": "许可证明确按“现状”提供并否认所有保证，被授权者无权就软件质量或损失向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "明确禁止",
+    "原文": "All copies of the original and modified Licensed Work, and derivative works of the Licensed Work, are subject to this License.",
+    "解释": "所有副本和衍生作品必须受本许可证约束，分发者不得对接收方施加超出本许可证的额外限制。"
+  }
+]

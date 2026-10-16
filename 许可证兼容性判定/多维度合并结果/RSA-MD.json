@@ -1,0 +1,86 @@
+[
+  {
+    "维度": "1.商业使用",
+    "状态": "明确允许",
+    "原文": "License to copy and use this software is granted provided that it is identified as the \"RSA Data Security, Inc. MD5 Message-Digest Algorithm\" in all material mentioning or referencing this software or this function.",
+    "解释": "许可证授予复制和使用权，未排除商业用途，只要满足标识要求即可用于商业目的。"
+  },
+  {
+    "维度": "2.内部使用",
+    "状态": "明确允许",
+    "原文": "License to copy and use this software is granted provided that it is identified as the \"RSA Data Security, Inc. MD5 Message-Digest Algorithm\" in all material mentioning or referencing this software or this function. License is also granted to make and use derivative works provided that such works are identified as \"derived from the RSA Data Security, Inc. MD5 Message-Digest Algorithm\" in all material mentioning or referencing the derived work.",
+    "解释": "许可证明确允许复制、使用以及制作和使用衍生作品，内部修改和使用不触发额外开源义务。"
+  },
+  {
+    "维度": "3.分发代码",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未明确提及向第三方分发代码，仅授予复制和使用权，因此分发行为未在本许可证中涉及。"
+  },
+  {
+    "维度": "4.合并/修改代码（代码级传染性）",
+    "状态": "明确允许",
+    "原文": "License is also granted to make and use derivative works provided that such works are identified as \"derived from the RSA Data Security, Inc. MD5 Message-Digest Algorithm\" in all material mentioning or referencing the derived work.",
+    "解释": "许可证允许制作和使用衍生作品，只要求标明其来源于RSA Data Security, Inc.的MD5算法；未要求衍生作品以相同许可证发布，因此无代码级传染性。"
+  },
+  {
+    "维度": "5.使用库/链接（链接级传染性）",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及静态链接、动态链接或类似绑定机制，因此链接级传染性在本许可证中不适用。"
+  },
+  {
+    "维度": "6.专利授权条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证中没有授予专利权或规定专利反诉终止机制，专利事项未涉及。"
+  },
+  {
+    "维度": "7.许可证变更（再许可）条款",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及是否允许以不同许可证再分发或再许可，未设置许可证变更条款。"
+  },
+  {
+    "维度": "8.网络服务与交互义务",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未提及网络服务、SaaS或通过网络交互是否触发义务。"
+  },
+  {
+    "维度": "9.归属声明（NOTICE文件）",
+    "状态": "明确允许",
+    "原文": "These notices must be retained in any copies of any part of this documentation and/or software.",
+    "解释": "许可证要求在所有材料中标识软件来源，并在所有副本中保留通知；这是明确的额外归属义务，但未要求单独的NOTICE文件。"
+  },
+  {
+    "维度": "10.分发与源代码公开",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未要求提供源代码或以特定形式公开源代码，只要求保留通知；没有源代码公开义务。"
+  },
+  {
+    "维度": "11.商标使用",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证要求标识软件名称，但未授予任何商标使用权，商标事项未涉及。"
+  },
+  {
+    "维度": "12.分发与版权声明",
+    "状态": "明确允许",
+    "原文": "Copyright (C) 1991-2, RSA Data Security, Inc. Created 1991. All rights reserved. These notices must be retained in any copies of any part of this documentation and/or software.",
+    "解释": "分发副本时必须保留版权声明、许可通知和免责声明；这是明确的版权声明保留义务。"
+  },
+  {
+    "维度": "13.质量保证",
+    "状态": "明确禁止",
+    "原文": "RSA Data Security, Inc. makes no representations concerning either the merchantability of this software or the suitability of this software for any particular purpose. It is provided \"as is\" without express or implied warranty of any kind.",
+    "解释": "软件按“原样”提供，没有任何明示或默示担保，被授权者无权就软件质量或适用性向所有者追责。"
+  },
+  {
+    "维度": "14.附加限制",
+    "状态": "未涉及",
+    "原文": "",
+    "解释": "许可证未规定用户是否可对软件施加超出原许可的额外限制，因此该维度未涉及。"
+  }
+]
